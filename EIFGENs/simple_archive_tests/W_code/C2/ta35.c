@@ -1,0 +1,458 @@
+/*
+ * Code for class TAR_HEADER_CONST
+ */
+
+#include "eif_eiffel.h"
+#include "../E1/estructure.h"
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern EIF_TYPED_VALUE F35_743(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_744(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_745(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_746(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_747(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_748(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_749(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_750(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_751(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_752(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_753(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_754(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_755(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_756(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_757(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_758(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_759(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_760(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_761(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_762(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_763(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_764(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_765(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_766(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_767(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_768(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_769(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_770(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_771(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_772(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_773(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_774(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_775(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_776(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_777(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_778(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_779(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_780(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_781(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F35_782(EIF_REFERENCE);
+extern void EIF_Minit35(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* {TAR_HEADER_CONST}.name_offset */
+EIF_TYPED_VALUE F35_743 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 0L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.name_length */
+EIF_TYPED_VALUE F35_744 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 100L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.name_pax_key */
+RTOID (F35_745)
+
+
+EIF_TYPED_VALUE F35_745 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_745,809,RTMS_EX_H("path",4,1885434984));
+}
+
+/* {TAR_HEADER_CONST}.mode_offset */
+EIF_TYPED_VALUE F35_746 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 100L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.mode_length */
+EIF_TYPED_VALUE F35_747 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 8L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.uid_offset */
+EIF_TYPED_VALUE F35_748 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 108L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.uid_length */
+EIF_TYPED_VALUE F35_749 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 8L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.uid_pax_key */
+RTOID (F35_750)
+
+
+EIF_TYPED_VALUE F35_750 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_750,814,RTMS_EX_H("uid",3,7694692));
+}
+
+/* {TAR_HEADER_CONST}.gid_offset */
+EIF_TYPED_VALUE F35_751 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 116L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.gid_length */
+EIF_TYPED_VALUE F35_752 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 8L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.gid_pax_key */
+RTOID (F35_753)
+
+
+EIF_TYPED_VALUE F35_753 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_753,817,RTMS_EX_H("gid",3,6777188));
+}
+
+/* {TAR_HEADER_CONST}.size_offset */
+EIF_TYPED_VALUE F35_754 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 124L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.size_length */
+EIF_TYPED_VALUE F35_755 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 12L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.size_pax_key */
+RTOID (F35_756)
+
+
+EIF_TYPED_VALUE F35_756 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_756,820,RTMS_EX_H("size",4,1936292453));
+}
+
+/* {TAR_HEADER_CONST}.mtime_offset */
+EIF_TYPED_VALUE F35_757 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 136L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.mtime_length */
+EIF_TYPED_VALUE F35_758 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 12L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.mtime_pax_key */
+RTOID (F35_759)
+
+
+EIF_TYPED_VALUE F35_759 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_759,823,RTMS_EX_H("mtime",5,1953903461));
+}
+
+/* {TAR_HEADER_CONST}.chksum_offset */
+EIF_TYPED_VALUE F35_760 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 148L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.chksum_length */
+EIF_TYPED_VALUE F35_761 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 8L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.typeflag_offset */
+EIF_TYPED_VALUE F35_762 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 156L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.typeflag_length */
+EIF_TYPED_VALUE F35_763 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 1L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.linkname_offset */
+EIF_TYPED_VALUE F35_764 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 157L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.linkname_length */
+EIF_TYPED_VALUE F35_765 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 100L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.linkname_pax_key */
+RTOID (F35_766)
+
+
+EIF_TYPED_VALUE F35_766 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_766,830,RTMS_EX_H("linkpath",8,1288643944));
+}
+
+/* {TAR_HEADER_CONST}.magic_offset */
+EIF_TYPED_VALUE F35_767 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 257L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.magic_length */
+EIF_TYPED_VALUE F35_768 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 6L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.version_offset */
+EIF_TYPED_VALUE F35_769 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 263L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.version_length */
+EIF_TYPED_VALUE F35_770 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 2L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.uname_offset */
+EIF_TYPED_VALUE F35_771 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 265L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.uname_length */
+EIF_TYPED_VALUE F35_772 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 32L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.uname_pax_key */
+RTOID (F35_773)
+
+
+EIF_TYPED_VALUE F35_773 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_773,837,RTMS_EX_H("uname",5,1852777317));
+}
+
+/* {TAR_HEADER_CONST}.gname_offset */
+EIF_TYPED_VALUE F35_774 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 297L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.gname_length */
+EIF_TYPED_VALUE F35_775 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 32L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.gname_pax_key */
+RTOID (F35_776)
+
+
+EIF_TYPED_VALUE F35_776 (EIF_REFERENCE Current)
+{
+	GTCX
+	RTOTC (F35_776,840,RTMS_EX_H("gname",5,1852669797));
+}
+
+/* {TAR_HEADER_CONST}.devmajor_offset */
+EIF_TYPED_VALUE F35_777 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 329L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.devmajor_length */
+EIF_TYPED_VALUE F35_778 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 8L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.devminor_offset */
+EIF_TYPED_VALUE F35_779 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 337L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.devminor_length */
+EIF_TYPED_VALUE F35_780 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 8L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.prefix_offset */
+EIF_TYPED_VALUE F35_781 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 345L);
+	return r;
+}
+
+/* {TAR_HEADER_CONST}.prefix_length */
+EIF_TYPED_VALUE F35_782 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 155L);
+	return r;
+}
+
+void EIF_Minit35 (void)
+{
+	GTCX
+	RTOTS (745,F35_745)
+	RTOTS (750,F35_750)
+	RTOTS (753,F35_753)
+	RTOTS (756,F35_756)
+	RTOTS (759,F35_759)
+	RTOTS (766,F35_766)
+	RTOTS (773,F35_773)
+	RTOTS (776,F35_776)
+}
+
+
+#ifdef __cplusplus
+}
+#endif

@@ -1,0 +1,6 @@
+#include "ar1024.c"
+#include "ar1024d.c"
+#include "ar1025.c"
+#include "ar1025d.c"
+#include "rt1023.c"
+#include "rt1023d.c"
