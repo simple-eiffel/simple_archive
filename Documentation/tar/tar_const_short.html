@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="ISE EiffelStudio version 25.02.9.8732 - win64">
+<meta name="description" content="Constants used by tar"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="copyright" content="2015-2016, Nicolas Truessel, Jocelyn Fiat, Eiffel Software and others"/>
+<meta name="license" content="Eiffel Forum License v2 (see http://www.eiffel.com/licensing/forum.txt)"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<title>tar_const Contracts</title>
+<link rel="stylesheet" href="../default.css" type="text/css">
+<script type="text/javascript" src="../goto.html"></script>
+</head>
+<body>
+<pre></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="tar_const_chart.html">Chart</a>
+<a class="nav class" href="tar_const_links.html">Relations</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="tar_const"></span>
+</div></form><pre><span class="ekeyword">note</span>
+	<span class="eitag">description</span><span class="esymbol">:</span> <span class="estring">&quot;</span><span class="estring">[</span>
+		<span class="estring">Constants used by tar</span>
+	<span class="estring">]</span><span class="estring">&quot;</span>
+	<span class="eitag">date</span><span class="esymbol">:</span> <span class="estring">&quot;$Date$&quot;</span>
+	<span class="eitag">revision</span><span class="esymbol">:</span> <span class="estring">&quot;$Revision$&quot;</span>
+
+<span class="ekeyword">class</span> <span class="ekeyword">interface</span>
+	<a class="eclass" href="../tar/tar_const_short.html">TAR_CONST</a>
+
+<span class="ekeyword">create</span> 
+	<a class="efeature" href="../base/any_short.html#f_default_create">default_create</a>
+
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Mode/Permission masks</span>
+
+	<a name="f_setuid_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_setuid_mask">Setuid_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">2048</span>
+			<span class="ecomment">--</span><span class="ecomment"> Setuid bitmask.</span>
+
+	<a name="f_setgid_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_setgid_mask">Setgid_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">1024</span>
+			<span class="ecomment">--</span><span class="ecomment"> Setgid bitmask.</span>
+
+	<a name="f_uread_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_uread_mask">Uread_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">256</span>
+			<span class="ecomment">--</span><span class="ecomment"> User readable bitmask.</span>
+
+	<a name="f_uwrite_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_uwrite_mask">Uwrite_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">128</span>
+			<span class="ecomment">--</span><span class="ecomment"> User writable bitmask.</span>
+
+	<a name="f_uexec_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_uexec_mask">Uexec_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">64</span>
+			<span class="ecomment">--</span><span class="ecomment"> User executable bitmask.</span>
+
+	<a name="f_gread_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_gread_mask">Gread_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">32</span>
+			<span class="ecomment">--</span><span class="ecomment"> Group readable bitmask.</span>
+
+	<a name="f_gwrite_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_gwrite_mask">Gwrite_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">16</span>
+			<span class="ecomment">--</span><span class="ecomment"> Group writable bitmask.</span>
+
+	<a name="f_gexec_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_gexec_mask">Gexec_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">8</span>
+			<span class="ecomment">--</span><span class="ecomment"> Group executable bitmask.</span>
+
+	<a name="f_oread_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_oread_mask">Oread_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">4</span>
+			<span class="ecomment">--</span><span class="ecomment"> Other readable bitmask.</span>
+
+	<a name="f_owrite_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_owrite_mask">Owrite_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">2</span>
+			<span class="ecomment">--</span><span class="ecomment"> Other writable bitmask.</span>
+
+	<a name="f_oexec_mask"></a><a class="efeature" href="../tar/tar_const_short.html#f_oexec_mask">Oexec_mask</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">1</span>
+			<span class="ecomment">--</span><span class="ecomment"> Other executable bitmask.</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Typeflags</span>
+
+	<a name="f_tar_typeflag_regular_file"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_regular_file">Tar_typeflag_regular_file</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'0'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for regular files.</span>
+
+	<a name="f_tar_typeflag_regular_file_old"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_regular_file_old">Tar_typeflag_regular_file_old</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'%U'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for regular files (deprecated).</span>
+
+	<a name="f_tar_typeflag_hardlink"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_hardlink">Tar_typeflag_hardlink</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'1'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for hardlinks.</span>
+
+	<a name="f_tar_typeflag_symlink"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_symlink">Tar_typeflag_symlink</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'2'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for symlinks.</span>
+
+	<a name="f_tar_typeflag_character_special"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_character_special">Tar_typeflag_character_special</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'3'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for character device nodes.</span>
+
+	<a name="f_tar_typeflag_block_special"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_block_special">Tar_typeflag_block_special</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'4'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for block device nodes.</span>
+
+	<a name="f_tar_typeflag_directory"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_directory">Tar_typeflag_directory</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'5'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for directories.</span>
+
+	<a name="f_tar_typeflag_fifo"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_fifo">Tar_typeflag_fifo</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'6'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for named pipes.</span>
+
+	<a name="f_tar_typeflag_contiguous"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_contiguous">Tar_typeflag_contiguous</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'7'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for contigeous files.</span>
+
+	<a name="f_tar_typeflag_pax_extended"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_pax_extended">Tar_typeflag_pax_extended</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'x'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for pax extended header.</span>
+
+	<a name="f_tar_typeflag_pax_global"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_pax_global">Tar_typeflag_pax_global</a><span class="esymbol">:</span> <a class="eclass" href="../base/character_8_short.html">CHARACTER_8</a> <span class="esymbol">=</span> <span class="echar">'g'</span>
+			<span class="ecomment">--</span><span class="ecomment"> Typeflag for pax global header.</span>
+
+	<a name="f_tar_header_only_typeflags"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_header_only_typeflags">Tar_header_only_typeflags</a><span class="esymbol">:</span> <a class="eclass" href="../base/string_8_short.html">STRING_8</a> <span class="esymbol">=</span> &quot;123456&quot;
+			<span class="ecomment">--</span><span class="ecomment"> All predefined header types that have no payload.</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Miscellaneous</span>
+
+	<a name="f_tar_block_size"></a><a class="efeature" href="../tar/tar_const_short.html#f_tar_block_size">Tar_block_size</a><span class="esymbol">:</span> <a class="eclass" href="../base/integer_32_short.html">INTEGER_32</a> <span class="esymbol">=</span> <span class="enumber">512</span>
+			<span class="ecomment">--</span><span class="ecomment"> Block size in tar.</span>
+
+	<a name="f_ustar_magic"></a><a class="efeature" href="../tar/tar_const_short.html#f_ustar_magic">Ustar_magic</a><span class="esymbol">:</span> <a class="eclass" href="../base/string_8_short.html">STRING_8</a> <span class="esymbol">=</span> &quot;ustar&quot;
+			<span class="ecomment">--</span><span class="ecomment"> ustar magic.</span>
+
+	<a name="f_ustar_version"></a><a class="efeature" href="../tar/tar_const_short.html#f_ustar_version">Ustar_version</a><span class="esymbol">:</span> <a class="eclass" href="../base/string_8_short.html">STRING_8</a> <span class="esymbol">=</span> &quot;00&quot;
+			<span class="ecomment">--</span><span class="ecomment"> ustar version.</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> PAX</span>
+
+	<a name="f_pax_header_filename"></a><a class="efeature" href="../tar/tar_const_short.html#f_pax_header_filename">Pax_header_filename</a><span class="esymbol">:</span> <a class="eclass" href="../base/string_8_short.html">STRING_8</a> <span class="esymbol">=</span> &quot;./PaxHeader&quot;
+			<span class="ecomment">--</span><span class="ecomment"> Filename to use for pax header.</span>
+
+	<a name="f_pax_header_uid"></a><a class="efeature" href="../tar/tar_const_short.html#f_pax_header_uid">Pax_header_uid</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_32_short.html">NATURAL_32</a> <span class="esymbol">=</span> <span class="enumber">0</span>
+			<span class="ecomment">--</span><span class="ecomment"> User-id to use for pax header.</span>
+
+	<a name="f_pax_header_gid"></a><a class="efeature" href="../tar/tar_const_short.html#f_pax_header_gid">Pax_header_gid</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_32_short.html">NATURAL_32</a> <span class="esymbol">=</span> <span class="enumber">0</span>
+			<span class="ecomment">--</span><span class="ecomment"> Group-id to use for pax header.</span>
+
+	<a name="f_pax_header_mode"></a><a class="efeature" href="../tar/tar_const_short.html#f_pax_header_mode">Pax_header_mode</a><span class="esymbol">:</span> <a class="eclass" href="../base/natural_16_short.html">NATURAL_16</a> <span class="esymbol">=</span> <span class="enumber">420</span>
+			<span class="ecomment">--</span><span class="ecomment"> Permissions o use for pax header.</span>
+	
+<span class="ekeyword">note</span>
+	<span class="eitag">copyright</span><span class="esymbol">:</span> <span class="estring">&quot;2015-2016, Nicolas Truessel, Jocelyn Fiat, Eiffel Software and others&quot;</span>
+	<span class="eitag">license</span><span class="esymbol">:</span> <span class="estring">&quot;Eiffel Forum License v2 (see </span><a class="estring" href="http://www.eiffel.com/licensing/forum.txt">http://www.eiffel.com/licensing/forum.txt</a><span class="estring">)&quot;</span>
+
+<span class="ekeyword">end</span> <span class="ecomment">--</span> <span class="ecomment">class </span><a class="eclass" href="../tar/tar_const_short.html">TAR_CONST</a></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="tar_const_chart.html">Chart</a>
+<a class="nav class" href="tar_const_links.html">Relations</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="tar_const"></span>
+</div></form><pre></pre>
+<p style="text-align:center;">Generated by <a href="http://www.eiffel.com">ISE EiffelStudio</a></p>
+</body>
+</html>
+

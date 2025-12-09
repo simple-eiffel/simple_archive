@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="ISE EiffelStudio version 25.02.9.8732 - win64">
+<meta name="description" content="TTTThis class models an archive and allows to TTTcreate new archives and unarchive existing archives  TTTIt supports the following modes: TTTT- unarchiving (reading) TTTT- archiving (writing)"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="copyright" content="2015-2016, Nicolas Truessel, Jocelyn Fiat, Eiffel Software and others"/>
+<meta name="license" content="Eiffel Forum License v2 (see http://www.eiffel.com/licensing/forum.txt)"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<title>archive Contracts</title>
+<link rel="stylesheet" href="../default.css" type="text/css">
+<script type="text/javascript" src="../goto.html"></script>
+</head>
+<body>
+<pre></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="archive_chart.html">Chart</a>
+<a class="nav class" href="archive_links.html">Relations</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="archive"></span>
+</div></form><pre><span class="ekeyword">note</span>
+	<span class="eitag">description</span><span class="esymbol">:</span> <span class="estring">&quot;</span><span class="estring">[</span>
+		<span class="estring">			This class models an archive and allows to</span>
+		<span class="estring">			create new archives and unarchive existing archives</span>
+		
+		<span class="estring">			It supports the following modes:</span>
+		<span class="estring">				- unarchiving (reading)</span>
+		<span class="estring">				- archiving (writing)</span>
+	<span class="estring">]</span><span class="estring">&quot;</span>
+	<span class="eitag">date</span><span class="esymbol">:</span> <span class="estring">&quot;$Date$&quot;</span>
+	<span class="eitag">revision</span><span class="esymbol">:</span> <span class="estring">&quot;$Revision$&quot;</span>
+
+<span class="ekeyword">class</span> <span class="ekeyword">interface</span>
+	<a class="eclass" href="../tar/archive_short.html">ARCHIVE</a>
+
+<span class="ekeyword">create</span> 
+	<a class="efeature" href="../tar/archive_short.html#f_make">make</a>
+
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Status setting</span>
+
+	<a name="f_open_archive"></a><a class="efeature" href="../tar/archive_short.html#f_open_archive">open_archive</a>
+			<span class="ecomment">--</span><span class="ecomment"> Open for archiving.</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_archiving_mode">is_archiving_mode</a>
+
+	<a name="f_open_unarchive"></a><a class="efeature" href="../tar/archive_short.html#f_open_unarchive">open_unarchive</a>
+			<span class="ecomment">--</span><span class="ecomment"> Open for unarchiving.</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_unarchiving_mode">is_unarchiving_mode</a>
+
+	<a name="f_close"></a><a class="efeature" href="../tar/archive_short.html#f_close">close</a>
+			<span class="ecomment">--</span><span class="ecomment"> Close archive.</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">closed</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_storage_backend">storage_backend</a><span class="edot">.</span><a class="efeature" href="../tar/storage_backend_short.html#f_closed">closed</a>
+
+	<a name="f_enable_absolute_filenames"></a><a class="efeature" href="../tar/archive_short.html#f_enable_absolute_filenames">enable_absolute_filenames</a>
+			<span class="ecomment">--</span><span class="ecomment"> Set </span><span class="ecomment">`</span><a class="efeature" href="../tar/archive_short.html#f_absolute_filenames">absolute_filenames</a><span class="ecomment">`</span><span class="ecomment">.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">closed</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_closed">is_closed</a>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">absolute_filenames_allowed</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_absolute_filenames">absolute_filenames</a>
+
+	<a name="f_disable_absolute_filenames"></a><a class="efeature" href="../tar/archive_short.html#f_disable_absolute_filenames">disable_absolute_filenames</a>
+			<span class="ecomment">--</span><span class="ecomment"> Reset </span><span class="ecomment">`</span><a class="efeature" href="../tar/archive_short.html#f_absolute_filenames">absolute_filenames</a><span class="ecomment">`</span><span class="ecomment">.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">closed</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_closed">is_closed</a>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">absolute_filenames_disallowed</span><span class="esymbol">:</span> <a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/archive_short.html#f_absolute_filenames">absolute_filenames</a>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Status</span>
+
+	<a name="f_is_unarchiving_mode"></a><a class="efeature" href="../tar/archive_short.html#f_is_unarchiving_mode">is_unarchiving_mode</a><span class="esymbol">:</span> <a class="eclass" href="../base/boolean_short.html">BOOLEAN</a>
+			<span class="ecomment">--</span><span class="ecomment"> Is this archive in unarchiving mode?</span>
+
+	<a name="f_is_archiving_mode"></a><a class="efeature" href="../tar/archive_short.html#f_is_archiving_mode">is_archiving_mode</a><span class="esymbol">:</span> <a class="eclass" href="../base/boolean_short.html">BOOLEAN</a>
+			<span class="ecomment">--</span><span class="ecomment"> Is this archive in archiving mode?</span>
+
+	<a name="f_is_closed"></a><a class="efeature" href="../tar/archive_short.html#f_is_closed">is_closed</a><span class="esymbol">:</span> <a class="eclass" href="../base/boolean_short.html">BOOLEAN</a>
+			<span class="ecomment">--</span><span class="ecomment"> Is this archive closed?</span>
+
+	<a name="f_absolute_filenames"></a><a class="efeature" href="../tar/archive_short.html#f_absolute_filenames">absolute_filenames</a><span class="esymbol">:</span> <a class="eclass" href="../base/boolean_short.html">BOOLEAN</a>
+			<span class="ecomment">--</span><span class="ecomment"> Allow absolute paths / paths containing &quot;..&quot; ?</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Unarchiving</span>
+
+	<a name="f_add_unarchiver"></a><a class="efeature" href="../tar/archive_short.html#f_add_unarchiver">add_unarchiver</a> <span class="esymbol">(</span><span class="elocal">a_unarchiver</span><span class="esymbol">:</span> <a class="eclass" href="../tar/unarchiver_short.html">UNARCHIVER</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Add unarchiver </span><span class="equoted">a_unarchiver</span><span class="ecomment"> to </span><span class="ecomment">`</span><a class="efeature" href="../tar/archive_short.html#f_unarchivers">unarchivers</a><span class="ecomment">`</span><span class="ecomment">.</span>
+
+	<a name="f_unarchiving_finished"></a><a class="efeature" href="../tar/archive_short.html#f_unarchiving_finished">unarchiving_finished</a><span class="esymbol">:</span> <a class="eclass" href="../base/boolean_short.html">BOOLEAN</a>
+			<span class="ecomment">--</span><span class="ecomment"> Unarchiving finished yet?</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_unarchiving_mode">is_unarchiving_mode</a>
+
+	<a name="f_unarchive"></a><a class="efeature" href="../tar/archive_short.html#f_unarchive">unarchive</a>
+			<span class="ecomment">--</span><span class="ecomment"> Unarchive the whole archive.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_unarchiving_mode">is_unarchiving_mode</a>
+
+	<a name="f_unarchive_next_entry"></a><a class="efeature" href="../tar/archive_short.html#f_unarchive_next_entry">unarchive_next_entry</a>
+			<span class="ecomment">--</span><span class="ecomment"> Unarchives the next entry.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_unarchiving_mode">is_unarchiving_mode</a>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Archiving</span>
+
+	<a name="f_add_entry"></a><a class="efeature" href="../tar/archive_short.html#f_add_entry">add_entry</a> <span class="esymbol">(</span><span class="elocal">a_entry</span><span class="esymbol">:</span> <a class="eclass" href="../tar/archivable_short.html">ARCHIVABLE</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Add </span><span class="equoted">a_entry</span><span class="ecomment"> to the archive.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_archiving_mode">is_archiving_mode</a>
+
+	<a name="f_finalize"></a><a class="efeature" href="../tar/archive_short.html#f_finalize">finalize</a>
+			<span class="ecomment">--</span><span class="ecomment"> Write archive delimiter.</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Archiving helpers		</span>
+
+	<a name="f_add_directory"></a><a class="efeature" href="../tar/archive_short.html#f_add_directory">add_directory</a> <span class="esymbol">(</span><span class="elocal">a_dir</span><span class="esymbol">:</span> <a class="eclass" href="../base/file_short.html">FILE</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Add directory file to archive.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">exists</span><span class="esymbol">:</span> <span class="elocal">a_dir</span><span class="edot">.</span><a class="efeature" href="../base/file_short.html#f_exists">exists</a>
+			<span class="etag">readable</span><span class="esymbol">:</span> <span class="elocal">a_dir</span><span class="edot">.</span><a class="efeature" href="../base/file_short.html#f_is_access_readable">is_access_readable</a>
+
+	<a name="f_add_file"></a><a class="efeature" href="../tar/archive_short.html#f_add_file">add_file</a> <span class="esymbol">(</span><span class="elocal">a_file</span><span class="esymbol">:</span> <a class="eclass" href="../base/file_short.html">FILE</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Add regular file to archive.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">exists</span><span class="esymbol">:</span> <span class="elocal">a_file</span><span class="edot">.</span><a class="efeature" href="../base/file_short.html#f_exists">exists</a> <a class="ekeyword" href="../base/boolean_short.html#f_conjuncted_semistrict">and then</a> <span class="elocal">a_file</span><span class="edot">.</span><a class="efeature" href="../base/file_short.html#f_is_plain">is_plain</a>
+			<span class="etag">readable</span><span class="esymbol">:</span> <span class="elocal">a_file</span><span class="edot">.</span><a class="efeature" href="../base/file_short.html#f_is_access_readable">is_access_readable</a>
+
+	<a name="f_add_location"></a><a class="efeature" href="../tar/archive_short.html#f_add_location">add_location</a> <span class="esymbol">(</span><span class="elocal">a_location</span><span class="esymbol">:</span> <a class="eclass" href="../base/path_short.html">PATH</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Add a node entry at location </span><span class="equoted">a_location</span><span class="ecomment">.</span>
+			<span class="ecomment">--</span><span class="ecomment"> note: it can be file or directory, ..</span>
+
+	<a name="f_add_directory_location"></a><a class="efeature" href="../tar/archive_short.html#f_add_directory_location">add_directory_location</a> <span class="esymbol">(</span><span class="elocal">a_location</span><span class="esymbol">:</span> <a class="eclass" href="../base/path_short.html">PATH</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Add a directory entry at location </span><span class="equoted">a_location</span><span class="ecomment">.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_archiving_mode">is_archiving_mode</a>
+
+	<a name="f_add_plain_file_location"></a><a class="efeature" href="../tar/archive_short.html#f_add_plain_file_location">add_plain_file_location</a> <span class="esymbol">(</span><span class="elocal">a_location</span><span class="esymbol">:</span> <a class="eclass" href="../base/path_short.html">PATH</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Add a plain file entry at location </span><span class="equoted">a_location</span><span class="ecomment">.</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">correct_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_archiving_mode">is_archiving_mode</a>
+	
+<span class="ekeyword">invariant</span>
+	<span class="etag">only_one_mode</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_archiving_mode">is_archiving_mode</a> <a class="ekeyword" href="../base/boolean_short.html#f_disjuncted_exclusive">xor</a> <a class="efeature" href="../tar/archive_short.html#f_is_unarchiving_mode">is_unarchiving_mode</a> <a class="ekeyword" href="../base/boolean_short.html#f_disjuncted_exclusive">xor</a> <a class="efeature" href="../tar/archive_short.html#f_is_closed">is_closed</a>
+	<span class="etag">closed_iff_backend_closed_or_error</span><span class="esymbol">:</span> <a class="efeature" href="../tar/archive_short.html#f_is_closed">is_closed</a> <span class="esymbol">=</span> <a class="efeature" href="../tar/archive_short.html#f_storage_backend">storage_backend</a><span class="edot">.</span><a class="efeature" href="../tar/storage_backend_short.html#f_closed">closed</a> <a class="ekeyword" href="../base/boolean_short.html#f_disjuncted">or</a> <a class="efeature" href="../tar/error_handler_short.html#f_has_error">has_error</a>
+
+<span class="ekeyword">note</span>
+	<span class="eitag">copyright</span><span class="esymbol">:</span> <span class="estring">&quot;2015-2016, Nicolas Truessel, Jocelyn Fiat, Eiffel Software and others&quot;</span>
+	<span class="eitag">license</span><span class="esymbol">:</span> <span class="estring">&quot;Eiffel Forum License v2 (see </span><a class="estring" href="http://www.eiffel.com/licensing/forum.txt">http://www.eiffel.com/licensing/forum.txt</a><span class="estring">)&quot;</span>
+
+<span class="ekeyword">end</span> <span class="ecomment">--</span> <span class="ecomment">class </span><a class="eclass" href="../tar/archive_short.html">ARCHIVE</a></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="archive_chart.html">Chart</a>
+<a class="nav class" href="archive_links.html">Relations</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="archive"></span>
+</div></form><pre></pre>
+<p style="text-align:center;">Generated by <a href="http://www.eiffel.com">ISE EiffelStudio</a></p>
+</body>
+</html>
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="ISE EiffelStudio version 25.02.9.8732 - win64">
+<meta name="description" content="UNARCHIVER for pax payload"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="copyright" content="2015-2017, Nicolas Truessel, Jocelyn Fiat, Eiffel Software and others"/>
+<meta name="license" content="Eiffel Forum License v2 (see http://www.eiffel.com/licensing/forum.txt)"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<title>pax_unarchiver Contracts</title>
+<link rel="stylesheet" href="../default.css" type="text/css">
+<script type="text/javascript" src="../goto.html"></script>
+</head>
+<body>
+<pre></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="pax_unarchiver_chart.html">Chart</a>
+<a class="nav class" href="pax_unarchiver_links.html">Relations</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="pax_unarchiver"></span>
+</div></form><pre><span class="ekeyword">note</span>
+	<span class="eitag">description</span><span class="esymbol">:</span> <span class="estring">&quot;</span><span class="estring">[</span>
+		<span class="estring">UNARCHIVER for pax payload</span>
+	<span class="estring">]</span><span class="estring">&quot;</span>
+	<span class="eitag">date</span><span class="esymbol">:</span> <span class="estring">&quot;$Date$&quot;</span>
+	<span class="eitag">revision</span><span class="esymbol">:</span> <span class="estring">&quot;$Revision$&quot;</span>
+
+<span class="ekeyword">class</span> <span class="ekeyword">interface</span>
+	<a class="eclass" href="../tar/pax_unarchiver_short.html">PAX_UNARCHIVER</a>
+
+<span class="ekeyword">create</span> 
+	<a class="efeature" href="../tar/pax_unarchiver_short.html#f_default_create">default_create</a>
+
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Status</span>
+
+	<a name="f_unarchivable"></a><a class="efeature" href="../tar/pax_unarchiver_short.html#f_unarchivable">unarchivable</a> <span class="esymbol">(</span><span class="elocal">a_header</span><span class="esymbol">:</span> <a class="eclass" href="../tar/tar_header_short.html">TAR_HEADER</a><span class="esymbol">)</span><span class="esymbol">:</span> <a class="eclass" href="../base/boolean_short.html">BOOLEAN</a>
+			<span class="ecomment">--</span><span class="ecomment"> Current can unarchive payload with header </span><span class="equoted">a_header</span><span class="ecomment">?</span>
+			<span class="ecomment">--</span><span class="ecomment"> note: PAX_UNARCHIVER can unarchive every header belonging to pax payload (global or extended)</span>
+		<span class="ekeyword">ensure then</span>
+			<span class="etag">correct_result</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">=</span> <span class="esymbol">(</span><span class="elocal">a_header</span><span class="edot">.</span><a class="efeature" href="../tar/tar_header_short.html#f_typeflag">typeflag</a> <span class="esymbol">=</span> <span class="esymbol">{</span><a class="eclass" href="../tar/tar_const_short.html">TAR_CONST</a><span class="esymbol">}</span><span class="edot">.</span><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_pax_extended">tar_typeflag_pax_extended</a> <a class="ekeyword" href="../base/boolean_short.html#f_disjuncted">or</a> <span class="elocal">a_header</span><span class="edot">.</span><a class="efeature" href="../tar/tar_header_short.html#f_typeflag">typeflag</a> <span class="esymbol">=</span> <span class="esymbol">{</span><a class="eclass" href="../tar/tar_const_short.html">TAR_CONST</a><span class="esymbol">}</span><span class="edot">.</span><a class="efeature" href="../tar/tar_const_short.html#f_tar_typeflag_pax_global">tar_typeflag_pax_global</a><span class="esymbol">)</span>
+
+	<a name="f_value"></a><a class="efeature" href="../tar/pax_unarchiver_short.html#f_value">value</a> <span class="esymbol">(</span><span class="elocal">a_key</span><span class="esymbol">:</span> <a class="eclass" href="../base/string_8_short.html">STRING_8</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="ekeyword">detachable</span> <a class="eclass" href="../base/readable_string_8_short.html">READABLE_STRING_8</a>
+			<span class="ecomment">--</span><span class="ecomment"> Get value corresponding to </span><span class="equoted">a_key</span><span class="ecomment">.</span>
+			<span class="ecomment">--</span><span class="ecomment"> Returns void if there is none.</span>
+
+	<a name="f_required_blocks"></a><a class="efeature" href="../tar/pax_unarchiver_short.html#f_required_blocks">required_blocks</a><span class="esymbol">:</span> <a class="eclass" href="../base/integer_32_short.html">INTEGER_32</a>
+			<span class="ecomment">--</span><span class="ecomment"> How many blocks are required to unarchive the payload that belongs to </span><span class="ecomment">`</span><a class="efeature" href="../tar/unarchiver_short.html#f_active_header">active_header</a><span class="ecomment">`</span><span class="ecomment">?</span>
+
+	<a name="f_reset_entries"></a><a class="efeature" href="../tar/pax_unarchiver_short.html#f_reset_entries">reset_entries</a>
+			<span class="ecomment">--</span><span class="ecomment"> Reset all entries.</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> Unarchiving</span>
+
+	<a name="f_unarchive_block"></a><a class="efeature" href="../tar/pax_unarchiver_short.html#f_unarchive_block">unarchive_block</a> <span class="esymbol">(</span><span class="elocal">p</span><span class="esymbol">:</span> <a class="eclass" href="../base/managed_pointer_short.html">MANAGED_POINTER</a><span class="esymbol">;</span> <span class="elocal">a_pos</span><span class="esymbol">:</span> <a class="eclass" href="../base/integer_32_short.html">INTEGER_32</a><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> Unarchive next block, stored in </span><span class="equoted">p</span><span class="ecomment"> starting at </span><span class="equoted">a_pos</span><span class="ecomment">.</span>
+			<span class="ecomment">--</span><span class="ecomment"> the payload has the form</span>
+			<span class="ecomment">--</span><span class="ecomment"> length key=value%N</span>
+			<span class="ecomment">--</span><span class="ecomment"> .</span>
+	
+<span class="ekeyword">invariant</span>
+	<span class="etag">use_object_comparison</span><span class="esymbol">:</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_entries">entries</a><span class="edot">.</span><a class="efeature" href="../base/container_short.html#f_object_comparison">object_comparison</a>
+	<span class="etag">active_length_is_natural</span><span class="esymbol">:</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_length">active_length</a><span class="edot">.</span><a class="efeature" href="../base/finite_short.html#f_is_empty">is_empty</a> <a class="ekeyword" href="../base/boolean_short.html#f_disjuncted">or</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_length">active_length</a><span class="edot">.</span><a class="efeature" href="../base/readable_string_general_short.html#f_is_natural">is_natural</a>
+	<span class="etag">active_key_has_no_equal_sign</span><span class="esymbol">:</span> <a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_key">active_key</a><span class="edot">.</span><a class="efeature" href="../base/readable_string_8_short.html#f_has">has</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="echar">'='</span><span class="esymbol">)</span>
+	<span class="etag">no_newline_parsing</span><span class="esymbol">:</span> <a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_length">active_length</a><span class="edot">.</span><a class="efeature" href="../base/readable_string_8_short.html#f_has">has</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="echar">'%N'</span><span class="esymbol">)</span> <a class="ekeyword" href="../base/boolean_short.html#f_conjuncted">and</a> <a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_key">active_key</a><span class="edot">.</span><a class="efeature" href="../base/readable_string_8_short.html#f_has">has</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="echar">'%N'</span><span class="esymbol">)</span> <a class="ekeyword" href="../base/boolean_short.html#f_conjuncted">and</a> <a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_value">active_value</a><span class="edot">.</span><a class="efeature" href="../base/readable_string_8_short.html#f_has">has</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="echar">'%N'</span><span class="esymbol">)</span>
+	<span class="etag">length_state_active_fields</span><span class="esymbol">:</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_parsing_state">parsing_state</a> <span class="esymbol">=</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_ps_length">Ps_length</a> <a class="ekeyword" href="../base/boolean_short.html#f_implication">implies</a> <span class="esymbol">(</span><a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_key">active_key</a><span class="edot">.</span><a class="efeature" href="../base/finite_short.html#f_is_empty">is_empty</a> <a class="ekeyword" href="../base/boolean_short.html#f_conjuncted">and</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_value">active_value</a><span class="edot">.</span><a class="efeature" href="../base/finite_short.html#f_is_empty">is_empty</a><span class="esymbol">)</span>
+	<span class="etag">key_state_active_fields</span><span class="esymbol">:</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_parsing_state">parsing_state</a> <span class="esymbol">=</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_ps_key">Ps_key</a> <a class="ekeyword" href="../base/boolean_short.html#f_implication">implies</a> <span class="esymbol">(</span><a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_length">active_length</a><span class="edot">.</span><a class="efeature" href="../base/finite_short.html#f_is_empty">is_empty</a> <a class="ekeyword" href="../base/boolean_short.html#f_conjuncted">and</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_value">active_value</a><span class="edot">.</span><a class="efeature" href="../base/finite_short.html#f_is_empty">is_empty</a><span class="esymbol">)</span>
+	<span class="etag">value_state_active_fields</span><span class="esymbol">:</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_parsing_state">parsing_state</a> <span class="esymbol">=</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_ps_value">Ps_value</a> <a class="ekeyword" href="../base/boolean_short.html#f_implication">implies</a> <span class="esymbol">(</span><a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_length">active_length</a><span class="edot">.</span><a class="efeature" href="../base/finite_short.html#f_is_empty">is_empty</a> <a class="ekeyword" href="../base/boolean_short.html#f_conjuncted">and</a> <a class="ekeyword" href="../base/boolean_short.html#f_negated">not</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_active_key">active_key</a><span class="edot">.</span><a class="efeature" href="../base/finite_short.html#f_is_empty">is_empty</a><span class="esymbol">)</span>
+	<span class="etag">correct_state</span><span class="esymbol">:</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_parsing_state">parsing_state</a> <span class="esymbol">=</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_ps_length">Ps_length</a> <a class="ekeyword" href="../base/boolean_short.html#f_disjuncted">or</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_parsing_state">parsing_state</a> <span class="esymbol">=</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_ps_key">Ps_key</a> <a class="ekeyword" href="../base/boolean_short.html#f_disjuncted">or</a> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_parsing_state">parsing_state</a> <span class="esymbol">=</span> <a class="efeature" href="../tar/pax_unarchiver_short.html#f_ps_value">Ps_value</a>
+
+<span class="ekeyword">note</span>
+	<span class="eitag">copyright</span><span class="esymbol">:</span> <span class="estring">&quot;2015-2017, Nicolas Truessel, Jocelyn Fiat, Eiffel Software and others&quot;</span>
+	<span class="eitag">license</span><span class="esymbol">:</span> <span class="estring">&quot;Eiffel Forum License v2 (see </span><a class="estring" href="http://www.eiffel.com/licensing/forum.txt">http://www.eiffel.com/licensing/forum.txt</a><span class="estring">)&quot;</span>
+
+<span class="ekeyword">end</span> <span class="ecomment">--</span> <span class="ecomment">class </span><a class="eclass" href="../tar/pax_unarchiver_short.html">PAX_UNARCHIVER</a></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="pax_unarchiver_chart.html">Chart</a>
+<a class="nav class" href="pax_unarchiver_links.html">Relations</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="pax_unarchiver"></span>
+</div></form><pre></pre>
+<p style="text-align:center;">Generated by <a href="http://www.eiffel.com">ISE EiffelStudio</a></p>
+</body>
+</html>
+
