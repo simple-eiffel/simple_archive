@@ -1,5 +1,5 @@
 /*
- * Code for class CELL [CHARACTER_32]
+ * Code for class CELL [INTEGER_32]
  */
 
 #include "eif_eiffel.h"
@@ -38,8 +38,8 @@ extern "C" {
 EIF_TYPED_VALUE F373_999 (EIF_REFERENCE Current)
 {
 	EIF_TYPED_VALUE r;
-	r.type = SK_CHAR32;
-	r.it_c4 = *(EIF_CHARACTER_32 *)(Current + RTWA(959,Dtype(Current)));
+	r.type = SK_INT32;
+	r.it_i4 = *(EIF_INTEGER_32 *)(Current + RTWA(959,Dtype(Current)));
 	return r;
 }
 
@@ -50,37 +50,37 @@ void F373_1000 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	GTCX
 	char *l_feature_name = "put";
 	RTEX;
-#define arg1 arg1x.it_c4
-	EIF_CHARACTER_32 tw1;
+#define arg1 arg1x.it_i4
+	EIF_INTEGER_32 ti4_1;
 	RTCDT;
 	RTSN;
 	RTDA;
 	RTLD;
 	
-	if ((arg1x.type & SK_HEAD) == SK_REF) arg1x.it_c4 = * (EIF_CHARACTER_32 *) arg1x.it_r;
+	if ((arg1x.type & SK_HEAD) == SK_REF) arg1x.it_i4 = * (EIF_INTEGER_32 *) arg1x.it_r;
 	
 	RTLI(1);
 	RTLR(0,Current);
 	RTLIU(1);
 	RTLU (SK_VOID, NULL);
-	RTLU(SK_CHAR32,&arg1);
+	RTLU(SK_INT32,&arg1);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 372, Current, 0, 1, 1036);
+	RTEAA(l_feature_name, 372, Current, 0, 1, 1030);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(372, Current, 1036);
+	RTDBGEAA(372, Current, 1030);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAA(Current, dtype, 959, 0x1C000000, 0); /* item */
-	*(EIF_CHARACTER_32 *)(Current + RTWA(959, dtype)) = (EIF_CHARACTER_32) arg1;
+	RTDBGAA(Current, dtype, 959, 0x10000000, 0); /* item */
+	*(EIF_INTEGER_32 *)(Current + RTWA(959, dtype)) = (EIF_INTEGER_32) arg1;
 	if (RTAL & CK_ENSURE) {
 		RTHOOK(2);
 		RTCT("item_inserted", EX_POST);
-		tw1 = *(EIF_CHARACTER_32 *)(Current + RTWA(959, dtype));
-		if ((EIF_BOOLEAN)(tw1 == arg1)) {
+		ti4_1 = *(EIF_INTEGER_32 *)(Current + RTWA(959, dtype));
+		if ((EIF_BOOLEAN)(ti4_1 == arg1)) {
 			RTCK;
 		} else {
 			RTCF;
@@ -103,37 +103,37 @@ void F373_1001 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	GTCX
 	char *l_feature_name = "replace";
 	RTEX;
-#define arg1 arg1x.it_c4
-	EIF_CHARACTER_32 tw1;
+#define arg1 arg1x.it_i4
+	EIF_INTEGER_32 ti4_1;
 	RTCDT;
 	RTSN;
 	RTDA;
 	RTLD;
 	
-	if ((arg1x.type & SK_HEAD) == SK_REF) arg1x.it_c4 = * (EIF_CHARACTER_32 *) arg1x.it_r;
+	if ((arg1x.type & SK_HEAD) == SK_REF) arg1x.it_i4 = * (EIF_INTEGER_32 *) arg1x.it_r;
 	
 	RTLI(1);
 	RTLR(0,Current);
 	RTLIU(1);
 	RTLU (SK_VOID, NULL);
-	RTLU(SK_CHAR32,&arg1);
+	RTLU(SK_INT32,&arg1);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 372, Current, 0, 1, 1037);
+	RTEAA(l_feature_name, 372, Current, 0, 1, 1031);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(372, Current, 1037);
+	RTDBGEAA(372, Current, 1031);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAA(Current, dtype, 959, 0x1C000000, 0); /* item */
-	*(EIF_CHARACTER_32 *)(Current + RTWA(959, dtype)) = (EIF_CHARACTER_32) arg1;
+	RTDBGAA(Current, dtype, 959, 0x10000000, 0); /* item */
+	*(EIF_INTEGER_32 *)(Current + RTWA(959, dtype)) = (EIF_INTEGER_32) arg1;
 	if (RTAL & CK_ENSURE) {
 		RTHOOK(2);
 		RTCT("item_inserted", EX_POST);
-		tw1 = *(EIF_CHARACTER_32 *)(Current + RTWA(959, dtype));
-		if ((EIF_BOOLEAN)(tw1 == arg1)) {
+		ti4_1 = *(EIF_INTEGER_32 *)(Current + RTWA(959, dtype));
+		if ((EIF_BOOLEAN)(ti4_1 == arg1)) {
 			RTCK;
 		} else {
 			RTCF;

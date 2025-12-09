@@ -46,9 +46,9 @@ OLDOBJECTS =  po275.obj po275d.obj po276.obj po276d.obj st282.obj st282d.obj st2
 	ch270.obj ch270d.obj ch266.obj ch266d.obj ch267.obj ch267d.obj bo272.obj bo272d.obj \
 	bo273.obj bo273d.obj re283.obj re283d.obj re280.obj re280d.obj re277.obj re277d.obj \
 	po274.obj po274d.obj bo271.obj bo271d.obj ch268.obj ch268d.obj ch265.obj ch265d.obj \
-	st279.obj st279d.obj im278.obj im278d.obj co286.obj co286d.obj ar292.obj ar292d.obj \
-	di295.obj di295d.obj fi294.obj fi294d.obj da288.obj da288d.obj un291.obj un291d.obj \
-	en290.obj en290d.obj en289.obj en289d.obj pa293.obj pa293d.obj fi287.obj fi287d.obj \
+	st279.obj st279d.obj im278.obj im278d.obj co286.obj co286d.obj di295.obj di295d.obj \
+	fi294.obj fi294d.obj ar292.obj ar292d.obj da288.obj da288d.obj en289.obj en289d.obj \
+	un291.obj un291d.obj en290.obj en290d.obj pa293.obj pa293d.obj fi287.obj fi287d.obj \
 	gc296.obj gc296d.obj 
 
 all::  Cobj9.lib

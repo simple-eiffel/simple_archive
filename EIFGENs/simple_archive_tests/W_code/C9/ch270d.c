@@ -10,7 +10,7 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_270 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_270 [] = {0xFF01,347,269,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_270 [] = {0xFF01,364,269,0xFFFF};
 static const EIF_TYPE_INDEX egt_2_270 [] = {0xFF01,269,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_270 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_270 [] = {0,0xFFFF};
@@ -25,9 +25,9 @@ static const EIF_TYPE_INDEX egt_12_270 [] = {0xFF01,269,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_270 [] = {0xFF01,269,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_270 [] = {0xFF01,269,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_270 [] = {0xFF01,267,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_270 [] = {0xFF01,546,256,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_270 [] = {0xFF01,582,268,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_270 [] = {0xFF01,582,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_270 [] = {0xFF01,545,256,0xFFFF};
+static const EIF_TYPE_INDEX egt_17_270 [] = {0xFF01,578,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_18_270 [] = {0xFF01,578,268,0xFFFF};
 
 
 static const struct desc_info desc_270[] = {
@@ -123,7 +123,7 @@ void Init270(void)
 	IDSC(desc_270 + 1, 4, 269);
 	IDSC(desc_270 + 32, 82, 269);
 	IDSC(desc_270 + 34, 98, 269);
-	IDSC(desc_270 + 38, 180, 269);
+	IDSC(desc_270 + 38, 172, 269);
 	IDSC(desc_270 + 41, 85, 269);
 }
 

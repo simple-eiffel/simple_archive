@@ -126,7 +126,7 @@ void Init44(void)
 {
 	IDSC(desc_44, 0, 43);
 	IDSC(desc_44 + 1, 4, 43);
-	IDSC(desc_44 + 32, 186, 43);
+	IDSC(desc_44 + 32, 191, 43);
 	IDSC(desc_44 + 80, 293, 43);
 }
 

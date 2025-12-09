@@ -163,7 +163,7 @@ void Init238(void)
 	IDSC(desc_238, 0, 237);
 	IDSC(desc_238 + 1, 4, 237);
 	IDSC(desc_238 + 32, 98, 237);
-	IDSC(desc_238 + 36, 180, 237);
+	IDSC(desc_238 + 36, 172, 237);
 	IDSC(desc_238 + 39, 95, 237);
 	IDSC(desc_238 + 95, 82, 237);
 	IDSC(desc_238 + 97, 229, 237);

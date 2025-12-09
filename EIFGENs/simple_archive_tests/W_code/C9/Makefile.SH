@@ -60,9 +60,9 @@ OLDOBJECTS =  po275.o po275d.o po276.o po276d.o st282.o st282d.o st285.o st285d.
 	ch270.o ch270d.o ch266.o ch266d.o ch267.o ch267d.o bo272.o bo272d.o \
 	bo273.o bo273d.o re283.o re283d.o re280.o re280d.o re277.o re277d.o \
 	po274.o po274d.o bo271.o bo271d.o ch268.o ch268d.o ch265.o ch265d.o \
-	st279.o st279d.o im278.o im278d.o co286.o co286d.o ar292.o ar292d.o \
-	di295.o di295d.o fi294.o fi294d.o da288.o da288d.o un291.o un291d.o \
-	en290.o en290d.o en289.o en289d.o pa293.o pa293d.o fi287.o fi287d.o \
+	st279.o st279d.o im278.o im278d.o co286.o co286d.o di295.o di295d.o \
+	fi294.o fi294d.o ar292.o ar292d.o da288.o da288d.o en289.o en289d.o \
+	un291.o un291d.o en290.o en290d.o pa293.o pa293d.o fi287.o fi287d.o \
 	gc296.o gc296d.o 
 
 all: Cobj9.o

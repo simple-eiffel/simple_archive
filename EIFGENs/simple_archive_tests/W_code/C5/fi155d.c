@@ -22,10 +22,10 @@ static const EIF_TYPE_INDEX egt_9_155 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_155 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_155 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_155 [] = {0xFF01,154,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_155 [] = {0xFF01,309,0xFF01,2,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_155 [] = {0xFF01,490,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_155 [] = {0xFF01,346,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_155 [] = {0xFF01,942,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_155 [] = {0xFF01,212,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_155 [] = {0xFF01,938,0xFF01,195,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_155 [] = {0xFF01,351,0xFF01,195,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_155 [] = {0xFF01,195,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_155 [] = {0xFF01,195,0xFFFF};
 
@@ -99,9 +99,9 @@ void Init155(void)
 {
 	IDSC(desc_155, 0, 154);
 	IDSC(desc_155 + 1, 4, 154);
-	IDSC(desc_155 + 32, 262, 154);
-	IDSC(desc_155 + 40, 144, 154);
-	IDSC(desc_155 + 51, 261, 154);
+	IDSC(desc_155 + 32, 267, 154);
+	IDSC(desc_155 + 40, 154, 154);
+	IDSC(desc_155 + 51, 258, 154);
 }
 
 

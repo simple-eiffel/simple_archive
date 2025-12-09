@@ -56,8 +56,8 @@ extern void EIF_Minit192(void);
 #include <string.h>
 #include <stdlib.h>
 #include "eif_path_name.h"
-#include "eif_dir.h"
 #include <eif_system.h>
+#include "eif_dir.h"
 #include "eif_misc.h"
 
 #ifdef __cplusplus
@@ -1563,9 +1563,9 @@ EIF_TYPED_VALUE F192_2832 (EIF_REFERENCE Current)
 	RTDBGEAA(191, Current, 2958);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAL(0, 0xF8000175, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000177, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,373,0xFF01,281,0xFF01,281,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,375,0xFF01,281,0xFF01,281,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -1701,9 +1701,9 @@ EIF_TYPED_VALUE F192_2833 (EIF_REFERENCE Current)
 	RTDBGEAA(191, Current, 2959);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAL(0, 0xF8000175, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000177, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,373,0xFF01,284,0xFF01,284,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,375,0xFF01,284,0xFF01,284,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -2437,9 +2437,9 @@ EIF_TYPED_VALUE F192_2842 (EIF_REFERENCE Current)
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
-	RTDBGAL(0, 0xF8000175, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000177, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,373,0xFF01,188,0xFF01,283,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,375,0xFF01,188,0xFF01,283,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

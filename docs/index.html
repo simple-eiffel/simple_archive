@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE_ARCHIVE - Documentation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>SIMPLE_ARCHIVE</h1>
+        <p>Simple file archiving with tar and zip support</p>
+    </header>
+
+    <nav>
+        <a href="#overview">Overview</a>
+        <a href="#quick-start">Quick Start</a>
+        <a href="#api">API Reference</a>
+        <a href="#examples">Examples</a>
+        <a href="https://github.com/simple-eiffel/simple_archive">GitHub</a>
+    </nav>
+
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>SIMPLE_ARCHIVE provides simple file archiving capabilities for Eiffel applications. It wraps the ISE compression library to provide tar and zip archive creation and extraction.</p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Create tar archives from files or directories</li>
+                <li>Create zip archives with compression</li>
+                <li>Extract archives to specified locations</li>
+                <li>List archive contents</li>
+                <li>Integration with SIMPLE_COMPRESSION</li>
+            </ul>
+        </section>
+
+        <section id="quick-start">
+            <h2>Quick Start</h2>
+            <h3>Installation</h3>
+            <pre><code>&lt;library name="simple_archive" location="$SIMPLE_ARCHIVE/simple_archive.ecf"/&gt;</code></pre>
+
+            <h3>Environment Variable</h3>
+            <pre><code>SIMPLE_ARCHIVE=/path/to/simple_archive</code></pre>
+
+            <h3>Basic Usage</h3>
+            <pre><code>local
+    archive: SIMPLE_ARCHIVE
+do
+    create archive.make
+
+    -- Create a zip archive
+    archive.create_zip ("backup.zip", &lt;&lt; "file1.txt", "folder/" &gt;&gt;)
+
+    -- Extract archive
+    archive.extract ("backup.zip", "output/")
+end</code></pre>
+        </section>
+
+        <section id="api">
+            <h2>API Reference</h2>
+
+            <h3>SIMPLE_ARCHIVE</h3>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code>make</code></td>
+                    <td>Create archive helper</td>
+                </tr>
+                <tr>
+                    <td><code>create_tar (path, files)</code></td>
+                    <td>Create tar archive from file list</td>
+                </tr>
+                <tr>
+                    <td><code>create_zip (path, files)</code></td>
+                    <td>Create zip archive from file list</td>
+                </tr>
+                <tr>
+                    <td><code>extract (archive, destination)</code></td>
+                    <td>Extract archive to destination directory</td>
+                </tr>
+                <tr>
+                    <td><code>list_contents (archive)</code></td>
+                    <td>List files in archive</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="examples">
+            <h2>Examples</h2>
+
+            <h3>Creating a Backup Archive</h3>
+            <pre><code>local
+    archive: SIMPLE_ARCHIVE
+do
+    create archive.make
+
+    -- Create compressed backup
+    archive.create_zip ("project_backup.zip", &lt;&lt;
+        "src/",
+        "tests/",
+        "docs/",
+        "README.md"
+    &gt;&gt;)
+end</code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024-2025 Larry Rix. MIT License.</p>
+        <p><a href="https://github.com/simple-eiffel/simple_archive">GitHub</a></p>
+    </footer>
+</body>
+</html>

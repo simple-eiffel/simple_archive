@@ -25,15 +25,15 @@ static const EIF_TYPE_INDEX egt_12_320 [] = {319,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_320 [] = {0xFF01,319,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_320 [] = {0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_320 [] = {0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_320 [] = {0xFF01,318,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_320 [] = {0xFF01,317,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_320 [] = {0xFF01,319,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_320 [] = {0xFF01,319,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_320 [] = {0xFF01,319,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_320 [] = {0xFF01,319,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_21_320 [] = {0xFF01,319,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_22_320 [] = {0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_23_320 [] = {0xFF01,318,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_24_320 [] = {0xFF01,318,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_23_320 [] = {0xFF01,317,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_24_320 [] = {0xFF01,317,0xFFF8,1,0xFFFF};
 
 
 static const struct desc_info desc_320[] = {
@@ -105,10 +105,10 @@ void Init320(void)
 {
 	IDSC(desc_320, 0, 319);
 	IDSC(desc_320 + 1, 4, 319);
-	IDSC(desc_320 + 32, 77, 319);
+	IDSC(desc_320 + 32, 36, 319);
 	IDSC(desc_320 + 36, 218, 319);
 	IDSC(desc_320 + 45, 220, 319);
-	IDSC(desc_320 + 59, 76, 319);
+	IDSC(desc_320 + 59, 37, 319);
 	IDSC(desc_320 + 61, 305, 319);
 }
 

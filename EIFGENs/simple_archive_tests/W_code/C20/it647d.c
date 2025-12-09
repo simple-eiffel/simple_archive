@@ -1,5 +1,5 @@
 /*
- * Class ITERATION_CURSOR [POINTER]
+ * Class ITERABLE [POINTER]
  */
 
 #include "eif_macros.h"
@@ -23,7 +23,7 @@ static const EIF_TYPE_INDEX egt_10_647 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_647 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_647 [] = {646,274,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_647 [] = {0xFF01,646,274,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_647 [] = {0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_647 [] = {0xFF01,647,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_647 [] = {0xFFF8,1,0xFFFF};
 
 
@@ -61,15 +61,13 @@ static const struct desc_info desc_647[] = {
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_13_647), 30, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_14_647), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_15_647), 0x00, 0xFFFFFFFF},
 };
 void Init647(void)
 {
 	IDSC(desc_647, 0, 646);
 	IDSC(desc_647 + 1, 4, 646);
-	IDSC(desc_647 + 32, 77, 646);
+	IDSC(desc_647 + 32, 37, 646);
 }
 
 

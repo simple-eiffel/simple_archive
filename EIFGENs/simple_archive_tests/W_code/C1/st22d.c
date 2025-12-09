@@ -148,7 +148,7 @@ void Init22(void)
 {
 	IDSC(desc_22, 0, 21);
 	IDSC(desc_22 + 1, 4, 21);
-	IDSC(desc_22 + 32, 66, 21);
+	IDSC(desc_22 + 32, 67, 21);
 }
 
 

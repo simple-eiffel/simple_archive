@@ -324,7 +324,7 @@ body:;
 		ti4_2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(793, 35))(Current)).it_i4);
 		ui4_1 = ti4_2;
 		{
-			static EIF_TYPE_INDEX typarr0[] = {0xFF01,582,268,0xFFFF};
+			static EIF_TYPE_INDEX typarr0[] = {0xFF01,578,268,0xFFFF};
 			EIF_TYPE typres0;
 			static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 			

@@ -43,12 +43,12 @@ OBJECTS = big_file_C5_c.obj
 
 OLDOBJECTS =  is132.obj is132d.obj in148.obj in148d.obj eq143.obj eq143d.obj se142.obj se142d.obj \
 	in139.obj in139d.obj c_146.obj c_146d.obj ex136.obj ex136d.obj er137.obj er137d.obj \
-	pl150.obj pl150d.obj pa162.obj pa162d.obj ex135.obj ex135d.obj ar153.obj ar153d.obj \
-	fi155.obj fi155d.obj cu158.obj cu158d.obj ar161.obj ar161d.obj in141.obj in141d.obj \
+	pl150.obj pl150d.obj pa162.obj pa162d.obj ex135.obj ex135d.obj ar161.obj ar161d.obj \
+	cu158.obj cu158d.obj ar153.obj ar153d.obj fi155.obj fi155d.obj in141.obj in141d.obj \
 	in140.obj in140d.obj so147.obj so147d.obj se151.obj se151d.obj se133.obj se133d.obj \
-	se134.obj se134d.obj st145.obj st145d.obj it138.obj it138d.obj ha160.obj ha160d.obj \
-	pa157.obj pa157d.obj ta156.obj ta156d.obj st154.obj st154d.obj er152.obj er152d.obj \
-	ne149.obj ne149d.obj ti164.obj ti164d.obj du163.obj du163d.obj ci159.obj ci159d.obj \
+	se134.obj se134d.obj it138.obj it138d.obj st145.obj st145d.obj ha160.obj ha160d.obj \
+	st154.obj st154d.obj ta156.obj ta156d.obj pa157.obj pa157d.obj er152.obj er152d.obj \
+	da164.obj da164d.obj du163.obj du163d.obj ne149.obj ne149d.obj ci159.obj ci159d.obj \
 	me144.obj me144d.obj 
 
 all::  Cobj5.lib

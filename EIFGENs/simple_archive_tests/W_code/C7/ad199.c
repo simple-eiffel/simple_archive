@@ -438,7 +438,7 @@ EIF_TYPED_VALUE F199_3073 (EIF_REFERENCE Current)
 	tp1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(36, dtype))(Current)).it_p);
 	if ((EIF_BOOLEAN)(loc1 != tp1)) {
 		RTHOOK(3);
-		RTDBGAL(0, 0xF800002F, 0,0); /* Result */
+		RTDBGAL(0, 0xF800002D, 0,0); /* Result */
 		tr1 = RTLN(eif_new_type(199, 0x01).id);
 		up1 = loc1;
 		(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWC(2741, Dtype(tr1)))(tr1, up1x);

@@ -157,7 +157,7 @@ void Init247(void)
 	IDSC(desc_247, 0, 246);
 	IDSC(desc_247 + 1, 4, 246);
 	IDSC(desc_247 + 32, 98, 246);
-	IDSC(desc_247 + 36, 180, 246);
+	IDSC(desc_247 + 36, 172, 246);
 	IDSC(desc_247 + 39, 92, 246);
 	IDSC(desc_247 + 91, 82, 246);
 	IDSC(desc_247 + 93, 229, 246);

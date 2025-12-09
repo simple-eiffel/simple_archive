@@ -79,9 +79,9 @@ void Init207(void)
 {
 	IDSC(desc_207, 0, 206);
 	IDSC(desc_207 + 1, 4, 206);
-	IDSC(desc_207 + 32, 208, 206);
-	IDSC(desc_207 + 39, 77, 206);
-	IDSC(desc_207 + 43, 76, 206);
+	IDSC(desc_207 + 32, 203, 206);
+	IDSC(desc_207 + 39, 36, 206);
+	IDSC(desc_207 + 43, 37, 206);
 }
 
 

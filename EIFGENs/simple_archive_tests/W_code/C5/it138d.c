@@ -69,9 +69,9 @@ void Init138(void)
 {
 	IDSC(desc_138, 0, 137);
 	IDSC(desc_138 + 1, 4, 137);
-	IDSC(desc_138 + 32, 64, 137);
-	IDSC(desc_138 + 33, 213, 137);
-	IDSC(desc_138 + 36, 211, 137);
+	IDSC(desc_138 + 32, 66, 137);
+	IDSC(desc_138 + 33, 195, 137);
+	IDSC(desc_138 + 36, 196, 137);
 }
 
 

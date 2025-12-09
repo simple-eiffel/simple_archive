@@ -39,7 +39,7 @@ static const EIF_TYPE_INDEX egt_26_291 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_27_291 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_28_291 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_29_291 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_30_291 [] = {0xFF01,984,0xFF01,279,0xFFFF};
+static const EIF_TYPE_INDEX egt_30_291 [] = {0xFF01,540,0xFF01,279,0xFFFF};
 
 
 static const struct desc_info desc_291[] = {
@@ -113,8 +113,8 @@ void Init291(void)
 	IDSC(desc_291, 0, 290);
 	IDSC(desc_291 + 1, 4, 290);
 	IDSC(desc_291 + 32, 353, 290);
-	IDSC(desc_291 + 44, 303, 290);
-	IDSC(desc_291 + 55, 301, 290);
+	IDSC(desc_291 + 44, 302, 290);
+	IDSC(desc_291 + 55, 303, 290);
 }
 
 

@@ -41,14 +41,14 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 
 OBJECTS = big_file_C2_c.obj 
 
-OLDOBJECTS =  ar52.obj ar52d.obj te51.obj te51d.obj eq50.obj eq50d.obj it49.obj it49d.obj eq47.obj \
-	eq47d.obj ad48.obj ad48d.obj eq46.obj eq46d.obj ob45.obj ob45d.obj se43.obj se43d.obj \
-	se65.obj se65d.obj do38.obj do38d.obj re42.obj re42d.obj ta36.obj ta36d.obj so41.obj \
-	so41d.obj da62.obj da62d.obj da61.obj da61d.obj se44.obj se44d.obj se64.obj se64d.obj \
-	sy40.obj sy40d.obj sy39.obj sy39d.obj ma37.obj ma37d.obj ta35.obj ta35d.obj so34.obj \
-	so34d.obj ti58.obj ti58d.obj da59.obj da59d.obj da60.obj da60d.obj ti57.obj ti57d.obj \
-	gr33.obj gr33d.obj ti56.obj ti56d.obj oc63.obj oc63d.obj ti55.obj ti55d.obj co54.obj \
-	co54d.obj me53.obj me53d.obj 
+OLDOBJECTS =  ar52.obj ar52d.obj te51.obj te51d.obj eq50.obj eq50d.obj it49.obj it49d.obj eq48.obj \
+	eq48d.obj eq47.obj eq47d.obj ad46.obj ad46d.obj ob45.obj ob45d.obj se65.obj se65d.obj \
+	se43.obj se43d.obj do38.obj do38d.obj re42.obj re42d.obj ta36.obj ta36d.obj da61.obj \
+	da61d.obj da60.obj da60d.obj so41.obj so41d.obj se44.obj se44d.obj se64.obj se64d.obj \
+	sy39.obj sy39d.obj sy40.obj sy40d.obj ma37.obj ma37d.obj ta35.obj ta35d.obj ti57.obj \
+	ti57d.obj da58.obj da58d.obj ti56.obj ti56d.obj da59.obj da59d.obj gr34.obj gr34d.obj \
+	ti55.obj ti55d.obj so33.obj so33d.obj oc63.obj oc63d.obj co62.obj co62d.obj ti54.obj \
+	ti54d.obj me53.obj me53d.obj 
 
 all::  Cobj2.lib
 

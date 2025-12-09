@@ -55,15 +55,15 @@ $spitshell >>Makefile <<'!NO!SUBS!'
 
 OBJECTS = big_file_C14_c.obj 
 
-OLDOBJECTS =  ar429.o ar429d.o fu456.o fu456d.o ar446.o ar446d.o na441.o na441d.o \
-	li430.o li430d.o li458.o li458d.o ar439.o ar439d.o it461.o it461d.o \
-	re442.o re442d.o re457.o re457d.o in444.o in444d.o to440.o to440d.o \
-	dy450.o dy450d.o se451.o se451d.o ar455.o ar455d.o dy447.o dy447d.o \
-	li454.o li454d.o fi433.o fi433d.o cu431.o cu431d.o cu459.o cu459d.o \
-	tr438.o tr438d.o bo443.o bo443d.o ta445.o ta445d.o un449.o un449d.o \
-	ac435.o ac435d.o bi452.o bi452d.o dy448.o dy448d.o ch453.o ch453d.o \
-	bo434.o bo434d.o co432.o co432d.o co460.o co460d.o ba436.o ba436d.o \
-	co437.o co437d.o 
+OLDOBJECTS =  ar432.o ar432d.o ar448.o ar448d.o li435.o li435d.o li459.o li459d.o \
+	ar447.o ar447d.o re434.o re434d.o re458.o re458d.o in445.o in445d.o \
+	to433.o to433d.o dy457.o dy457d.o ar449.o ar449d.o se450.o se450d.o \
+	dy452.o dy452d.o li453.o li453d.o fi438.o fi438d.o re430.o re430d.o \
+	in429.o in429d.o cu436.o cu436d.o cu460.o cu460d.o tr443.o tr443d.o \
+	bo444.o bo444d.o ta446.o ta446d.o un456.o un456d.o ac440.o ac440d.o \
+	bi451.o bi451d.o dy455.o dy455d.o ch454.o ch454d.o bo439.o bo439d.o \
+	ty431.o ty431d.o co437.o co437d.o co461.o co461d.o ba441.o ba441d.o \
+	co442.o co442d.o 
 
 all: Cobj14.o
 

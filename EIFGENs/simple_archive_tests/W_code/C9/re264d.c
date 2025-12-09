@@ -10,7 +10,7 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_264 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_264 [] = {0xFF01,337,263,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_264 [] = {0xFF01,354,263,0xFFFF};
 static const EIF_TYPE_INDEX egt_2_264 [] = {0xFF01,263,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_264 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_264 [] = {0,0xFFFF};
@@ -126,7 +126,7 @@ void Init264(void)
 	IDSC(desc_264 + 32, 82, 263);
 	IDSC(desc_264 + 34, 229, 263);
 	IDSC(desc_264 + 44, 98, 263);
-	IDSC(desc_264 + 48, 180, 263);
+	IDSC(desc_264 + 48, 172, 263);
 	IDSC(desc_264 + 51, 87, 263);
 	IDSC(desc_264 + 78, 20, 263);
 	IDSC(desc_264 + 85, 99, 263);

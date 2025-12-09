@@ -3762,7 +3762,7 @@ void F51_1067 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 	RTDBGEAA(50, Current, 1080);
 	RTCC(arg1, 50, l_feature_name, 1, eif_new_type(276, 0x01), 0x01);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,363,0,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,321,0,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -3898,7 +3898,7 @@ void F51_1068 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 	RTDBGEAA(50, Current, 1081);
 	RTCC(arg1, 50, l_feature_name, 1, eif_new_type(276, 0x01), 0x01);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,363,0,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,321,0,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -4031,7 +4031,7 @@ void F51_1069 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 	RTDBGEAA(50, Current, 1082);
 	RTCC(arg1, 50, l_feature_name, 1, eif_new_type(276, 0x01), 0x01);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,314,0xFF01,0,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,309,0xFF01,0,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -4154,7 +4154,7 @@ void F51_1070 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 	RTDBGEAA(50, Current, 1083);
 	RTCC(arg1, 50, l_feature_name, 1, eif_new_type(276, 0x01), 0x01);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,314,0xFF01,0,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,309,0xFF01,0,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -4275,7 +4275,7 @@ void F51_1071 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 	RTDBGEAA(50, Current, 1084);
 	RTCC(arg1, 50, l_feature_name, 1, eif_new_type(276, 0x01), 0x01);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,316,0xFF01,0,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,326,0xFF01,0,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

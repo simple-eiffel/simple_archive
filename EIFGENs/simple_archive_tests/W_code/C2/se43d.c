@@ -114,7 +114,7 @@ void Init43(void)
 {
 	IDSC(desc_43, 0, 42);
 	IDSC(desc_43 + 1, 4, 42);
-	IDSC(desc_43 + 32, 186, 42);
+	IDSC(desc_43 + 32, 191, 42);
 }
 
 

@@ -1,5 +1,5 @@
 /*
- * Class RT_DBG_FIELD_RECORD [CHARACTER_32]
+ * Class RT_DBG_FIELD_RECORD [BOOLEAN]
  */
 
 #include "eif_macros.h"
@@ -10,21 +10,21 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_1000 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_1000 [] = {0xFF01,307,999,265,0xFFFF};
-static const EIF_TYPE_INDEX egt_2_1000 [] = {0xFF01,999,265,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_1000 [] = {0xFF01,307,999,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_2_1000 [] = {0xFF01,999,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_1000 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_1000 [] = {0,0xFFFF};
-static const EIF_TYPE_INDEX egt_5_1000 [] = {0xFF01,999,265,0xFFFF};
-static const EIF_TYPE_INDEX egt_6_1000 [] = {0xFF01,999,265,0xFFFF};
+static const EIF_TYPE_INDEX egt_5_1000 [] = {0xFF01,999,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_6_1000 [] = {0xFF01,999,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_7_1000 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_8_1000 [] = {0xFF01,21,0xFFFF};
 static const EIF_TYPE_INDEX egt_9_1000 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_1000 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_1000 [] = {0xFF01,20,0xFFFF};
-static const EIF_TYPE_INDEX egt_12_1000 [] = {999,265,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_1000 [] = {0xFF01,999,265,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_1000 [] = {0xFF01,354,0xFF01,221,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_1000 [] = {354,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_12_1000 [] = {999,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_1000 [] = {0xFF01,999,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_1000 [] = {0xFF01,311,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_1000 [] = {311,0xFF01,221,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_1000 [] = {0xFF01,186,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_1000 [] = {0xFF01,182,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_1000 [] = {0xFF01,284,0xFFFF};

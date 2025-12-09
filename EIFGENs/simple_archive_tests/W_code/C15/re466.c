@@ -99,7 +99,7 @@ label_1:
 	}
 body:;
 	RTHOOK(2);
-	RTDBGAA(Current, dtype, 3069, 0xF80001D0, 0); /* target */
+	RTDBGAA(Current, dtype, 3069, 0xF80001CD, 0); /* target */
 	tr1 = RTCCL(arg1);
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(3069, dtype)) = (EIF_REFERENCE) tr1;
@@ -1084,7 +1084,7 @@ void F466_3516 (EIF_REFERENCE Current)
 	RTDBGEAA(465, Current, 3612);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAL(1, 0xF80001D0, 0, 0); /* loc1 */
+	RTDBGAL(1, 0xF80001CD, 0, 0); /* loc1 */
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3069, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	loc1 = (EIF_REFERENCE) RTCCL(tr1);
 	RTHOOK(2);

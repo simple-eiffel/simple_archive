@@ -22,7 +22,7 @@ static const EIF_TYPE_INDEX egt_9_27 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_27 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_27 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_27 [] = {0xFF01,26,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_27 [] = {0xFF01,354,0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_27 [] = {0xFF01,311,0xFF01,281,0xFFFF};
 
 
 static const struct desc_info desc_27[] = {
@@ -76,7 +76,7 @@ void Init27(void)
 {
 	IDSC(desc_27, 0, 26);
 	IDSC(desc_27 + 1, 4, 26);
-	IDSC(desc_27 + 32, 35, 26);
+	IDSC(desc_27 + 32, 39, 26);
 }
 
 

@@ -57,12 +57,12 @@ OBJECTS = big_file_C5_c.obj
 
 OLDOBJECTS =  is132.o is132d.o in148.o in148d.o eq143.o eq143d.o se142.o se142d.o \
 	in139.o in139d.o c_146.o c_146d.o ex136.o ex136d.o er137.o er137d.o \
-	pl150.o pl150d.o pa162.o pa162d.o ex135.o ex135d.o ar153.o ar153d.o \
-	fi155.o fi155d.o cu158.o cu158d.o ar161.o ar161d.o in141.o in141d.o \
+	pl150.o pl150d.o pa162.o pa162d.o ex135.o ex135d.o ar161.o ar161d.o \
+	cu158.o cu158d.o ar153.o ar153d.o fi155.o fi155d.o in141.o in141d.o \
 	in140.o in140d.o so147.o so147d.o se151.o se151d.o se133.o se133d.o \
-	se134.o se134d.o st145.o st145d.o it138.o it138d.o ha160.o ha160d.o \
-	pa157.o pa157d.o ta156.o ta156d.o st154.o st154d.o er152.o er152d.o \
-	ne149.o ne149d.o ti164.o ti164d.o du163.o du163d.o ci159.o ci159d.o \
+	se134.o se134d.o it138.o it138d.o st145.o st145d.o ha160.o ha160d.o \
+	st154.o st154d.o ta156.o ta156d.o pa157.o pa157d.o er152.o er152d.o \
+	da164.o da164d.o du163.o du163d.o ne149.o ne149d.o ci159.o ci159d.o \
 	me144.o me144d.o 
 
 all: Cobj5.o

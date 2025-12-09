@@ -24,13 +24,13 @@ static const EIF_TYPE_INDEX egt_11_73 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_73 [] = {0xFF01,72,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_73 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_73 [] = {0xFFF9,0,233,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_73 [] = {0xFF01,363,0xFFF9,0,233,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_73 [] = {0xFF01,321,0xFFF9,0,233,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_73 [] = {0xFF01,0xFFF9,4,233,0,238,238,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_73 [] = {0xFF01,0xFFF9,5,233,0,238,238,238,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_73 [] = {0xFF01,297,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_73 [] = {0xFF02,297,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_73 [] = {0xFF01,19,0xFFFF};
-static const EIF_TYPE_INDEX egt_21_73 [] = {0xFF01,308,297,0xFFFF};
+static const EIF_TYPE_INDEX egt_21_73 [] = {0xFF01,371,297,0xFFFF};
 
 
 static const struct desc_info desc_73[] = {

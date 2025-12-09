@@ -118,9 +118,9 @@ void Init180(void)
 	IDSC(desc_180, 0, 179);
 	IDSC(desc_180 + 1, 4, 179);
 	IDSC(desc_180 + 32, 321, 179);
-	IDSC(desc_180 + 44, 260, 179);
+	IDSC(desc_180 + 44, 263, 179);
 	IDSC(desc_180 + 53, 357, 179);
-	IDSC(desc_180 + 69, 324, 179);
+	IDSC(desc_180 + 69, 323, 179);
 }
 
 

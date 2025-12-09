@@ -1,5 +1,5 @@
 /*
- * Code for class TYPE [TYPED_POINTER [NATURAL_32]]
+ * Code for class TYPE [TYPED_POINTER [BOOLEAN]]
  */
 
 #include "eif_eiffel.h"
@@ -839,14 +839,14 @@ EIF_TYPED_VALUE F955_5098 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	char *l_feature_name = "adapt";
 	RTEX;
 #define arg1 arg1x.it_p
-	EIF_NATURAL_32* Result = ((EIF_NATURAL_32*) 0);
+	EIF_BOOLEAN* Result = ((EIF_BOOLEAN*) 0);
 	
 	RTCDT;
 	RTSN;
 	RTDA;
 	RTLD;
 	
-	if ((arg1x.type & SK_HEAD) == SK_REF) arg1x.it_p = * (EIF_NATURAL_32* *) arg1x.it_r;
+	if ((arg1x.type & SK_HEAD) == SK_REF) arg1x.it_p = * (EIF_BOOLEAN* *) arg1x.it_r;
 	
 	RTLI(1);
 	RTLR(0,Current);
@@ -864,7 +864,7 @@ EIF_TYPED_VALUE F955_5098 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	RTDBGAL(0, 0x40000000, 0,0); /* Result */
-	Result = (EIF_NATURAL_32*) arg1;
+	Result = (EIF_BOOLEAN*) arg1;
 	if (RTAL & CK_ENSURE) {
 		RTHOOK(2);
 		RTCT("adapted", EX_POST);
@@ -892,12 +892,12 @@ EIF_TYPED_VALUE F955_5099 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	GTCX
 	char *l_feature_name = "attempted";
 	RTEX;
-	EIF_NATURAL_32* loc1 = (EIF_NATURAL_32*) 0;
+	EIF_BOOLEAN* loc1 = (EIF_BOOLEAN*) 0;
 #define arg1 arg1x.it_r
 	EIF_POINTER tp1;
 	EIF_REFERENCE tr1 = NULL;
 	EIF_BOOLEAN tb1;
-	EIF_NATURAL_32* Result = ((EIF_NATURAL_32*) 0);
+	EIF_BOOLEAN* Result = ((EIF_BOOLEAN*) 0);
 	
 	RTCDT;
 	RTSN;
@@ -924,25 +924,25 @@ EIF_TYPED_VALUE F955_5099 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	tr1 = RTCCL(arg1);
-	RTOB(*(EIF_NATURAL_32* *), RTWCT(4017, dtype, Dftype(Current)), tr1, loc1, tb1);
+	RTOB(*(EIF_BOOLEAN* *), RTWCT(4017, dtype, Dftype(Current)), tr1, loc1, tb1);
 	if (tb1) {
 		RTHOOK(2);
 		RTDBGAL(0, 0x40000000, 0,0); /* Result */
-		Result = (EIF_NATURAL_32*) loc1;
+		Result = (EIF_BOOLEAN*) loc1;
 	}
 	if (RTAL & CK_ENSURE) {
 		RTHOOK(3);
 		RTCT("assigned_or_void", EX_POST);
 		tb1 = '\01';
 		{
-			static EIF_TYPE_INDEX typarr0[] = {952,250,0xFFFF};
+			static EIF_TYPE_INDEX typarr0[] = {952,271,0xFFFF};
 			EIF_TYPE typres0;
 			static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 			
 			typres0 = (typcache0.id != INVALID_DTYPE ? typcache0 : (typcache0 = eif_compound_id(Dftype(Current), typarr0)));
 			tr1 = RTLN(typres0.id);
 		}
-		*(EIF_NATURAL_32* *)tr1 = Result;
+		*(EIF_BOOLEAN* *)tr1 = Result;
 		if (!RTEQ(tr1, arg1)) {
 			tp1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(4005, dtype))(Current)).it_p);
 			tb1 = (EIF_BOOLEAN)(Result == tp1);
@@ -977,7 +977,7 @@ EIF_TYPED_VALUE F955_5100 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	EIF_POINTER tp1;
 	EIF_REFERENCE tr1 = NULL;
 	EIF_BOOLEAN tb1;
-	EIF_NATURAL_32* Result = ((EIF_NATURAL_32*) 0);
+	EIF_BOOLEAN* Result = ((EIF_BOOLEAN*) 0);
 	
 	RTCDT;
 	RTSN;
@@ -1006,20 +1006,20 @@ EIF_TYPED_VALUE F955_5100 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTDBGAL(0, 0x40000000, 0,0); /* Result */
 	ur1 = RTCCL(arg1);
 	tp1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(4003, dtype))(Current, ur1x)).it_p);
-	Result = (EIF_NATURAL_32*) tp1;
+	Result = (EIF_BOOLEAN*) tp1;
 	if (RTAL & CK_ENSURE) {
 		RTHOOK(2);
 		RTCT("assigned_or_void", EX_POST);
 		tb1 = '\01';
 		{
-			static EIF_TYPE_INDEX typarr0[] = {952,250,0xFFFF};
+			static EIF_TYPE_INDEX typarr0[] = {952,271,0xFFFF};
 			EIF_TYPE typres0;
 			static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 			
 			typres0 = (typcache0.id != INVALID_DTYPE ? typcache0 : (typcache0 = eif_compound_id(Dftype(Current), typarr0)));
 			tr1 = RTLN(typres0.id);
 		}
-		*(EIF_NATURAL_32* *)tr1 = Result;
+		*(EIF_BOOLEAN* *)tr1 = Result;
 		if (!RTEQ(tr1, arg1)) {
 			tp1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(4005, dtype))(Current)).it_p);
 			tb1 = (EIF_BOOLEAN)(Result == tp1);
@@ -1049,7 +1049,7 @@ EIF_TYPED_VALUE F955_5101 (EIF_REFERENCE Current)
 	GTCX
 	char *l_feature_name = "default_detachable_value";
 	RTEX;
-	EIF_NATURAL_32* Result = ((EIF_NATURAL_32*) 0);
+	EIF_BOOLEAN* Result = ((EIF_BOOLEAN*) 0);
 	
 	RTCDT;
 	RTSN;
@@ -1086,9 +1086,9 @@ EIF_TYPED_VALUE F955_5102 (EIF_REFERENCE Current)
 	GTCX
 	char *l_feature_name = "default";
 	RTEX;
-	EIF_NATURAL_32* loc1 = (EIF_NATURAL_32*) 0;
+	EIF_BOOLEAN* loc1 = (EIF_BOOLEAN*) 0;
 	EIF_BOOLEAN tb1;
-	EIF_NATURAL_32* Result = ((EIF_NATURAL_32*) 0);
+	EIF_BOOLEAN* Result = ((EIF_BOOLEAN*) 0);
 	
 	RTCDT;
 	RTSN;

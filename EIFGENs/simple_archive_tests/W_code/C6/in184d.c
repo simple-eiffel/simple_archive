@@ -23,15 +23,15 @@ static const EIF_TYPE_INDEX egt_10_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_184 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_184 [] = {0xFF01,183,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_184 [] = {0xFF01,276,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_184 [] = {354,0xFF01,282,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_184 [] = {0xFF01,984,0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_184 [] = {311,0xFF01,282,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_184 [] = {0xFF01,540,0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_21_184 [] = {0xFF01,0,0xFFFF};
-static const EIF_TYPE_INDEX egt_22_184 [] = {0xFF01,360,0,0xFFFF};
+static const EIF_TYPE_INDEX egt_22_184 [] = {0xFF01,313,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_23_184 [] = {0xFFF9,0,233,0xFFFF};
 static const EIF_TYPE_INDEX egt_24_184 [] = {0xFFF9,0,233,0xFFFF};
 static const EIF_TYPE_INDEX egt_25_184 [] = {0xFF01,307,0,0xFFFF};
@@ -41,8 +41,8 @@ static const EIF_TYPE_INDEX egt_28_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_29_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_30_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_31_184 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_32_184 [] = {0xFF01,985,238,0xFFFF};
-static const EIF_TYPE_INDEX egt_33_184 [] = {0xFF01,379,280,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_32_184 [] = {0xFF01,611,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_33_184 [] = {0xFF01,381,280,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_34_184 [] = {0xFF01,307,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_35_184 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_36_184 [] = {0xFF01,281,0xFFFF};
@@ -231,7 +231,7 @@ void Init184(void)
 	IDSC(desc_184 + 45, 228, 183);
 	IDSC(desc_184 + 70, 83, 183);
 	IDSC(desc_184 + 102, 183, 183);
-	IDSC(desc_184 + 107, 50, 183);
+	IDSC(desc_184 + 107, 52, 183);
 }
 
 

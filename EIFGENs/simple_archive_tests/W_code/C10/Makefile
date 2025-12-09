@@ -41,15 +41,15 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 
 OBJECTS = big_file_C10_c.obj 
 
-OLDOBJECTS =  it307.obj it307d.obj ro328.obj ro328d.obj fu327.obj fu327d.obj ty329.obj ty329d.obj \
-	ty308.obj ty308d.obj re319.obj re319d.obj li312.obj li312d.obj it315.obj it315d.obj \
-	it316.obj it316d.obj rt298.obj rt298d.obj ce309.obj ce309d.obj se311.obj se311d.obj \
-	li310.obj li310d.obj fi317.obj fi317d.obj eq306.obj eq306d.obj da305.obj da305d.obj \
-	re320.obj re320d.obj in322.obj in322d.obj cu313.obj cu313d.obj tr326.obj tr326d.obj \
-	ac323.obj ac323d.obj bo318.obj bo318d.obj da302.obj da302d.obj ti300.obj ti300d.obj \
-	da303.obj da303d.obj ty321.obj ty321d.obj co314.obj co314d.obj ba324.obj ba324d.obj \
-	da301.obj da301d.obj ti299.obj ti299d.obj da304.obj da304d.obj me297.obj me297d.obj \
-	co325.obj co325d.obj 
+OLDOBJECTS =  it307.obj it307d.obj sp314.obj sp314d.obj ar322.obj ar322d.obj ty308.obj ty308d.obj \
+	ar312.obj ar312d.obj it311.obj it311d.obj it310.obj it310d.obj na315.obj na315d.obj \
+	sp316.obj sp316d.obj re318.obj re318d.obj li324.obj li324d.obj re323.obj re323d.obj \
+	to313.obj to313d.obj rt298.obj rt298d.obj fi327.obj fi327d.obj da305.obj da305d.obj \
+	eq306.obj eq306d.obj ge317.obj ge317d.obj re320.obj re320d.obj in319.obj in319d.obj \
+	cu325.obj cu325d.obj ac329.obj ac329d.obj ar309.obj ar309d.obj bo328.obj bo328d.obj \
+	da302.obj da302d.obj ti300.obj ti300d.obj da303.obj da303d.obj ty321.obj ty321d.obj \
+	co326.obj co326d.obj da301.obj da301d.obj ti299.obj ti299d.obj da304.obj da304d.obj \
+	me297.obj me297d.obj 
 
 all::  Cobj10.lib
 

@@ -1,5 +1,5 @@
 /*
- * Class TYPED_POINTER [NATURAL_32]
+ * Class TYPED_POINTER [BOOLEAN]
  */
 
 #include "eif_macros.h"
@@ -10,19 +10,19 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_953 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_953 [] = {0xFF01,954,952,250,0xFFFF};
-static const EIF_TYPE_INDEX egt_2_953 [] = {952,250,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_953 [] = {0xFF01,954,952,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_2_953 [] = {952,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_953 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_953 [] = {0,0xFFFF};
-static const EIF_TYPE_INDEX egt_5_953 [] = {952,250,0xFFFF};
-static const EIF_TYPE_INDEX egt_6_953 [] = {952,250,0xFFFF};
+static const EIF_TYPE_INDEX egt_5_953 [] = {952,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_6_953 [] = {952,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_7_953 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_8_953 [] = {0xFF01,21,0xFFFF};
 static const EIF_TYPE_INDEX egt_9_953 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_953 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_953 [] = {0xFF01,20,0xFFFF};
-static const EIF_TYPE_INDEX egt_12_953 [] = {952,250,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_953 [] = {952,250,0xFFFF};
+static const EIF_TYPE_INDEX egt_12_953 [] = {952,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_953 [] = {952,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_953 [] = {0xFF01,273,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_953 [] = {0xFFF8,1,0xFFFF};
 
@@ -60,9 +60,9 @@ static const struct desc_info desc_953[] = {
 	{EIF_GENERIC(egt_12_953), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_13_953), 30, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 1379, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 1380, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 1381, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 1494, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 1495, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 1496, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x01DD /*238*/), 13218, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x021F /*271*/), 13222, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 13217, 0},
@@ -94,9 +94,9 @@ void Init953(void)
 {
 	IDSC(desc_953, 0, 952);
 	IDSC(desc_953 + 1, 4, 952);
-	IDSC(desc_953 + 32, 204, 952);
+	IDSC(desc_953 + 32, 198, 952);
 	IDSC(desc_953 + 35, 82, 952);
-	IDSC(desc_953 + 37, 73, 952);
+	IDSC(desc_953 + 37, 75, 952);
 	IDSC(desc_953 + 60, 13, 952);
 }
 

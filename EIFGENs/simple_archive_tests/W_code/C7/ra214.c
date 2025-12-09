@@ -70,8 +70,8 @@ extern void EIF_Minit214(void);
 }
 #endif
 
-#include <stdio.h>
 #include "eif_file.h"
+#include <stdio.h>
 
 #ifdef __cplusplus
 extern "C" {

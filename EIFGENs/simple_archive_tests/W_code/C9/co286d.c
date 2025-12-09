@@ -22,7 +22,7 @@ static const EIF_TYPE_INDEX egt_9_286 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_286 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_286 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_286 [] = {0xFF01,285,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_286 [] = {0xFF01,457,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_286 [] = {0xFF01,458,268,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_286 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_286 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_286 [] = {0xFF01,281,0xFFFF};
@@ -38,9 +38,9 @@ static const EIF_TYPE_INDEX egt_25_286 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_26_286 [] = {0xFF01,189,0xFFFF};
 static const EIF_TYPE_INDEX egt_27_286 [] = {0xFF01,145,0xFFFF};
 static const EIF_TYPE_INDEX egt_28_286 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_29_286 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_30_286 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_31_286 [] = {0xFF01,85,0xFFFF};
+static const EIF_TYPE_INDEX egt_29_286 [] = {0xFF01,10,0xFFFF};
+static const EIF_TYPE_INDEX egt_30_286 [] = {0xFF01,10,0xFFFF};
+static const EIF_TYPE_INDEX egt_31_286 [] = {0xFF01,81,0xFFFF};
 static const EIF_TYPE_INDEX egt_32_286 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_33_286 [] = {0xFF01,205,0xFFFF};
 static const EIF_TYPE_INDEX egt_34_286 [] = {268,0xFFFF};
@@ -395,7 +395,7 @@ static const struct desc_info desc_286[] = {
 	{EIF_GENERIC(NULL), 5593, 0xFFFFFFFF},
 	{EIF_GENERIC(NULL), 13754, 0xFFFFFFFF},
 	{EIF_GENERIC(NULL), 5595, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x17 /*11*/), 5596, 32},
+	{EIF_NON_GENERIC(0x15 /*10*/), 5596, 32},
 	{EIF_GENERIC(egt_31_286), 13729, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_32_286), 5598, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x021F /*271*/), 5599, 44},
@@ -436,22 +436,22 @@ void Init286(void)
 	IDSC(desc_286, 0, 285);
 	IDSC(desc_286 + 1, 4, 285);
 	IDSC(desc_286 + 32, 307, 285);
-	IDSC(desc_286 + 41, 74, 285);
-	IDSC(desc_286 + 50, 266, 285);
+	IDSC(desc_286 + 41, 76, 285);
+	IDSC(desc_286 + 50, 250, 285);
 	IDSC(desc_286 + 56, 355, 285);
 	IDSC(desc_286 + 65, 222, 285);
-	IDSC(desc_286 + 72, 194, 285);
-	IDSC(desc_286 + 165, 154, 285);
-	IDSC(desc_286 + 167, 155, 285);
-	IDSC(desc_286 + 169, 146, 285);
-	IDSC(desc_286 + 332, 267, 285);
+	IDSC(desc_286 + 72, 186, 285);
+	IDSC(desc_286 + 165, 147, 285);
+	IDSC(desc_286 + 167, 148, 285);
+	IDSC(desc_286 + 169, 155, 285);
+	IDSC(desc_286 + 332, 251, 285);
 	IDSC(desc_286 + 334, 271, 285);
 	IDSC(desc_286 + 335, 308, 285);
-	IDSC(desc_286 + 336, 147, 285);
-	IDSC(desc_286 + 338, 54, 285);
-	IDSC(desc_286 + 361, 216, 285);
+	IDSC(desc_286 + 336, 142, 285);
+	IDSC(desc_286 + 338, 58, 285);
+	IDSC(desc_286 + 361, 215, 285);
 	IDSC(desc_286 + 380, 156, 285);
-	IDSC(desc_286 + 381, 76, 285);
+	IDSC(desc_286 + 381, 37, 285);
 }
 
 

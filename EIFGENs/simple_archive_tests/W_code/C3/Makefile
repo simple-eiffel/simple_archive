@@ -41,14 +41,14 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 
 OBJECTS = big_file_C3_c.obj 
 
-OLDOBJECTS =  rt73.obj rt73d.obj ex92.obj ex92d.obj in90.obj in90d.obj it80.obj it80d.obj rt72.obj \
+OLDOBJECTS =  rt73.obj rt73d.obj ex92.obj ex92d.obj in90.obj in90d.obj it85.obj it85d.obj rt72.obj \
 	rt72d.obj de93.obj de93d.obj co98.obj co98d.obj fl96.obj fl96d.obj ex91.obj ex91d.obj \
-	in88.obj in88d.obj in89.obj in89d.obj in87.obj in87d.obj st78.obj st78d.obj ob70.obj \
-	ob70d.obj se66.obj se66d.obj se67.obj se67d.obj st77.obj st77d.obj st86.obj st86d.obj \
-	nu81.obj nu81d.obj st83.obj st83d.obj he85.obj he85d.obj re79.obj re79d.obj st84.obj \
-	st84d.obj st76.obj st76d.obj it75.obj it75d.obj rt74.obj rt74d.obj rt71.obj rt71d.obj \
-	op97.obj op97d.obj ha95.obj ha95d.obj ob68.obj ob68d.obj ob69.obj ob69d.obj in82.obj \
-	in82d.obj ma94.obj ma94d.obj 
+	in88.obj in88d.obj in89.obj in89d.obj in87.obj in87d.obj st77.obj st77d.obj ob70.obj \
+	ob70d.obj se66.obj se66d.obj se67.obj se67d.obj it86.obj it86d.obj re84.obj re84d.obj \
+	st76.obj st76d.obj nu78.obj nu78d.obj st83.obj st83d.obj st75.obj st75d.obj st82.obj \
+	st82d.obj st80.obj st80d.obj he81.obj he81d.obj rt74.obj rt74d.obj rt71.obj rt71d.obj \
+	op97.obj op97d.obj ha95.obj ha95d.obj ob68.obj ob68d.obj ob69.obj ob69d.obj in79.obj \
+	in79d.obj ma94.obj ma94d.obj 
 
 all::  Cobj3.lib
 

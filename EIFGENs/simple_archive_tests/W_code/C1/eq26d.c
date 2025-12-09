@@ -26,7 +26,7 @@ static const EIF_TYPE_INDEX egt_13_26 [] = {0xFF01,283,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_26 [] = {0xFF01,283,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_26 [] = {0xFF01,280,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_26 [] = {0xFF01,280,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_26 [] = {0xFF01,984,0xFF01,283,0xFFFF};
+static const EIF_TYPE_INDEX egt_17_26 [] = {0xFF01,540,0xFF01,283,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_26 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_26 [] = {0xFF01,284,0xFFFF};
 
@@ -85,7 +85,7 @@ void Init26(void)
 {
 	IDSC(desc_26, 0, 25);
 	IDSC(desc_26 + 1, 4, 25);
-	IDSC(desc_26 + 32, 47, 25);
+	IDSC(desc_26 + 32, 44, 25);
 }
 
 

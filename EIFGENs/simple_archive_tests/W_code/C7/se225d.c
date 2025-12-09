@@ -22,24 +22,24 @@ static const EIF_TYPE_INDEX egt_9_225 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_225 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_225 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_225 [] = {0xFF01,224,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_225 [] = {0xFF01,699,238,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_225 [] = {0xFF01,714,238,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_225 [] = {307,0xFF01,91,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_225 [] = {0xFF01,42,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_225 [] = {354,0xFF01,14,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_225 [] = {311,0xFF01,14,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_225 [] = {0xFF01,182,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_225 [] = {0xFF01,186,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_225 [] = {0xFF01,360,0xFF01,0,0xFFFF};
+static const EIF_TYPE_INDEX egt_19_225 [] = {0xFF01,313,0xFF01,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_225 [] = {0xFF01,15,0xFFFF};
-static const EIF_TYPE_INDEX egt_21_225 [] = {397,238,0xFFFF};
-static const EIF_TYPE_INDEX egt_22_225 [] = {0xFF01,360,0,0xFFFF};
+static const EIF_TYPE_INDEX egt_21_225 [] = {387,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_22_225 [] = {0xFF01,313,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_23_225 [] = {0xFF01,194,0xFFFF};
 static const EIF_TYPE_INDEX egt_24_225 [] = {0xFF01,229,0xFFFF};
-static const EIF_TYPE_INDEX egt_25_225 [] = {360,397,238,0xFFFF};
-static const EIF_TYPE_INDEX egt_26_225 [] = {455,0xFF01,0xFFF9,1,233,0xFF01,281,0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_27_225 [] = {455,0xFF01,0xFFF9,2,233,0xFF01,281,238,0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_28_225 [] = {0xFF01,379,0xFF01,5,238,0xFFFF};
-static const EIF_TYPE_INDEX egt_29_225 [] = {0xFF01,354,0xFF01,0xFFF9,2,233,0xFF01,0,0xFF01,229,0xFFFF};
-static const EIF_TYPE_INDEX egt_30_225 [] = {0xFF01,373,0xFF01,0xFFF9,2,233,238,238,0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_25_225 [] = {313,387,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_26_225 [] = {370,0xFF01,0xFFF9,1,233,0xFF01,281,0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_27_225 [] = {370,0xFF01,0xFFF9,2,233,0xFF01,281,238,0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_28_225 [] = {0xFF01,381,0xFF01,5,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_29_225 [] = {0xFF01,311,0xFF01,0xFFF9,2,233,0xFF01,0,0xFF01,229,0xFFFF};
+static const EIF_TYPE_INDEX egt_30_225 [] = {0xFF01,375,0xFF01,0xFFF9,2,233,238,238,0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_31_225 [] = {0xFF01,5,0xFFFF};
 
 
@@ -178,7 +178,7 @@ void Init225(void)
 	IDSC(desc_225 + 32, 295, 224);
 	IDSC(desc_225 + 37, 137, 224);
 	IDSC(desc_225 + 48, 187, 224);
-	IDSC(desc_225 + 100, 65, 224);
+	IDSC(desc_225 + 100, 68, 224);
 	IDSC(desc_225 + 102, 184, 224);
 }
 

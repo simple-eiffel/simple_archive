@@ -64,7 +64,7 @@ void Init137(void)
 {
 	IDSC(desc_137, 0, 136);
 	IDSC(desc_137 + 1, 4, 136);
-	IDSC(desc_137 + 32, 64, 136);
+	IDSC(desc_137 + 32, 66, 136);
 }
 
 

@@ -25,7 +25,7 @@ static const EIF_TYPE_INDEX egt_12_265 [] = {0xFF01,264,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_265 [] = {0xFF01,264,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_265 [] = {0xFF01,264,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_265 [] = {0xFF01,264,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_265 [] = {0xFF01,9,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_265 [] = {0xFF01,12,0xFFFF};
 
 
 static const struct desc_info desc_265[] = {
@@ -109,7 +109,7 @@ void Init265(void)
 	IDSC(desc_265, 0, 264);
 	IDSC(desc_265 + 1, 4, 264);
 	IDSC(desc_265 + 32, 98, 264);
-	IDSC(desc_265 + 36, 180, 264);
+	IDSC(desc_265 + 36, 172, 264);
 	IDSC(desc_265 + 39, 82, 264);
 	IDSC(desc_265 + 41, 86, 264);
 }

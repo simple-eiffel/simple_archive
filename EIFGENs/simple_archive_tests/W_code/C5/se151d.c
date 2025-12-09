@@ -191,9 +191,9 @@ void Init151(void)
 {
 	IDSC(desc_151, 0, 150);
 	IDSC(desc_151 + 1, 4, 150);
-	IDSC(desc_151 + 32, 186, 150);
+	IDSC(desc_151 + 32, 191, 150);
 	IDSC(desc_151 + 80, 293, 150);
-	IDSC(desc_151 + 91, 69, 150);
+	IDSC(desc_151 + 91, 71, 150);
 	IDSC(desc_151 + 142, 185, 150);
 }
 

@@ -41,9 +41,9 @@ extern void EIF_Minit73(void);
 }
 #endif
 
+#include "eif_main.h"
 #include "eif_debug.h"
 #include "eif_scoop.h"
-#include "eif_main.h"
 #include "eif_out.h"
 
 #ifdef __cplusplus
@@ -581,9 +581,9 @@ EIF_TYPED_VALUE F73_1309 (EIF_REFERENCE Current)
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
-	RTDBGAL(0, 0xF800016B, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000141, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,363,0xFFF9,0,233,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,321,0xFFF9,0,233,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -1902,9 +1902,9 @@ EIF_TYPED_VALUE F73_1325 (EIF_REFERENCE Current)
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
-	RTDBGAL(0, 0xF8000134, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000173, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,308,297,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,371,297,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

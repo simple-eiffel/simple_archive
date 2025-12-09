@@ -69,7 +69,7 @@ void Init3(void)
 {
 	IDSC(desc_3, 0, 2);
 	IDSC(desc_3 + 1, 4, 2);
-	IDSC(desc_3 + 32, 327, 2);
+	IDSC(desc_3 + 32, 326, 2);
 }
 
 

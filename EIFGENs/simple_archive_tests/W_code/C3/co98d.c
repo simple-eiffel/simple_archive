@@ -121,7 +121,7 @@ void Init98(void)
 	IDSC(desc_98 + 1, 4, 97);
 	IDSC(desc_98 + 32, 138, 97);
 	IDSC(desc_98 + 33, 34, 97);
-	IDSC(desc_98 + 64, 126, 97);
+	IDSC(desc_98 + 64, 127, 97);
 }
 
 

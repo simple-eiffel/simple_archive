@@ -65,7 +65,7 @@ void Init224(void)
 {
 	IDSC(desc_224, 0, 223);
 	IDSC(desc_224 + 1, 4, 223);
-	IDSC(desc_224 + 32, 65, 223);
+	IDSC(desc_224 + 32, 68, 223);
 }
 
 

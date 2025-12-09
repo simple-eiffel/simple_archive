@@ -22,10 +22,10 @@ static const EIF_TYPE_INDEX egt_9_212 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_212 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_212 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_212 [] = {0xFF01,211,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_212 [] = {0xFF01,381,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_212 [] = {0xFF01,397,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_212 [] = {238,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_212 [] = {0xFF01,533,271,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_212 [] = {0xFF01,380,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_212 [] = {0xFF01,512,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_212 [] = {0xFF01,384,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_212 [] = {0xFF01,211,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_212 [] = {238,0xFFFF};
 
@@ -129,15 +129,15 @@ void Init212(void)
 	IDSC(desc_212 + 32, 307, 211);
 	IDSC(desc_212 + 41, 271, 211);
 	IDSC(desc_212 + 42, 222, 211);
-	IDSC(desc_212 + 49, 74, 211);
+	IDSC(desc_212 + 49, 76, 211);
 	IDSC(desc_212 + 58, 226, 211);
 	IDSC(desc_212 + 59, 355, 211);
-	IDSC(desc_212 + 68, 266, 211);
+	IDSC(desc_212 + 68, 250, 211);
 	IDSC(desc_212 + 74, 308, 211);
-	IDSC(desc_212 + 75, 77, 211);
+	IDSC(desc_212 + 75, 36, 211);
 	IDSC(desc_212 + 79, 81, 211);
 	IDSC(desc_212 + 87, 310, 211);
-	IDSC(desc_212 + 88, 76, 211);
+	IDSC(desc_212 + 88, 37, 211);
 }
 
 

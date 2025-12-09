@@ -74,9 +74,9 @@ void Init206(void)
 {
 	IDSC(desc_206, 0, 205);
 	IDSC(desc_206 + 1, 4, 205);
-	IDSC(desc_206 + 32, 154, 205);
-	IDSC(desc_206 + 34, 265, 205);
-	IDSC(desc_206 + 39, 77, 205);
+	IDSC(desc_206 + 32, 147, 205);
+	IDSC(desc_206 + 34, 270, 205);
+	IDSC(desc_206 + 39, 36, 205);
 }
 
 

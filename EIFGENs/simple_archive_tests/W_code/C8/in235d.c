@@ -161,7 +161,7 @@ void Init235(void)
 	IDSC(desc_235, 0, 234);
 	IDSC(desc_235 + 1, 4, 234);
 	IDSC(desc_235 + 32, 98, 234);
-	IDSC(desc_235 + 36, 180, 234);
+	IDSC(desc_235 + 36, 172, 234);
 	IDSC(desc_235 + 39, 96, 234);
 	IDSC(desc_235 + 94, 82, 234);
 	IDSC(desc_235 + 96, 229, 234);

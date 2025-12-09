@@ -216,7 +216,7 @@ EIF_TYPED_VALUE F42_861 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 				tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(847, dtype))(Current, ur1x)).it_b);
 				if (tb1) {
 					RTHOOK(13);
-					RTDBGAL(5, 0xF8000162, 0, 0); /* loc5 */
+					RTDBGAL(5, 0xF8000137, 0, 0); /* loc5 */
 					ui4_1 = (EIF_INTEGER_32) (loc2 + ((EIF_INTEGER_32) 1L));
 					ui4_2 = (EIF_INTEGER_32) (loc3 - ((EIF_INTEGER_32) 1L));
 					tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4881, "substring", loc4))(loc4, ui4_1x, ui4_2x)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
@@ -332,7 +332,7 @@ body:;
 	tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(844, dtype))(Current)).it_b);
 	if ((EIF_BOOLEAN) !tb1) {
 		RTHOOK(3);
-		RTDBGAL(1, 0xF80003D8, 0, 0); /* loc1 */
+		RTDBGAL(1, 0xF800021C, 0, 0); /* loc1 */
 		tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(849, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 		loc1 = (EIF_REFERENCE) RTCCL(tr1);
 		RTHOOK(4);
@@ -665,9 +665,9 @@ label_1:
 	}
 body:;
 	RTHOOK(2);
-	RTDBGAL(0, 0xF8000162, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000137, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,354,0xFF01,282,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,311,0xFF01,282,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -737,7 +737,7 @@ body:;
 		(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(3143, "extend", Result))(Result, ur1x);
 	} else {
 		RTHOOK(17);
-		RTDBGAL(0, 0xF8000162, 0,0); /* Result */
+		RTDBGAL(0, 0xF8000137, 0,0); /* Result */
 		Result = (EIF_REFERENCE) NULL;
 	}
 	RTVI(Current, RTAL);
@@ -799,9 +799,9 @@ EIF_TYPED_VALUE F42_865 (EIF_REFERENCE Current)
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
-	RTDBGAL(0, 0xF80003D8, 0,0); /* Result */
+	RTDBGAL(0, 0xF800021C, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,984,0xFF01,281,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,540,0xFF01,281,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

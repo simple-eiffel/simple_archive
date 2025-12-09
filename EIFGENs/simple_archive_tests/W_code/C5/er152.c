@@ -20,7 +20,7 @@ extern void F152_2122(EIF_REFERENCE, EIF_TYPED_VALUE);
 extern void F152_2123(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE);
 extern EIF_TYPED_VALUE F152_2124(EIF_REFERENCE);
 extern void EIF_Minit152(void);
-extern EIF_REFERENCE _A310_54_2();
+extern EIF_REFERENCE _A347_54_2();
 
 #ifdef __cplusplus
 }
@@ -82,9 +82,9 @@ void F152_2116 (EIF_REFERENCE Current)
 	RTDBGEAA(151, Current, 2125);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAA(Current, dtype, 1916, 0xF8000135, 0); /* error_messages */
+	RTDBGAA(Current, dtype, 1916, 0xF800015A, 0); /* error_messages */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,354,0xFF01,2,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,311,0xFF01,2,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -98,7 +98,7 @@ void F152_2116 (EIF_REFERENCE Current)
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(1916, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(2);
-	RTDBGAA(Current, dtype, 1922, 0xF80001EA, 0); /* error_listeners */
+	RTDBGAA(Current, dtype, 1922, 0xF80003AE, 0); /* error_listeners */
 	tr1 = RTLNSMART(RTWCT(1922, dtype, dftype).id);
 	(FUNCTION_CAST(void, (EIF_REFERENCE)) RTWC(32, Dtype(tr1)))(tr1);
 	RTNHOOK(2,1);
@@ -107,7 +107,7 @@ void F152_2116 (EIF_REFERENCE Current)
 	*(EIF_REFERENCE *)(Current + RTWA(1922, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(3);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFFF9,1,233,0xFF01,309,0xFF01,2,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFFF9,1,233,0xFF01,346,0xFF01,2,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -119,7 +119,7 @@ void F152_2116 (EIF_REFERENCE Current)
 	RTAR(tr1,tr2);
 	ui4_1 = ((EIF_INTEGER_32) 1L);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {397,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {387,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -132,12 +132,12 @@ void F152_2116 (EIF_REFERENCE Current)
 	tr2 = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE))  RTWF(3627, Dtype(tr3)))(tr3).it_r;
 	
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,331,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,337,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
 		typres0 = (typcache0.id != INVALID_DTYPE ? typcache0 : (typcache0 = eif_compound_id(dftype, typarr0)));
-		tr4= RTLNRW(typres0.id, 0, (EIF_POINTER) _A310_54_2, (EIF_POINTER)(0),3188, tr2, 0, 1, -1, tr1, 1);
+		tr4= RTLNRW(typres0.id, 0, (EIF_POINTER) _A347_54_2, (EIF_POINTER)(0),3188, tr2, 0, 1, -1, tr1, 1);
 	}
 	ur1 = RTCCL(tr4);
 	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(1918, dtype))(Current, ur1x);
@@ -302,7 +302,7 @@ void F152_2120 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTGC;
 	RTDBGEAA(151, Current, 2129);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,331,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,337,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

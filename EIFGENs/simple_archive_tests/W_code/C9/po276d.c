@@ -10,7 +10,7 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_276 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_276 [] = {0xFF01,336,275,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_276 [] = {0xFF01,353,275,0xFFFF};
 static const EIF_TYPE_INDEX egt_2_276 [] = {0xFF01,275,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_276 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_276 [] = {0,0xFFFF};
@@ -58,9 +58,9 @@ static const struct desc_info desc_276[] = {
 	{EIF_NON_GENERIC(0x0227 /*275*/), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_12_276), 30, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 1379, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 1380, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 1381, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 1494, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 1495, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 1496, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x01DD /*238*/), 13251, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x021F /*271*/), 13222, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 13217, 0},
@@ -91,9 +91,9 @@ void Init276(void)
 {
 	IDSC(desc_276, 0, 275);
 	IDSC(desc_276 + 1, 4, 275);
-	IDSC(desc_276 + 32, 204, 275);
+	IDSC(desc_276 + 32, 198, 275);
 	IDSC(desc_276 + 35, 82, 275);
-	IDSC(desc_276 + 37, 73, 275);
+	IDSC(desc_276 + 37, 75, 275);
 }
 
 

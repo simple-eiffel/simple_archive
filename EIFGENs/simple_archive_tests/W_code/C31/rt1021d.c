@@ -1,5 +1,5 @@
 /*
- * Class RT_DBG_ATTRIBUTE_RECORD [POINTER]
+ * Class RT_DBG_LOCAL_RECORD [POINTER]
  */
 
 #include "eif_macros.h"
@@ -23,18 +23,17 @@ static const EIF_TYPE_INDEX egt_10_1021 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_1021 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_1021 [] = {1020,274,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_1021 [] = {0xFF01,1020,274,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_1021 [] = {0xFF01,354,0xFF01,221,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_1021 [] = {354,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_1021 [] = {0xFF01,311,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_1021 [] = {311,0xFF01,221,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_1021 [] = {0xFF01,186,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_1021 [] = {0xFF01,182,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_1021 [] = {0xFFF9,2,233,238,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_1021 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_20_1021 [] = {0xFF01,0,0xFFFF};
-static const EIF_TYPE_INDEX egt_21_1021 [] = {0xFF02,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_22_1021 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_23_1021 [] = {0xFF02,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_24_1021 [] = {0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_25_1021 [] = {0xFF01,284,0xFFFF};
+static const EIF_TYPE_INDEX egt_20_1021 [] = {0xFF02,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_21_1021 [] = {0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_22_1021 [] = {0xFF02,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_23_1021 [] = {0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_24_1021 [] = {0xFF01,284,0xFFFF};
 
 
 static const struct desc_info desc_1021[] = {
@@ -141,8 +140,8 @@ static const struct desc_info desc_1021[] = {
 	{EIF_GENERIC(NULL), 2671, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_16_1021), 2672, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_17_1021), 2673, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 8261, 20},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 8262, 24},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 8261, 12},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 8262, 16},
 	{EIF_GENERIC(egt_18_1021), 8263, 0},
 	{EIF_NON_GENERIC(0x01BB /*221*/), 8764, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x01 /*0*/), 8765, 0xFFFFFFFF},
@@ -153,15 +152,17 @@ static const struct desc_info desc_1021[] = {
 	{EIF_GENERIC(NULL), 8770, 0xFFFFFFFF},
 	{EIF_GENERIC(NULL), 8771, 0xFFFFFFFF},
 	{EIF_GENERIC(NULL), 8772, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 8758, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01 /*0*/), 8759, 0xFFFFFFFF},
 	{EIF_GENERIC(NULL), 8760, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_20_1021), 8761, 8},
-	{EIF_GENERIC(egt_21_1021), 8762, 32},
-	{EIF_NON_GENERIC(0x01F5 /*250*/), 8763, 16},
+	{EIF_GENERIC(egt_20_1021), 8761, 24},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 8762, 20},
+	{EIF_NON_GENERIC(0x01F5 /*250*/), 8763, 8},
 	{EIF_GENERIC(NULL), 8773, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_22_1021), 8774, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_23_1021), 8775, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_24_1021), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_25_1021), 8768, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_21_1021), 8774, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_22_1021), 8775, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_23_1021), 0x00, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_24_1021), 8768, 0xFFFFFFFF},
 };
 void Init1021(void)
 {
@@ -173,7 +174,7 @@ void Init1021(void)
 	IDSC(desc_1021 + 60, 234, 1020);
 	IDSC(desc_1021 + 103, 232, 1020);
 	IDSC(desc_1021 + 115, 315, 1020);
-	IDSC(desc_1021 + 123, 99, 1020);
+	IDSC(desc_1021 + 125, 99, 1020);
 }
 
 

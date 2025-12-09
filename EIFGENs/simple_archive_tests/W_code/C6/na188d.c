@@ -64,7 +64,7 @@ void Init188(void)
 {
 	IDSC(desc_188, 0, 187);
 	IDSC(desc_188 + 1, 4, 187);
-	IDSC(desc_188 + 32, 155, 187);
+	IDSC(desc_188 + 32, 148, 187);
 }
 
 

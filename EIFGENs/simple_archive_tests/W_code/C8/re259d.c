@@ -123,7 +123,7 @@ void Init259(void)
 	IDSC(desc_259, 0, 258);
 	IDSC(desc_259 + 1, 4, 258);
 	IDSC(desc_259 + 32, 98, 258);
-	IDSC(desc_259 + 36, 180, 258);
+	IDSC(desc_259 + 36, 172, 258);
 	IDSC(desc_259 + 39, 88, 258);
 	IDSC(desc_259 + 66, 82, 258);
 	IDSC(desc_259 + 68, 229, 258);

@@ -22,7 +22,7 @@ static const EIF_TYPE_INDEX egt_9_185 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_185 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_185 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_185 [] = {0xFF01,184,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_185 [] = {354,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_185 [] = {311,0xFF01,221,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_185 [] = {0xFF01,186,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_185 [] = {0xFF01,182,0xFFFF};
 

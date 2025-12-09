@@ -26,12 +26,12 @@ static const EIF_TYPE_INDEX egt_13_227 [] = {0xFF01,229,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_227 [] = {0xFF01,304,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_227 [] = {0xFF01,304,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_227 [] = {0xFF01,165,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_227 [] = {0xFF01,17,0xFFFF};
+static const EIF_TYPE_INDEX egt_17_227 [] = {0xFF01,16,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_227 [] = {0xFF01,280,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_227 [] = {0xFF01,282,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_227 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_21_227 [] = {0xFF01,17,0xFFFF};
-static const EIF_TYPE_INDEX egt_22_227 [] = {0xFF01,17,0xFFFF};
+static const EIF_TYPE_INDEX egt_21_227 [] = {0xFF01,16,0xFFFF};
+static const EIF_TYPE_INDEX egt_22_227 [] = {0xFF01,16,0xFFFF};
 
 
 static const struct desc_info desc_227[] = {
@@ -90,9 +90,9 @@ void Init227(void)
 {
 	IDSC(desc_227, 0, 226);
 	IDSC(desc_227 + 1, 4, 226);
-	IDSC(desc_227 + 32, 65, 226);
-	IDSC(desc_227 + 34, 44, 226);
-	IDSC(desc_227 + 46, 173, 226);
+	IDSC(desc_227 + 32, 68, 226);
+	IDSC(desc_227 + 34, 45, 226);
+	IDSC(desc_227 + 46, 167, 226);
 }
 
 

@@ -1,5 +1,5 @@
 /*
- * Class EQA_FILE_SYSTEM
+ * Class EQA_TEST_INVOCATION_RESPONSE
  */
 
 #include "eif_macros.h"
@@ -22,14 +22,6 @@ static const EIF_TYPE_INDEX egt_9_17 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_17 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_17 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_17 [] = {0xFF01,16,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_17 [] = {0xFF01,45,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_17 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_17 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_17 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_17 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_17 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_17 [] = {0xFF01,284,0xFFFF};
-static const EIF_TYPE_INDEX egt_20_17 [] = {0xFF01,284,0xFFFF};
 
 
 static const struct desc_info desc_17[] = {
@@ -65,27 +57,17 @@ static const struct desc_info desc_17[] = {
 	{EIF_NON_GENERIC(0x21 /*16*/), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_12_17), 30, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 353, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_13_17), 354, 0},
-	{EIF_GENERIC(NULL), 355, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_14_17), 356, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_15_17), 357, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_16_17), 358, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_17_17), 359, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 360, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 361, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x0239 /*284*/), 362, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_18_17), 363, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 364, 0xFFFFFFFF},
 	{EIF_GENERIC(NULL), 350, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_19_17), 351, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_20_17), 352, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 351, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x0263 /*305*/), 352, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x0263 /*305*/), 353, 0},
+	{EIF_NON_GENERIC(0x021F /*271*/), 354, 0xFFFFFFFF},
 };
 void Init17(void)
 {
 	IDSC(desc_17, 0, 16);
 	IDSC(desc_17 + 1, 4, 16);
-	IDSC(desc_17 + 32, 177, 16);
+	IDSC(desc_17 + 32, 165, 16);
 }
 
 

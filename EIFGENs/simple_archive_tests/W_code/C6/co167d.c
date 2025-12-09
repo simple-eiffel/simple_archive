@@ -72,7 +72,7 @@ void Init167(void)
 	IDSC(desc_167, 0, 166);
 	IDSC(desc_167 + 1, 4, 166);
 	IDSC(desc_167 + 32, 98, 166);
-	IDSC(desc_167 + 36, 180, 166);
+	IDSC(desc_167 + 36, 172, 166);
 }
 
 

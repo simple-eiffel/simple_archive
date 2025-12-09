@@ -70,8 +70,8 @@ void Init232(void)
 	IDSC(desc_232, 0, 231);
 	IDSC(desc_232 + 1, 4, 231);
 	IDSC(desc_232 + 32, 82, 231);
-	IDSC(desc_232 + 34, 212, 231);
-	IDSC(desc_232 + 37, 211, 231);
+	IDSC(desc_232 + 34, 197, 231);
+	IDSC(desc_232 + 37, 196, 231);
 }
 
 

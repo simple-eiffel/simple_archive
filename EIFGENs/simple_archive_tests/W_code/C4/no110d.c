@@ -104,7 +104,7 @@ void Init110(void)
 	IDSC(desc_110 + 1, 4, 109);
 	IDSC(desc_110 + 32, 138, 109);
 	IDSC(desc_110 + 33, 34, 109);
-	IDSC(desc_110 + 64, 131, 109);
+	IDSC(desc_110 + 64, 132, 109);
 }
 
 

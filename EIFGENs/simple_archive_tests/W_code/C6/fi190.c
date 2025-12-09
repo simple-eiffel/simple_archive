@@ -75,8 +75,8 @@ extern void EIF_Minit190(void);
 }
 #endif
 
-#include "eif_file.h"
 #include "eif_eiffel.h"
+#include "eif_file.h"
 
 #ifdef __cplusplus
 extern "C" {

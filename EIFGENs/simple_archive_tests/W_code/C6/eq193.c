@@ -576,7 +576,7 @@ EIF_TYPED_VALUE F193_2866 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYP
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(2268, dtype))(Current, ui4_1x)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	loc2 = RTCCL(tr1);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,1021,0xFF01,49,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,985,0xFF01,49,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -603,7 +603,7 @@ EIF_TYPED_VALUE F193_2866 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYP
 	((EIF_TYPED_VALUE *)tr1+2)->it_i4 = arg2;
 	ui4_1 = ((EIF_INTEGER_32) 1L);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {397,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {387,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -616,7 +616,7 @@ EIF_TYPED_VALUE F193_2866 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYP
 	tr2 = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE))  RTWF(3627, Dtype(tr3)))(tr3).it_r;
 	
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,331,0xFF01,0xFFF9,1,233,0xFF01,49,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,337,0xFF01,0xFFF9,1,233,0xFF01,49,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

@@ -157,7 +157,7 @@ void Init250(void)
 	IDSC(desc_250, 0, 249);
 	IDSC(desc_250 + 1, 4, 249);
 	IDSC(desc_250 + 32, 98, 249);
-	IDSC(desc_250 + 36, 180, 249);
+	IDSC(desc_250 + 36, 172, 249);
 	IDSC(desc_250 + 39, 91, 249);
 	IDSC(desc_250 + 91, 82, 249);
 	IDSC(desc_250 + 93, 229, 249);

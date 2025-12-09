@@ -124,7 +124,7 @@ void Init136(void)
 	IDSC(desc_136 + 1, 4, 135);
 	IDSC(desc_136 + 32, 129, 135);
 	IDSC(desc_136 + 65, 138, 135);
-	IDSC(desc_136 + 66, 61, 135);
+	IDSC(desc_136 + 66, 63, 135);
 }
 
 

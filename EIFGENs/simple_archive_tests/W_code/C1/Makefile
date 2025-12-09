@@ -44,8 +44,8 @@ OBJECTS = big_file_C1_c.obj
 OLDOBJECTS =  an1.obj an1d.obj si27.obj si27d.obj eq26.obj eq26d.obj ut24.obj ut24d.obj ut25.obj \
 	ut25d.obj is23.obj is23d.obj st22.obj st22d.obj op21.obj op21d.obj rt20.obj rt20d.obj \
 	sy19.obj sy19d.obj eq18.obj eq18d.obj eq17.obj eq17d.obj se16.obj se16d.obj se15.obj \
-	se15d.obj sy14.obj sy14d.obj co13.obj co13d.obj en12.obj en12d.obj sy11.obj sy11d.obj \
-	ch10.obj ch10d.obj ta9.obj ta9d.obj c_8.obj c_8d.obj eq7.obj eq7d.obj se6.obj se6d.obj \
+	se15d.obj sy14.obj sy14d.obj ch13.obj ch13d.obj sy12.obj sy12d.obj en11.obj en11d.obj \
+	co10.obj co10d.obj ta9.obj ta9d.obj eq8.obj eq8d.obj c_7.obj c_7d.obj se6.obj se6d.obj \
 	se5.obj se5d.obj it4.obj it4d.obj er3.obj er3d.obj pa2.obj pa2d.obj se32.obj se32d.obj \
 	en31.obj en31d.obj co30.obj co30d.obj da29.obj da29d.obj da28.obj da28d.obj 
 

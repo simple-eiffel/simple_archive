@@ -1558,9 +1558,9 @@ EIF_TYPED_VALUE F189_2759 (EIF_REFERENCE Current)
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
-	RTDBGAL(0, 0xF8000172, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000174, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,370,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,372,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

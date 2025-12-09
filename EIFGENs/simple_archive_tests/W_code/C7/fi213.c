@@ -230,10 +230,10 @@ extern void EIF_Minit213(void);
 }
 #endif
 
-#include "eif_file.h"
 #include "eif_retrieve.h"
-#include "eif_helpers.h"
+#include "eif_file.h"
 #include "eif_store.h"
+#include "eif_helpers.h"
 
 #ifdef __cplusplus
 extern "C" {

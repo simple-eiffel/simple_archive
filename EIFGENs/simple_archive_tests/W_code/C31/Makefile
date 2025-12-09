@@ -41,16 +41,16 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 
 OBJECTS = big_file_C31_c.obj 
 
-OLDOBJECTS =  ty993.obj ty993d.obj ty994.obj ty994d.obj ty995.obj ty995d.obj eq1022.obj \
-	eq1022d.obj ha990.obj ha990d.obj ta992.obj ta992d.obj rt996.obj rt996d.obj rt997.obj \
-	rt997d.obj rt998.obj rt998d.obj rt999.obj rt999d.obj rt1000.obj rt1000d.obj \
-	rt1001.obj rt1001d.obj rt1002.obj rt1002d.obj rt1003.obj rt1003d.obj rt1004.obj \
-	rt1004d.obj rt1005.obj rt1005d.obj rt1006.obj rt1006d.obj rt1007.obj rt1007d.obj \
-	rt1008.obj rt1008d.obj rt1009.obj rt1009d.obj rt1010.obj rt1010d.obj rt1011.obj \
-	rt1011d.obj rt1012.obj rt1012d.obj rt1013.obj rt1013d.obj rt1014.obj rt1014d.obj \
-	rt1015.obj rt1015d.obj rt1016.obj rt1016d.obj rt1017.obj rt1017d.obj rt1018.obj \
-	rt1018d.obj rt1019.obj rt1019d.obj rt1020.obj rt1020d.obj rt1021.obj rt1021d.obj \
-	ta991.obj ta991d.obj 
+OLDOBJECTS =  ty990.obj ty990d.obj ty997.obj ty997d.obj ty998.obj ty998d.obj ty991.obj ty991d.obj \
+	ty999.obj ty999d.obj rt992.obj rt992d.obj rt995.obj rt995d.obj rt996.obj rt996d.obj \
+	rt1000.obj rt1000d.obj rt1001.obj rt1001d.obj rt1002.obj rt1002d.obj rt1003.obj \
+	rt1003d.obj rt1004.obj rt1004d.obj rt1005.obj rt1005d.obj rt1006.obj rt1006d.obj \
+	rt1007.obj rt1007d.obj rt1008.obj rt1008d.obj rt1009.obj rt1009d.obj rt1010.obj \
+	rt1010d.obj rt1011.obj rt1011d.obj rt1012.obj rt1012d.obj rt1013.obj rt1013d.obj \
+	rt1014.obj rt1014d.obj rt1015.obj rt1015d.obj rt1016.obj rt1016d.obj rt1017.obj \
+	rt1017d.obj rt1018.obj rt1018d.obj rt1019.obj rt1019d.obj rt1020.obj rt1020d.obj \
+	rt1021.obj rt1021d.obj rt1022.obj rt1022d.obj ar993.obj ar993d.obj st994.obj \
+	st994d.obj 
 
 all::  Cobj31.lib
 

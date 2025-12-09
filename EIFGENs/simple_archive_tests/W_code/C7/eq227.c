@@ -118,7 +118,7 @@ void F227_4716 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE ar
 		RTCK;
 		RTHOOK(5);
 		RTCT("a_setup_response_clean", EX_PRE);
-		tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", arg2))(arg2)).it_b);
+		tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", arg2))(arg2)).it_b);
 		RTTE((EIF_BOOLEAN) !tb1, label_1);
 		RTCK;
 		RTJB;
@@ -132,17 +132,17 @@ body:;
 	ur3 = RTCCL(arg5);
 	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTWF(3743, dtype))(Current, ur1x, ur2x, ur3x);
 	RTHOOK(7);
-	RTDBGAA(Current, dtype, 3747, 0xF8000011, 0); /* setup_response */
+	RTDBGAA(Current, dtype, 3747, 0xF8000010, 0); /* setup_response */
 	tr1 = RTCCL(arg2);
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(3747, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(8);
-	RTDBGAA(Current, dtype, 3756, 0xF8000011, 0); /* test_response */
+	RTDBGAA(Current, dtype, 3756, 0xF8000010, 0); /* test_response */
 	tr1 = RTCCL(arg3);
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(3756, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(9);
-	RTDBGAA(Current, dtype, 3757, 0xF8000011, 0); /* teardown_response */
+	RTDBGAA(Current, dtype, 3757, 0xF8000010, 0); /* teardown_response */
 	tr1 = RTCCL(arg4);
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(3757, dtype)) = (EIF_REFERENCE) tr1;
@@ -266,7 +266,7 @@ EIF_TYPED_VALUE F227_4719 (EIF_REFERENCE Current)
 	RTHOOK(1);
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	RTNHOOK(1,1);
-	tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(373, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
+	tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(358, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
 	loc1 = RTCCL(tr2);
 	if (EIF_TEST(loc1)) {
 		RTHOOK(2);
@@ -277,7 +277,7 @@ EIF_TYPED_VALUE F227_4719 (EIF_REFERENCE Current)
 		RTHOOK(3);
 		tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3757, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 		RTNHOOK(3,1);
-		tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(373, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
+		tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(358, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
 		loc2 = RTCCL(tr2);
 		if (EIF_TEST(loc2)) {
 			RTHOOK(4);
@@ -340,7 +340,7 @@ EIF_TYPED_VALUE F227_4720 (EIF_REFERENCE Current)
 	RTDBGAL(0, 0x04000000, 1,0); /* Result */
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	RTNHOOK(1,1);
-	tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", tr1))(tr1)).it_b);
+	tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", tr1))(tr1)).it_b);
 	Result = (EIF_BOOLEAN) (EIF_BOOLEAN) !tb1;
 	if (RTAL & CK_ENSURE) {
 		RTHOOK(2);
@@ -349,7 +349,7 @@ EIF_TYPED_VALUE F227_4720 (EIF_REFERENCE Current)
 		if (Result) {
 			tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 			RTNHOOK(2,1);
-			tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", tr1))(tr1)).it_b);
+			tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", tr1))(tr1)).it_b);
 			tb1 = (EIF_BOOLEAN) !tb2;
 		}
 		if (tb1) {
@@ -409,7 +409,7 @@ EIF_TYPED_VALUE F227_4721 (EIF_REFERENCE Current)
 		RTDBGAL(0, 0x04000000, 1,0); /* Result */
 		tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 		RTNHOOK(2,1);
-		tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", tr1))(tr1)).it_b);
+		tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", tr1))(tr1)).it_b);
 		Result = (EIF_BOOLEAN) tb1;
 	}
 	if (RTAL & CK_ENSURE) {
@@ -431,7 +431,7 @@ EIF_TYPED_VALUE F227_4721 (EIF_REFERENCE Current)
 		if (Result) {
 			tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 			RTNHOOK(4,1);
-			tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", tr1))(tr1)).it_b);
+			tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", tr1))(tr1)).it_b);
 			tb1 = tb2;
 		}
 		if (tb1) {
@@ -489,7 +489,7 @@ EIF_TYPED_VALUE F227_4722 (EIF_REFERENCE Current)
 	tb1 = '\01';
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	RTNHOOK(1,1);
-	tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", tr1))(tr1)).it_b);
+	tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", tr1))(tr1)).it_b);
 	if (!tb2) {
 		tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3758, dtype))(Current)).it_b);
 		tb1 = (EIF_BOOLEAN) !tb2;
@@ -525,7 +525,7 @@ EIF_TYPED_VALUE F227_4722 (EIF_REFERENCE Current)
 		tb1 = '\01';
 		tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 		RTNHOOK(4,1);
-		tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", tr1))(tr1)).it_b);
+		tb2 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", tr1))(tr1)).it_b);
 		if (tb2) {
 			tb1 = Result;
 		}
@@ -595,7 +595,7 @@ EIF_TYPED_VALUE F227_4723 (EIF_REFERENCE Current)
 	tb1 = '\01';
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	RTNHOOK(1,1);
-	tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(373, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
+	tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(358, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
 	loc1 = RTCCL(tr2);
 	if (!((EIF_BOOLEAN) !EIF_TEST(loc1))) {
 		tb2 = *(EIF_BOOLEAN *)(loc1 + RTVA(5427, "is_test_invalid", loc1));
@@ -610,7 +610,7 @@ EIF_TYPED_VALUE F227_4723 (EIF_REFERENCE Current)
 			tb2 = '\01';
 			tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3756, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 			RTNHOOK(2,1);
-			tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(373, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
+			tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(358, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
 			loc2 = RTCCL(tr2);
 			if (!((EIF_BOOLEAN) !EIF_TEST(loc2))) {
 				tb3 = *(EIF_BOOLEAN *)(loc2 + RTVA(5427, "is_test_invalid", loc2));
@@ -662,7 +662,7 @@ void F227_7365 (EIF_REFERENCE Current, int where)
 	RTME(dtype, 0);
 	RTIT("setup_clean", Current);
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3747, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
-	tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(375, "is_exceptional", tr1))(tr1)).it_b);
+	tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(360, "is_exceptional", tr1))(tr1)).it_b);
 	if ((EIF_BOOLEAN) !tb1) {
 		RTCK;
 	} else {

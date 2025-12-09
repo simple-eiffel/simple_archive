@@ -1,5 +1,5 @@
 /*
- * Code for class INDEXABLE_ITERATION_CURSOR [REAL_32]
+ * Code for class INFINITE [INTEGER_32]
  */
 
 #include "eif_eiffel.h"
@@ -10,7 +10,9 @@
 extern "C" {
 #endif
 
-extern void F725_7336(EIF_REFERENCE, int);
+extern EIF_TYPED_VALUE F725_3670(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F725_3671(EIF_REFERENCE);
+extern void F725_7341(EIF_REFERENCE, int);
 extern void EIF_Minit725(void);
 
 #ifdef __cplusplus
@@ -32,13 +34,31 @@ extern "C" {
 extern "C" {
 #endif
 
-/* {INDEXABLE_ITERATION_CURSOR}._invariant */
-void F725_7336 (EIF_REFERENCE Current, int where)
+/* {INFINITE}.is_empty */
+EIF_TYPED_VALUE F725_3670 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_BOOL;
+	r.it_b = (EIF_BOOLEAN) EIF_FALSE;
+	return r;
+}
+
+/* {INFINITE}.full */
+EIF_TYPED_VALUE F725_3671 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_BOOL;
+	r.it_b = (EIF_BOOLEAN) EIF_TRUE;
+	return r;
+}
+
+/* {INFINITE}._invariant */
+void F725_7341 (EIF_REFERENCE Current, int where)
 {
 	GTCX
 	char *l_feature_name = "_invariant";
 	RTEX;
-	EIF_INTEGER_32 ti4_1;
+	EIF_BOOLEAN tb1;
 	RTCDT;
 	RTLD;
 	RTDA;
@@ -48,12 +68,12 @@ void F725_7336 (EIF_REFERENCE Current, int where)
 	RTLIU(1);
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
-	RTEAINV(l_feature_name, 724, Current, 0, 7335);
+	RTEAINV(l_feature_name, 724, Current, 0, 7340);
 	RTSA(dtype);
 	RTME(dtype, 0);
-	RTIT("step_positive", Current);
-	ti4_1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3054, dtype))(Current)).it_i4);
-	if ((EIF_BOOLEAN) (ti4_1 > ((EIF_INTEGER_32) 0L))) {
+	RTIT("never_empty", Current);
+	tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3113, dtype))(Current)).it_b);
+	if ((EIF_BOOLEAN) !tb1) {
 		RTCK;
 	} else {
 		RTCF;

@@ -1,5 +1,5 @@
 /*
- * Class ITERABLE [NATURAL_8]
+ * Class ITERATION_CURSOR [NATURAL_8]
  */
 
 #include "eif_macros.h"
@@ -23,7 +23,7 @@ static const EIF_TYPE_INDEX egt_10_551 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_551 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_551 [] = {550,256,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_551 [] = {0xFF01,550,256,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_551 [] = {0xFF01,551,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_551 [] = {0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_551 [] = {0xFFF8,1,0xFFFF};
 
 
@@ -61,13 +61,15 @@ static const struct desc_info desc_551[] = {
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_13_551), 30, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_14_551), 0x00, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_15_551), 0x00, 0xFFFFFFFF},
 };
 void Init551(void)
 {
 	IDSC(desc_551, 0, 550);
 	IDSC(desc_551 + 1, 4, 550);
-	IDSC(desc_551 + 32, 76, 550);
+	IDSC(desc_551 + 32, 36, 550);
 }
 
 

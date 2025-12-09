@@ -25,13 +25,13 @@ static const EIF_TYPE_INDEX egt_12_467 [] = {466,268,0xFFF8,2,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_467 [] = {0xFF01,466,268,0xFFF8,2,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_467 [] = {0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_467 [] = {0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,464,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,464,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,464,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,464,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,461,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_17_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,461,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_18_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,461,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_19_467 [] = {0xFF01,466,0xFFF8,1,0xFF01,461,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_467 [] = {0xFFF8,2,0xFFFF};
 static const EIF_TYPE_INDEX egt_21_467 [] = {0xFFF8,2,0xFFFF};
-static const EIF_TYPE_INDEX egt_22_467 [] = {0xFF01,467,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_22_467 [] = {0xFF01,464,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_23_467 [] = {0xFFF8,1,0xFFFF};
 
 
@@ -95,10 +95,10 @@ void Init467(void)
 {
 	IDSC(desc_467, 0, 466);
 	IDSC(desc_467 + 1, 4, 466);
-	IDSC(desc_467 + 32, 77, 466);
+	IDSC(desc_467 + 32, 36, 466);
 	IDSC(desc_467 + 36, 220, 466);
 	IDSC(desc_467 + 50, 305, 466);
-	IDSC(desc_467 + 52, 76, 466);
+	IDSC(desc_467 + 52, 37, 466);
 }
 
 

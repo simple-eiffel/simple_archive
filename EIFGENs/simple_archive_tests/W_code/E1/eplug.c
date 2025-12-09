@@ -17,8 +17,8 @@ extern void F280_6482();
 extern void F283_6644();
 extern void F285_6808();
 extern void F283_6649();
-extern void F364_4158();
-extern void F328_6324();
+extern void F322_4158();
+extern void F334_6324();
 extern void F132_1649();
 extern EIF_REFERENCE F132_1636();
 extern EIF_BOOLEAN F132_1648();
@@ -43,10 +43,10 @@ void egc_init_plug (void)
 	egc_immstr8make_from_c_byte_array = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F280_6482;
 	egc_str32make = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE)) F283_6644;
 	egc_immstr32make_from_c_byte_array = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F283_6649;
-	egc_arrmake = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F364_4158;
+	egc_arrmake = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F322_4158;
 	egc_strset = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE)) F282_6640;
 	egc_str32set = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE)) F285_6808;
-	egc_routdisp_wb = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F328_6324;
+	egc_routdisp_wb = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F334_6324;
 	egc_is_scoop_capable = 0;
 	egc_set_exception_data = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F132_1649;
 	egc_set_last_exception = (void (*)(EIF_REFERENCE, EIF_TYPED_VALUE)) F132_1648;
@@ -63,27 +63,27 @@ void egc_init_plug (void)
 	egc_str32_dtype = 284;
 
 	egc_immstr32_dtype = 283;
-	egc_arr_dtype = 363;
+	egc_arr_dtype = 321;
 	egc_tup_dtype = 233;
 	egc_disp_rout_id = 2551;
 	egc_copy_rout_id = 18;
 	egc_is_equal_rout_id = 11;
 
-	egc_sp_char = 0x0246;
-	egc_sp_wchar = 0x0259;
-	egc_sp_bool = 0x0212;
-	egc_sp_uint8 = 0x0222;
-	egc_sp_uint16 = 0x0385;
-	egc_sp_uint32 = 0x02A7;
-	egc_sp_uint64 = 0x01A3;
-	egc_sp_int8 = 0x033D;
-	egc_sp_int16 = 0x0319;
-	egc_sp_int32 = 0x018D;
-	egc_sp_int64 = 0x0361;
-	egc_sp_real32 = 0x02D1;
-	egc_sp_real64 = 0x02F5;
-	egc_sp_pointer = 0x0292;
-	egc_sp_ref = 0x0168;
+	egc_sp_char = 0x0242;
+	egc_sp_wchar = 0x0253;
+	egc_sp_bool = 0x0203;
+	egc_sp_uint8 = 0x0221;
+	egc_sp_uint16 = 0x0389;
+	egc_sp_uint32 = 0x02A6;
+	egc_sp_uint64 = 0x01A5;
+	egc_sp_int8 = 0x0341;
+	egc_sp_int16 = 0x031D;
+	egc_sp_int32 = 0x0183;
+	egc_sp_int64 = 0x0365;
+	egc_sp_real32 = 0x02D5;
+	egc_sp_real64 = 0x02F9;
+	egc_sp_pointer = 0x0282;
+	egc_sp_ref = 0x0139;
 
 	egc_uint8_dtype = 256;
 	egc_uint16_dtype = 253;
@@ -123,7 +123,7 @@ void egc_init_plug (void)
 	egc_system_name = "simple_archive";
 	egc_system_location = "D:\\prod\\simple_archive\\EIFGENs\\simple_archive_tests\\W_code";
 	egc_compiler_tag = 39;
-	egc_project_version = 1765237871;
+	egc_project_version = 1765243793;
 	egc_has_old_special_semantic = 0;
 	scount = 1025;
 

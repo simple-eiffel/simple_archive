@@ -22,8 +22,8 @@ static const EIF_TYPE_INDEX egt_9_175 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_175 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_175 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_175 [] = {0xFF01,174,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_175 [] = {0xFF01,309,0xFF01,2,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_175 [] = {0xFF01,490,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_175 [] = {0xFF01,346,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_175 [] = {0xFF01,942,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_175 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_175 [] = {0xFF01,0xFFF9,2,233,0xFF01,281,0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_175 [] = {0xFF01,281,0xFFFF};
@@ -98,9 +98,9 @@ void Init175(void)
 {
 	IDSC(desc_175, 0, 174);
 	IDSC(desc_175 + 1, 4, 174);
-	IDSC(desc_175 + 32, 262, 174);
+	IDSC(desc_175 + 32, 267, 174);
 	IDSC(desc_175 + 40, 321, 174);
-	IDSC(desc_175 + 52, 252, 174);
+	IDSC(desc_175 + 52, 257, 174);
 }
 
 

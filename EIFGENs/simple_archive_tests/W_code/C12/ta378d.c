@@ -74,7 +74,7 @@ void Init378(void)
 	IDSC(desc_378, 0, 377);
 	IDSC(desc_378 + 1, 4, 377);
 	IDSC(desc_378 + 32, 318, 377);
-	IDSC(desc_378 + 34, 77, 377);
+	IDSC(desc_378 + 34, 36, 377);
 }
 
 

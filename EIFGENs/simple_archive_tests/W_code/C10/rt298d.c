@@ -22,14 +22,14 @@ static const EIF_TYPE_INDEX egt_9_298 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_298 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_298 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_298 [] = {0xFF01,297,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_298 [] = {0xFF01,354,0xFF01,221,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_298 [] = {354,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_298 [] = {0xFF01,311,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_298 [] = {311,0xFF01,221,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_298 [] = {0xFF01,186,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_298 [] = {0xFF01,182,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_298 [] = {0xFF02,219,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_298 [] = {0xFF02,219,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_298 [] = {219,0xFFFF};
-static const EIF_TYPE_INDEX egt_20_298 [] = {498,0xFF01,0xFFF9,2,233,0xFF01,219,354,0xFF01,0xFFF9,2,233,0xFF01,221,0xFF01,221,0xFFFF};
+static const EIF_TYPE_INDEX egt_20_298 [] = {949,0xFF01,0xFFF9,2,233,0xFF01,219,311,0xFF01,0xFFF9,2,233,0xFF01,221,0xFF01,221,0xFFFF};
 
 
 static const struct desc_info desc_298[] = {

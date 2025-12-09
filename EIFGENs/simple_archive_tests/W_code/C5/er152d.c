@@ -22,8 +22,8 @@ static const EIF_TYPE_INDEX egt_9_152 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_152 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_152 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_152 [] = {0xFF01,151,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_152 [] = {0xFF01,309,0xFF01,2,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_152 [] = {0xFF01,490,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_152 [] = {0xFF01,346,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_152 [] = {0xFF01,942,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 
 
 static const struct desc_info desc_152[] = {
@@ -72,7 +72,7 @@ void Init152(void)
 {
 	IDSC(desc_152, 0, 151);
 	IDSC(desc_152 + 1, 4, 151);
-	IDSC(desc_152 + 32, 262, 151);
+	IDSC(desc_152 + 32, 267, 151);
 }
 
 

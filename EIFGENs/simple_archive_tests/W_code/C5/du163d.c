@@ -80,8 +80,8 @@ void Init163(void)
 	IDSC(desc_163, 0, 162);
 	IDSC(desc_163 + 1, 4, 162);
 	IDSC(desc_163 + 32, 98, 162);
-	IDSC(desc_163 + 36, 286, 162);
-	IDSC(desc_163 + 39, 343, 162);
+	IDSC(desc_163 + 36, 282, 162);
+	IDSC(desc_163 + 39, 341, 162);
 }
 
 

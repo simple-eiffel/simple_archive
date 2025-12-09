@@ -1,5 +1,5 @@
 /*
- * Class CELL [NATURAL_64]
+ * Class CELL [G#1]
  */
 
 #include "eif_macros.h"
@@ -10,19 +10,19 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_372 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_372 [] = {0xFF01,307,371,247,0xFFFF};
-static const EIF_TYPE_INDEX egt_2_372 [] = {0xFF01,371,247,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_372 [] = {0xFF01,307,371,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_2_372 [] = {0xFF01,371,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_372 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_372 [] = {0,0xFFFF};
-static const EIF_TYPE_INDEX egt_5_372 [] = {0xFF01,371,247,0xFFFF};
-static const EIF_TYPE_INDEX egt_6_372 [] = {0xFF01,371,247,0xFFFF};
+static const EIF_TYPE_INDEX egt_5_372 [] = {0xFF01,371,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_6_372 [] = {0xFF01,371,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_7_372 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_8_372 [] = {0xFF01,21,0xFFFF};
 static const EIF_TYPE_INDEX egt_9_372 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_372 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_372 [] = {0xFF01,20,0xFFFF};
-static const EIF_TYPE_INDEX egt_12_372 [] = {371,247,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_372 [] = {0xFF01,371,247,0xFFFF};
+static const EIF_TYPE_INDEX egt_12_372 [] = {371,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_372 [] = {0xFF01,371,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_372 [] = {0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_372 [] = {0xFFF8,1,0xFFFF};
 
@@ -60,16 +60,16 @@ static const struct desc_info desc_372[] = {
 	{EIF_GENERIC(egt_12_372), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_13_372), 30, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_14_372), 1032, 0},
-	{EIF_GENERIC(NULL), 1033, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 1034, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_14_372), 1026, 0},
+	{EIF_GENERIC(NULL), 1027, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 1028, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_15_372), 0x00, 0xFFFFFFFF},
 };
 void Init372(void)
 {
 	IDSC(desc_372, 0, 371);
 	IDSC(desc_372 + 1, 4, 371);
-	IDSC(desc_372 + 32, 103, 371);
+	IDSC(desc_372 + 32, 101, 371);
 }
 
 

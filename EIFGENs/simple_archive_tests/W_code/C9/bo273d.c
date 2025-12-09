@@ -10,7 +10,7 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_273 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_273 [] = {0xFF01,349,272,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_273 [] = {0xFF01,366,272,0xFFFF};
 static const EIF_TYPE_INDEX egt_2_273 [] = {0xFF01,272,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_273 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_273 [] = {0,0xFFFF};

@@ -10,7 +10,7 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_251 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_251 [] = {0xFF01,341,250,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_251 [] = {0xFF01,358,250,0xFFFF};
 static const EIF_TYPE_INDEX egt_2_251 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_251 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_251 [] = {0,0xFFFF};
@@ -139,7 +139,7 @@ void Init251(void)
 	IDSC(desc_251 + 34, 229, 250);
 	IDSC(desc_251 + 44, 99, 250);
 	IDSC(desc_251 + 45, 98, 250);
-	IDSC(desc_251 + 49, 180, 250);
+	IDSC(desc_251 + 49, 172, 250);
 	IDSC(desc_251 + 52, 91, 250);
 }
 

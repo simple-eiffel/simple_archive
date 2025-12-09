@@ -42,14 +42,14 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 OBJECTS = big_file_C6_c.obj 
 
 OLDOBJECTS =  eq193.obj eq193d.obj di197.obj di197d.obj ex192.obj ex192d.obj in184.obj in184d.obj \
-	re183.obj re183d.obj re187.obj re187d.obj se179.obj se179d.obj fi178.obj fi178d.obj \
-	di177.obj di177d.obj li176.obj li176d.obj ma196.obj ma196d.obj fi190.obj fi190d.obj \
-	di194.obj di194d.obj na188.obj na188d.obj da166.obj da166d.obj na189.obj na189d.obj \
+	re183.obj re183d.obj re187.obj re187d.obj fi190.obj fi190d.obj ma196.obj ma196d.obj \
+	di194.obj di194d.obj na188.obj na188d.obj di179.obj di179d.obj fi178.obj fi178d.obj \
+	se177.obj se177d.obj li176.obj li176d.obj da166.obj da166d.obj na189.obj na189d.obj \
 	co167.obj co167d.obj re181.obj re181d.obj rt185.obj rt185d.obj re186.obj re186d.obj \
-	re182.obj re182d.obj un173.obj un173d.obj sk175.obj sk175d.obj pa172.obj pa172d.obj \
-	ta171.obj ta171d.obj un191.obj un191d.obj da165.obj da165d.obj ab168.obj ab168d.obj \
-	me195.obj me195d.obj ta169.obj ta169d.obj us170.obj us170d.obj pa174.obj pa174d.obj \
-	us180.obj us180d.obj 
+	re182.obj re182d.obj un191.obj un191d.obj un173.obj un173d.obj sk175.obj sk175d.obj \
+	ta171.obj ta171d.obj pa172.obj pa172d.obj ti165.obj ti165d.obj ab168.obj ab168d.obj \
+	me195.obj me195d.obj ta169.obj ta169d.obj us180.obj us180d.obj us170.obj us170d.obj \
+	pa174.obj pa174d.obj 
 
 all::  Cobj6.lib
 

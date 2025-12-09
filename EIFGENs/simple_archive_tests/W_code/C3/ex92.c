@@ -1031,9 +1031,9 @@ void F92_1520 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 		RTNHOOK(2,1);
 		loc3 = (EIF_REFERENCE) RTCCL(tr1);
 		RTHOOK(3);
-		RTDBGAL(2, 0xF8000172, 0, 0); /* loc2 */
+		RTDBGAL(2, 0xF8000174, 0, 0); /* loc2 */
 		{
-			static EIF_TYPE_INDEX typarr0[] = {0xFF01,370,238,0xFFFF};
+			static EIF_TYPE_INDEX typarr0[] = {0xFF01,372,238,0xFFFF};
 			EIF_TYPE typres0;
 			static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 			

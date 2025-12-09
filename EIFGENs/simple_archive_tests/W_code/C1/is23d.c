@@ -26,9 +26,9 @@ static const EIF_TYPE_INDEX egt_13_23 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_23 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_23 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_23 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_23 [] = {0xFF01,360,0xFF01,0,0xFFFF};
+static const EIF_TYPE_INDEX egt_17_23 [] = {0xFF01,313,0xFF01,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_23 [] = {0xFF01,0,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_23 [] = {0xFF01,360,0,0xFFFF};
+static const EIF_TYPE_INDEX egt_19_23 [] = {0xFF01,313,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_23 [] = {0xFF01,0xFFF9,0,233,0xFFFF};
 static const EIF_TYPE_INDEX egt_21_23 [] = {0xFF01,307,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_22_23 [] = {0xFF01,0,0xFFFF};
@@ -183,7 +183,7 @@ void Init23(void)
 {
 	IDSC(desc_23, 0, 22);
 	IDSC(desc_23 + 1, 4, 22);
-	IDSC(desc_23 + 32, 56, 22);
+	IDSC(desc_23 + 32, 60, 22);
 }
 
 

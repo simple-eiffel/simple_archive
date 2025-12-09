@@ -65,7 +65,7 @@ void Init87(void)
 {
 	IDSC(desc_87, 0, 86);
 	IDSC(desc_87 + 1, 4, 86);
-	IDSC(desc_87 + 32, 166, 86);
+	IDSC(desc_87 + 32, 177, 86);
 }
 
 

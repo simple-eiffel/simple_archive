@@ -192,7 +192,7 @@ body:;
 		uc1 = (EIF_CHARACTER_8) '\000';
 		ui4_1 = arg3;
 		{
-			static EIF_TYPE_INDEX typarr0[] = {0xFF01,582,268,0xFFFF};
+			static EIF_TYPE_INDEX typarr0[] = {0xFF01,578,268,0xFFFF};
 			EIF_TYPE typres0;
 			static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 			

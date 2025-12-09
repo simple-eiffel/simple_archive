@@ -110,7 +110,7 @@ body:;
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(3744, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(4);
-	RTDBGAA(Current, dtype, 3747, 0xF8000011, 0); /* setup_response */
+	RTDBGAA(Current, dtype, 3747, 0xF8000010, 0); /* setup_response */
 	tr1 = RTCCL(arg2);
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(3747, dtype)) = (EIF_REFERENCE) tr1;
@@ -324,7 +324,7 @@ EIF_TYPED_VALUE F226_4709 (EIF_REFERENCE Current)
 	RTHOOK(1);
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(3747, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	RTNHOOK(1,1);
-	tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(373, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
+	tr2 = ((up2x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(358, "exception", tr1))(tr1)), (((up2x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up2x.it_r = RTBU(up2x))), (up2x.type = SK_POINTER), up2x.it_r);
 	loc1 = RTCCL(tr2);
 	if (EIF_TEST(loc1)) {
 		RTHOOK(2);

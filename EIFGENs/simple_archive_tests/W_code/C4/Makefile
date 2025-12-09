@@ -41,14 +41,14 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 
 OBJECTS = big_file_C4_c.obj 
 
-OLDOBJECTS =  ro120.obj ro120d.obj ba119.obj ba119d.obj va130.obj va130d.obj lo129.obj lo129d.obj \
-	op100.obj op100d.obj ei107.obj ei107d.obj re104.obj re104d.obj re103.obj re103d.obj \
-	cr123.obj cr123d.obj ex111.obj ex111d.obj vo118.obj vo118d.obj ex102.obj ex102d.obj \
-	io115.obj io115d.obj op99.obj op99d.obj mi114.obj mi114d.obj ad122.obj ad122d.obj \
-	ol106.obj ol106d.obj se113.obj se113d.obj vo117.obj vo117d.obj no110.obj no110d.obj \
-	pr128.obj pr128d.obj po127.obj po127d.obj in126.obj in126d.obj ch125.obj ch125d.obj \
+OLDOBJECTS =  ch130.obj ch130d.obj ro120.obj ro120d.obj ba119.obj ba119d.obj va129.obj va129d.obj \
+	lo128.obj lo128d.obj op100.obj op100d.obj ei107.obj ei107d.obj io115.obj io115d.obj \
+	re104.obj re104d.obj re103.obj re103d.obj cr123.obj cr123d.obj ex111.obj ex111d.obj \
+	vo118.obj vo118d.obj ex102.obj ex102d.obj op99.obj op99d.obj mi114.obj mi114d.obj \
+	ad122.obj ad122d.obj se113.obj se113d.obj vo117.obj vo117d.obj ol106.obj ol106d.obj \
+	no110.obj no110d.obj pr127.obj pr127d.obj po126.obj po126d.obj in125.obj in125d.obj \
 	ex131.obj ex131d.obj as124.obj as124d.obj la116.obj la116d.obj sy105.obj sy105d.obj \
-	ob101.obj ob101d.obj ei121.obj ei121d.obj ei109.obj ei109d.obj da112.obj da112d.obj \
+	da112.obj da112d.obj ob101.obj ob101d.obj ei121.obj ei121d.obj ei109.obj ei109d.obj \
 	ei108.obj ei108d.obj 
 
 all::  Cobj4.lib

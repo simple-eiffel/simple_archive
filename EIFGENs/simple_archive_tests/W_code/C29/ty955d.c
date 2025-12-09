@@ -1,5 +1,5 @@
 /*
- * Class TYPE [TYPED_POINTER [NATURAL_32]]
+ * Class TYPE [TYPED_POINTER [BOOLEAN]]
  */
 
 #include "eif_macros.h"
@@ -10,19 +10,19 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_955 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_955 [] = {0xFF01,307,954,952,250,0xFFFF};
-static const EIF_TYPE_INDEX egt_2_955 [] = {0xFF01,954,952,250,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_955 [] = {0xFF01,307,954,952,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_2_955 [] = {0xFF01,954,952,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_955 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_955 [] = {0,0xFFFF};
-static const EIF_TYPE_INDEX egt_5_955 [] = {0xFF01,954,952,250,0xFFFF};
-static const EIF_TYPE_INDEX egt_6_955 [] = {0xFF01,954,952,250,0xFFFF};
+static const EIF_TYPE_INDEX egt_5_955 [] = {0xFF01,954,952,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_6_955 [] = {0xFF01,954,952,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_7_955 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_8_955 [] = {0xFF01,21,0xFFFF};
 static const EIF_TYPE_INDEX egt_9_955 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_955 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_955 [] = {0xFF01,20,0xFFFF};
-static const EIF_TYPE_INDEX egt_12_955 [] = {954,952,250,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_955 [] = {0xFF01,954,952,250,0xFFFF};
+static const EIF_TYPE_INDEX egt_12_955 [] = {954,952,271,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_955 [] = {0xFF01,954,952,271,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_955 [] = {0xFF01,283,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_955 [] = {0xFF01,280,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_955 [] = {0xFF01,307,0,0xFFFF};

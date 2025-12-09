@@ -37,25 +37,25 @@ static const EIF_TYPE_INDEX egt_24_280 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_25_280 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_26_280 [] = {0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_27_280 [] = {0xFF01,279,0xFFFF};
-static const EIF_TYPE_INDEX egt_28_280 [] = {0xFF01,309,0xFF01,279,0xFFFF};
+static const EIF_TYPE_INDEX egt_28_280 [] = {0xFF01,346,0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_29_280 [] = {0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_30_280 [] = {0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_31_280 [] = {0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_32_280 [] = {0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_33_280 [] = {0xFF01,279,0xFFFF};
-static const EIF_TYPE_INDEX egt_34_280 [] = {0xFF01,76,0xFFFF};
+static const EIF_TYPE_INDEX egt_34_280 [] = {0xFF01,75,0xFFFF};
 static const EIF_TYPE_INDEX egt_35_280 [] = {0xFF01,145,0xFFFF};
-static const EIF_TYPE_INDEX egt_36_280 [] = {0xFF01,85,0xFFFF};
-static const EIF_TYPE_INDEX egt_37_280 [] = {0xFF01,83,0xFFFF};
-static const EIF_TYPE_INDEX egt_38_280 [] = {0xFF01,10,0xFFFF};
-static const EIF_TYPE_INDEX egt_39_280 [] = {0xFF01,9,0xFFFF};
+static const EIF_TYPE_INDEX egt_36_280 [] = {0xFF01,81,0xFFFF};
+static const EIF_TYPE_INDEX egt_37_280 [] = {0xFF01,82,0xFFFF};
+static const EIF_TYPE_INDEX egt_38_280 [] = {0xFF01,13,0xFFFF};
+static const EIF_TYPE_INDEX egt_39_280 [] = {0xFF01,12,0xFFFF};
 static const EIF_TYPE_INDEX egt_40_280 [] = {0xFF01,206,0xFFFF};
 static const EIF_TYPE_INDEX egt_41_280 [] = {0xFF01,216,0xFFFF};
 static const EIF_TYPE_INDEX egt_42_280 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_43_280 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_44_280 [] = {0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_45_280 [] = {0xFF01,279,0xFFFF};
-static const EIF_TYPE_INDEX egt_46_280 [] = {0xFF01,582,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_46_280 [] = {0xFF01,578,268,0xFFFF};
 static const EIF_TYPE_INDEX egt_47_280 [] = {0xFF01,208,0xFFFF};
 static const EIF_TYPE_INDEX egt_48_280 [] = {268,0xFFFF};
 
@@ -245,11 +245,11 @@ void Init280(void)
 	IDSC(desc_280 + 1, 4, 279);
 	IDSC(desc_280 + 32, 82, 279);
 	IDSC(desc_280 + 34, 98, 279);
-	IDSC(desc_280 + 38, 180, 279);
+	IDSC(desc_280 + 38, 172, 279);
 	IDSC(desc_280 + 41, 57, 279);
-	IDSC(desc_280 + 136, 72, 279);
-	IDSC(desc_280 + 141, 53, 279);
-	IDSC(desc_280 + 175, 76, 279);
+	IDSC(desc_280 + 136, 74, 279);
+	IDSC(desc_280 + 141, 56, 279);
+	IDSC(desc_280 + 175, 37, 279);
 }
 
 

@@ -659,7 +659,7 @@ EIF_TYPED_VALUE F274_6273 (EIF_REFERENCE Current)
 		RTHOOK(1);
 		RTCOMS(tr1,6272,0,"Do not forget to add proper precondition to ensure we can convert pointer value into an INTEGER_32",98,37525298);
 		ur1 = tr1;
-		(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(1285, dtype))(Current, ur1x);
+		(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(1382, dtype))(Current, ur1x);
 	}
 	RTHOOK(2);
 	RTDBGAL(0, 0x10000000, 1,0); /* Result */

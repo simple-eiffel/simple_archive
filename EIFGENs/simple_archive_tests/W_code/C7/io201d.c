@@ -159,8 +159,8 @@ void Init201(void)
 {
 	IDSC(desc_201, 0, 200);
 	IDSC(desc_201 + 1, 4, 200);
-	IDSC(desc_201 + 32, 154, 200);
-	IDSC(desc_201 + 34, 194, 200);
+	IDSC(desc_201 + 32, 147, 200);
+	IDSC(desc_201 + 34, 186, 200);
 }
 
 

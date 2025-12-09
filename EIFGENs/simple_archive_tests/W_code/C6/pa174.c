@@ -83,7 +83,7 @@ void F174_2411 (EIF_REFERENCE Current)
 	RTDBGEAA(173, Current, 2424);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAA(Current, dtype, 2140, 0xF8000175, 0); /* entries */
+	RTDBGAA(Current, dtype, 2140, 0xF8000177, 0); /* entries */
 	tr1 = RTLNSMART(RTWCT(2140, dtype, Dftype(Current)).id);
 	ui4_1 = ((EIF_INTEGER_32) 3L);
 	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWC(3828, Dtype(tr1)))(tr1, ui4_1x);

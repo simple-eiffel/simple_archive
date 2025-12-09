@@ -55,16 +55,16 @@ $spitshell >>Makefile <<'!NO!SUBS!'
 
 OBJECTS = big_file_C31_c.obj 
 
-OLDOBJECTS =  ty993.o ty993d.o ty994.o ty994d.o ty995.o ty995d.o eq1022.o \
-	eq1022d.o ha990.o ha990d.o ta992.o ta992d.o rt996.o rt996d.o rt997.o \
-	rt997d.o rt998.o rt998d.o rt999.o rt999d.o rt1000.o rt1000d.o \
-	rt1001.o rt1001d.o rt1002.o rt1002d.o rt1003.o rt1003d.o rt1004.o \
-	rt1004d.o rt1005.o rt1005d.o rt1006.o rt1006d.o rt1007.o rt1007d.o \
-	rt1008.o rt1008d.o rt1009.o rt1009d.o rt1010.o rt1010d.o rt1011.o \
-	rt1011d.o rt1012.o rt1012d.o rt1013.o rt1013d.o rt1014.o rt1014d.o \
-	rt1015.o rt1015d.o rt1016.o rt1016d.o rt1017.o rt1017d.o rt1018.o \
-	rt1018d.o rt1019.o rt1019d.o rt1020.o rt1020d.o rt1021.o rt1021d.o \
-	ta991.o ta991d.o 
+OLDOBJECTS =  ty990.o ty990d.o ty997.o ty997d.o ty998.o ty998d.o ty991.o ty991d.o \
+	ty999.o ty999d.o rt992.o rt992d.o rt995.o rt995d.o rt996.o rt996d.o \
+	rt1000.o rt1000d.o rt1001.o rt1001d.o rt1002.o rt1002d.o rt1003.o \
+	rt1003d.o rt1004.o rt1004d.o rt1005.o rt1005d.o rt1006.o rt1006d.o \
+	rt1007.o rt1007d.o rt1008.o rt1008d.o rt1009.o rt1009d.o rt1010.o \
+	rt1010d.o rt1011.o rt1011d.o rt1012.o rt1012d.o rt1013.o rt1013d.o \
+	rt1014.o rt1014d.o rt1015.o rt1015d.o rt1016.o rt1016d.o rt1017.o \
+	rt1017d.o rt1018.o rt1018d.o rt1019.o rt1019d.o rt1020.o rt1020d.o \
+	rt1021.o rt1021d.o rt1022.o rt1022d.o ar993.o ar993d.o st994.o \
+	st994d.o 
 
 all: Cobj31.o
 

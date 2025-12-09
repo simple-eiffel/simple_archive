@@ -64,7 +64,7 @@ void Init143(void)
 {
 	IDSC(desc_143, 0, 142);
 	IDSC(desc_143 + 1, 4, 142);
-	IDSC(desc_143 + 32, 51, 142);
+	IDSC(desc_143 + 32, 53, 142);
 }
 
 

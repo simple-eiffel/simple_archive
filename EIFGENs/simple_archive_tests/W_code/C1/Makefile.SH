@@ -58,8 +58,8 @@ OBJECTS = big_file_C1_c.obj
 OLDOBJECTS =  an1.o an1d.o si27.o si27d.o eq26.o eq26d.o ut24.o ut24d.o ut25.o \
 	ut25d.o is23.o is23d.o st22.o st22d.o op21.o op21d.o rt20.o rt20d.o \
 	sy19.o sy19d.o eq18.o eq18d.o eq17.o eq17d.o se16.o se16d.o se15.o \
-	se15d.o sy14.o sy14d.o co13.o co13d.o en12.o en12d.o sy11.o sy11d.o \
-	ch10.o ch10d.o ta9.o ta9d.o c_8.o c_8d.o eq7.o eq7d.o se6.o se6d.o \
+	se15d.o sy14.o sy14d.o ch13.o ch13d.o sy12.o sy12d.o en11.o en11d.o \
+	co10.o co10d.o ta9.o ta9d.o eq8.o eq8d.o c_7.o c_7d.o se6.o se6d.o \
 	se5.o se5d.o it4.o it4d.o er3.o er3d.o pa2.o pa2d.o se32.o se32d.o \
 	en31.o en31d.o co30.o co30d.o da29.o da29d.o da28.o da28d.o 
 

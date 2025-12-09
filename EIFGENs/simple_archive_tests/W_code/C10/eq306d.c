@@ -10,15 +10,15 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_306 [] = {0xFF01,276,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_306 [] = {354,0xFF01,282,0xFFFF};
-static const EIF_TYPE_INDEX egt_2_306 [] = {0xFF01,984,0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_306 [] = {311,0xFF01,282,0xFFFF};
+static const EIF_TYPE_INDEX egt_2_306 [] = {0xFF01,540,0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_5_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_6_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_7_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_8_306 [] = {0xFF01,0,0xFFFF};
-static const EIF_TYPE_INDEX egt_9_306 [] = {0xFF01,360,0,0xFFFF};
+static const EIF_TYPE_INDEX egt_9_306 [] = {0xFF01,313,0,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_306 [] = {0xFFF9,0,233,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_306 [] = {0xFFF9,0,233,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_306 [] = {0xFF01,307,0,0xFFFF};
@@ -28,8 +28,8 @@ static const EIF_TYPE_INDEX egt_15_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_18_306 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_306 [] = {0xFF01,985,238,0xFFFF};
-static const EIF_TYPE_INDEX egt_20_306 [] = {0xFF01,379,280,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_19_306 [] = {0xFF01,611,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_20_306 [] = {0xFF01,381,280,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_21_306 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_22_306 [] = {0xFF01,307,305,0xFFFF};
 static const EIF_TYPE_INDEX egt_23_306 [] = {0xFF01,305,0xFFFF};
@@ -300,9 +300,9 @@ void Init306(void)
 	IDSC(desc_306 + 71, 183, 305);
 	IDSC(desc_306 + 76, 4, 305);
 	IDSC(desc_306 + 107, 129, 305);
-	IDSC(desc_306 + 140, 50, 305);
-	IDSC(desc_306 + 202, 65, 305);
-	IDSC(desc_306 + 204, 170, 305);
+	IDSC(desc_306 + 140, 52, 305);
+	IDSC(desc_306 + 202, 68, 305);
+	IDSC(desc_306 + 204, 166, 305);
 }
 
 

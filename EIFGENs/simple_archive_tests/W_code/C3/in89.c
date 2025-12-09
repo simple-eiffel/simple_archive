@@ -158,7 +158,7 @@ EIF_TYPED_VALUE F89_1496 (EIF_REFERENCE Current)
 	ur1 = tr2;
 	ui4_1 = ((EIF_INTEGER_32) 16L);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {546,256,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {545,256,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -254,7 +254,7 @@ EIF_TYPED_VALUE F89_1497 (EIF_REFERENCE Current)
 	ur1 = tr2;
 	ui4_1 = ((EIF_INTEGER_32) 16L);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {546,256,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {545,256,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

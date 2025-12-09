@@ -27,7 +27,7 @@ static const EIF_TYPE_INDEX egt_14_189 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_189 [] = {0xFF01,284,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_189 [] = {0xFF01,195,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_189 [] = {0xFF01,149,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_189 [] = {0xFF01,370,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_18_189 [] = {0xFF01,372,238,0xFFFF};
 
 
 static const struct desc_info desc_189[] = {
@@ -90,8 +90,8 @@ void Init189(void)
 {
 	IDSC(desc_189, 0, 188);
 	IDSC(desc_189 + 1, 4, 188);
-	IDSC(desc_189 + 32, 155, 188);
-	IDSC(desc_189 + 34, 179, 188);
+	IDSC(desc_189 + 32, 148, 188);
+	IDSC(desc_189 + 34, 171, 188);
 }
 
 

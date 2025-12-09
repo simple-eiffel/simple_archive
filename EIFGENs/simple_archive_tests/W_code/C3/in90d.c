@@ -69,8 +69,8 @@ void Init90(void)
 {
 	IDSC(desc_90, 0, 89);
 	IDSC(desc_90 + 1, 4, 89);
-	IDSC(desc_90 + 32, 163, 89);
-	IDSC(desc_90 + 35, 46, 89);
+	IDSC(desc_90 + 32, 161, 89);
+	IDSC(desc_90 + 35, 43, 89);
 }
 
 

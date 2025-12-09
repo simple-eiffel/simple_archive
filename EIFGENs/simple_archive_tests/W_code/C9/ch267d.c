@@ -10,7 +10,7 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_267 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_267 [] = {0xFF01,348,266,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_267 [] = {0xFF01,365,266,0xFFFF};
 static const EIF_TYPE_INDEX egt_2_267 [] = {0xFF01,266,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_267 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_267 [] = {0,0xFFFF};
@@ -25,7 +25,7 @@ static const EIF_TYPE_INDEX egt_12_267 [] = {0xFF01,266,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_267 [] = {0xFF01,266,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_267 [] = {0xFF01,266,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_267 [] = {0xFF01,264,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_267 [] = {0xFF01,9,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_267 [] = {0xFF01,12,0xFFFF};
 
 
 static const struct desc_info desc_267[] = {
@@ -110,7 +110,7 @@ void Init267(void)
 	IDSC(desc_267 + 1, 4, 266);
 	IDSC(desc_267 + 32, 82, 266);
 	IDSC(desc_267 + 34, 98, 266);
-	IDSC(desc_267 + 38, 180, 266);
+	IDSC(desc_267 + 38, 172, 266);
 	IDSC(desc_267 + 41, 86, 266);
 }
 

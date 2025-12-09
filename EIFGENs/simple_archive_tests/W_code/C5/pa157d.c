@@ -22,8 +22,8 @@ static const EIF_TYPE_INDEX egt_9_157 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_157 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_157 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_157 [] = {0xFF01,156,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_157 [] = {0xFF01,309,0xFF01,2,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_157 [] = {0xFF01,490,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_157 [] = {0xFF01,346,0xFF01,2,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_157 [] = {0xFF01,942,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_157 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_157 [] = {0xFF01,169,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_157 [] = {0xFF01,173,0xFFFF};
@@ -95,9 +95,9 @@ void Init157(void)
 {
 	IDSC(desc_157, 0, 156);
 	IDSC(desc_157 + 1, 4, 156);
-	IDSC(desc_157 + 32, 262, 156);
-	IDSC(desc_157 + 40, 259, 156);
-	IDSC(desc_157 + 45, 253, 156);
+	IDSC(desc_157 + 32, 267, 156);
+	IDSC(desc_157 + 40, 262, 156);
+	IDSC(desc_157 + 45, 265, 156);
 }
 
 

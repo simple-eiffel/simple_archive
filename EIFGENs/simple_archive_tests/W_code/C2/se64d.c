@@ -22,7 +22,7 @@ static const EIF_TYPE_INDEX egt_9_64 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_64 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_64 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_64 [] = {0xFF01,63,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_64 [] = {0xFF01,699,238,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_64 [] = {0xFF01,714,238,238,0xFFFF};
 
 
 static const struct desc_info desc_64[] = {

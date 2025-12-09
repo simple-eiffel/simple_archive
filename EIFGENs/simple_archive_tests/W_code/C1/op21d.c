@@ -71,7 +71,7 @@ void Init21(void)
 {
 	IDSC(desc_21, 0, 20);
 	IDSC(desc_21 + 1, 4, 20);
-	IDSC(desc_21 + 32, 67, 20);
+	IDSC(desc_21 + 32, 69, 20);
 }
 
 

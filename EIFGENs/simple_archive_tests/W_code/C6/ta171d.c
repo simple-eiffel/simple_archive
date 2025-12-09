@@ -89,7 +89,7 @@ void Init171(void)
 	IDSC(desc_171, 0, 170);
 	IDSC(desc_171 + 1, 4, 170);
 	IDSC(desc_171 + 32, 321, 170);
-	IDSC(desc_171 + 44, 260, 170);
+	IDSC(desc_171 + 44, 263, 170);
 }
 
 

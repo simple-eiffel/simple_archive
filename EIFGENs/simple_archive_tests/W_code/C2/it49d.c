@@ -69,7 +69,7 @@ void Init49(void)
 {
 	IDSC(desc_49, 0, 48);
 	IDSC(desc_49 + 1, 4, 48);
-	IDSC(desc_49 + 32, 63, 48);
+	IDSC(desc_49 + 32, 65, 48);
 }
 
 

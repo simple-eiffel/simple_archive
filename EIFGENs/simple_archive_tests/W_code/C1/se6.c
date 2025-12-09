@@ -110,7 +110,7 @@ body:;
 	ti4_1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(2293, "field_count_of_type", tr1))(tr1, ui4_1x)).it_i4);
 	loc1 = (EIF_INTEGER_32) ti4_1;
 	RTHOOK(4);
-	RTDBGAA(Current, dtype, 79, 0xF8000175, 0); /* mismatches_by_name */
+	RTDBGAA(Current, dtype, 79, 0xF8000177, 0); /* mismatches_by_name */
 	tr1 = RTLNSMART(RTWCT(79, dtype, Dftype(Current)).id);
 	ui4_1 = loc1;
 	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWC(3827, Dtype(tr1)))(tr1, ui4_1x);
@@ -119,7 +119,7 @@ body:;
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(79, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(5);
-	RTDBGAA(Current, dtype, 80, 0xF800017B, 0); /* mismatches_by_stored_position */
+	RTDBGAA(Current, dtype, 80, 0xF800017D, 0); /* mismatches_by_stored_position */
 	tr1 = RTLNSMART(RTWCT(80, dtype, Dftype(Current)).id);
 	ui4_1 = loc1;
 	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWC(3827, Dtype(tr1)))(tr1, ui4_1x);

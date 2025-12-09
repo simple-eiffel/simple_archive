@@ -1,5 +1,5 @@
 /*
- * Class TIME_UTILITY
+ * Class TIME_CONSTANTS
  */
 
 #include "eif_macros.h"
@@ -24,6 +24,7 @@ static const EIF_TYPE_INDEX egt_11_55 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_55 [] = {0xFF01,54,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_55 [] = {0xFF01,28,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_55 [] = {0xFF01,281,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_55 [] = {0xFF01,281,0xFFFF};
 
 
 static const struct desc_info desc_55[] = {
@@ -59,16 +60,23 @@ static const struct desc_info desc_55[] = {
 	{EIF_NON_GENERIC(0x6D /*54*/), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_12_55), 30, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 1169, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 1170, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_13_55), 1171, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_14_55), 1172, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 1143, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 1144, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_13_55), 1145, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_14_55), 1146, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 1147, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 1148, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 1149, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 1150, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 1151, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_15_55), 1152, 0xFFFFFFFF},
 };
 void Init55(void)
 {
 	IDSC(desc_55, 0, 54);
 	IDSC(desc_55 + 1, 4, 54);
-	IDSC(desc_55 + 32, 361, 54);
+	IDSC(desc_55 + 32, 362, 54);
+	IDSC(desc_55 + 36, 342, 54);
 }
 
 

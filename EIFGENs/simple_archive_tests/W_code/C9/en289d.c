@@ -99,7 +99,7 @@ void Init289(void)
 	IDSC(desc_289, 0, 288);
 	IDSC(desc_289 + 1, 4, 288);
 	IDSC(desc_289 + 32, 353, 288);
-	IDSC(desc_289 + 44, 303, 288);
+	IDSC(desc_289 + 44, 302, 288);
 }
 
 

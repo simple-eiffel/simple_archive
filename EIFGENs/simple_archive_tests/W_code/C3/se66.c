@@ -85,7 +85,7 @@ void F66_1258 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 	RTGC;
 	RTDBGEAA(65, Current, 1288);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,354,0xFF01,0,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,311,0xFF01,0,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -93,7 +93,7 @@ void F66_1258 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 		RTCC(arg1, 65, l_feature_name, 1, typres0, 0x01);
 	}
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,699,238,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,714,238,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

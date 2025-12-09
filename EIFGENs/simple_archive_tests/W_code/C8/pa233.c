@@ -79,8 +79,8 @@ extern void EIF_Minit233(void);
 }
 #endif
 
-#include "eif_built_in.h"
 #include "eif_eiffel.h"
+#include "eif_built_in.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -2119,9 +2119,9 @@ EIF_TYPED_VALUE F233_5043 (EIF_REFERENCE Current)
 	RTDBGEAA(232, Current, 10842);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
-	RTDBGAL(0, 0xF8000162, 0,0); /* Result */
+	RTDBGAL(0, 0xF8000137, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,354,0xFF01,232,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,311,0xFF01,232,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -2642,7 +2642,7 @@ EIF_TYPED_VALUE F233_5046 (EIF_REFERENCE Current)
 		RTNHOOK(3,1);
 		loc3 = (EIF_REFERENCE) RTCCL(tr1);
 		RTHOOK(4);
-		RTDBGAL(1, 0xF8000162, 0, 0); /* loc1 */
+		RTDBGAL(1, 0xF8000137, 0, 0); /* loc1 */
 		tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(3957, "components", loc2))(loc2)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 		loc1 = (EIF_REFERENCE) RTCCL(tr1);
 		if (RTAL & CK_CHECK) {

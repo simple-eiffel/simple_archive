@@ -1,5 +1,5 @@
 /*
- * Code for class ITERATION_CURSOR [POINTER]
+ * Code for class ITERABLE [POINTER]
  */
 
 #include "eif_eiffel.h"

@@ -41,15 +41,15 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 
 OBJECTS = big_file_C27_c.obj 
 
-OLDOBJECTS =  sp866.obj sp866d.obj ar875.obj ar875d.obj na887.obj na887d.obj sp867.obj sp867d.obj \
-	re873.obj re873d.obj li876.obj li876d.obj ar885.obj ar885d.obj it870.obj it870d.obj \
-	it871.obj it871d.obj re888.obj re888d.obj in890.obj in890d.obj to886.obj to886d.obj \
-	dy860.obj dy860d.obj se861.obj se861d.obj ar865.obj ar865d.obj li864.obj li864d.obj \
-	fi879.obj fi879d.obj ge868.obj ge868d.obj re874.obj re874d.obj in869.obj in869d.obj \
-	cu877.obj cu877d.obj tr884.obj tr884d.obj bo889.obj bo889d.obj un859.obj un859d.obj \
-	ac881.obj ac881d.obj bi862.obj bi862d.obj dy858.obj dy858d.obj ch863.obj ch863d.obj \
-	bo880.obj bo880d.obj ty872.obj ty872d.obj co878.obj co878d.obj ba882.obj ba882d.obj \
-	co883.obj co883d.obj 
+OLDOBJECTS =  sp870.obj sp870d.obj ar880.obj ar880d.obj ar860.obj ar860d.obj it876.obj it876d.obj \
+	it875.obj it875d.obj na871.obj na871d.obj sp872.obj sp872d.obj re874.obj re874d.obj \
+	li883.obj li883d.obj ar859.obj ar859d.obj re882.obj re882d.obj to881.obj to881d.obj \
+	dy869.obj dy869d.obj ar861.obj ar861d.obj se862.obj se862d.obj dy864.obj dy864d.obj \
+	li865.obj li865d.obj fi886.obj fi886d.obj ge873.obj ge873d.obj re878.obj re878d.obj \
+	in877.obj in877d.obj cu884.obj cu884d.obj ta858.obj ta858d.obj un868.obj un868d.obj \
+	ac888.obj ac888d.obj bi863.obj bi863d.obj dy867.obj dy867d.obj ch866.obj ch866d.obj \
+	bo887.obj bo887d.obj ty879.obj ty879d.obj co885.obj co885d.obj ba889.obj ba889d.obj \
+	co890.obj co890d.obj 
 
 all::  Cobj27.lib
 

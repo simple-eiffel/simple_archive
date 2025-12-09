@@ -87,7 +87,7 @@ void Init292(void)
 	IDSC(desc_292, 0, 291);
 	IDSC(desc_292 + 1, 4, 291);
 	IDSC(desc_292 + 32, 321, 291);
-	IDSC(desc_292 + 44, 254, 291);
+	IDSC(desc_292 + 44, 266, 291);
 }
 
 

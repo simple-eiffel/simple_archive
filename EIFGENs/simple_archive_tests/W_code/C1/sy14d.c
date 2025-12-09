@@ -1,5 +1,5 @@
 /*
- * Class SYSTEM_ENCODINGS
+ * Class SYSTEM_STRING_FACTORY
  */
 
 #include "eif_macros.h"
@@ -22,13 +22,7 @@ static const EIF_TYPE_INDEX egt_9_14 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_14 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_14 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_14 [] = {0xFF01,13,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_14 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_14 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_14 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_14 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_14 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_14 [] = {0xFF01,11,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_14 [] = {0xFF01,38,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_14 [] = {0xFF01,18,0xFFFF};
 
 
 static const struct desc_info desc_14[] = {
@@ -64,19 +58,17 @@ static const struct desc_info desc_14[] = {
 	{EIF_NON_GENERIC(0x1B /*13*/), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_12_14), 30, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_13_14), 326, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_14_14), 327, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_15_14), 328, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_16_14), 329, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_17_14), 330, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_18_14), 331, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_19_14), 325, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_13_14), 328, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 329, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 330, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 331, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 327, 0xFFFFFFFF},
 };
 void Init14(void)
 {
 	IDSC(desc_14, 0, 13);
 	IDSC(desc_14 + 1, 4, 13);
-	IDSC(desc_14 + 32, 197, 13);
+	IDSC(desc_14 + 32, 201, 13);
 }
 
 

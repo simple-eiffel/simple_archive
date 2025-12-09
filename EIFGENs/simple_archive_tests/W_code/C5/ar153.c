@@ -124,9 +124,9 @@ void F153_2125 (EIF_REFERENCE Current)
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(1951, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(3);
-	RTDBGAA(Current, dtype, 1949, 0xF8000135, 0); /* unarchivers */
+	RTDBGAA(Current, dtype, 1949, 0xF800015A, 0); /* unarchivers */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,354,0xFF01,172,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,311,0xFF01,172,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -165,7 +165,7 @@ void F153_2125 (EIF_REFERENCE Current)
 	RTAR(tr2,tr3);
 	ui4_1 = ((EIF_INTEGER_32) 1L);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {397,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {387,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -178,7 +178,7 @@ void F153_2125 (EIF_REFERENCE Current)
 	tr3 = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE))  RTWF(3627, Dtype(tr4)))(tr4).it_r;
 	
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,331,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,337,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -205,7 +205,7 @@ void F153_2125 (EIF_REFERENCE Current)
 	RTAR(tr2,tr3);
 	ui4_1 = ((EIF_INTEGER_32) 1L);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {397,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {387,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -218,7 +218,7 @@ void F153_2125 (EIF_REFERENCE Current)
 	tr3 = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE))  RTWF(3627, Dtype(tr4)))(tr4).it_r;
 	
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,331,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,337,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -852,7 +852,7 @@ void F153_2140 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTAR(tr1,tr3);
 	ui4_1 = ((EIF_INTEGER_32) 1L);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {397,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {387,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -865,7 +865,7 @@ void F153_2140 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	tr2 = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE))  RTWF(3627, Dtype(tr3)))(tr3).it_r;
 	
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,331,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,337,0xFF01,0xFFF9,1,233,0xFF01,2,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

@@ -101,7 +101,7 @@ void Init146(void)
 {
 	IDSC(desc_146, 0, 145);
 	IDSC(desc_146 + 1, 4, 145);
-	IDSC(desc_146 + 32, 59, 145);
+	IDSC(desc_146 + 32, 62, 145);
 }
 
 

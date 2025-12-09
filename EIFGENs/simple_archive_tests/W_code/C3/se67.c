@@ -100,7 +100,7 @@ void F67_1259 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 	RTGC;
 	RTDBGEAA(66, Current, 1289);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,354,0xFF01,0,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,311,0xFF01,0,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -108,7 +108,7 @@ void F67_1259 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg
 		RTCC(arg1, 66, l_feature_name, 1, typres0, 0x01);
 	}
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,699,238,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,714,238,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -146,7 +146,7 @@ body:;
 	tb1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(1177, dtype))(Current)).it_b);
 	loc5 = (EIF_BOOLEAN) (EIF_BOOLEAN) !tb1;
 	RTHOOK(7);
-	RTDBGAL(1, 0xF80002BB, 0, 0); /* loc1 */
+	RTDBGAL(1, 0xF80002CA, 0, 0); /* loc1 */
 	ur1 = RTCCL(arg2);
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(1202, dtype))(Current, ur1x)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 	loc1 = (EIF_REFERENCE) RTCCL(tr1);
@@ -328,7 +328,7 @@ EIF_TYPED_VALUE F67_1260 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTGC;
 	RTDBGEAA(66, Current, 1290);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,699,238,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,714,238,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -353,9 +353,9 @@ body:;
 	RTHOOK(3);
 	(FUNCTION_CAST(void, (EIF_REFERENCE)) RTVF(3853, "start", arg1))(arg1);
 	RTHOOK(4);
-	RTDBGAL(0, 0xF80002BB, 0,0); /* Result */
+	RTDBGAL(0, 0xF80002CA, 0,0); /* Result */
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,699,238,238,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,714,238,238,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		

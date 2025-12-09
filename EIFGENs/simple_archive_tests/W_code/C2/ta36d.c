@@ -145,7 +145,7 @@ void Init36(void)
 	IDSC(desc_36, 0, 35);
 	IDSC(desc_36 + 1, 4, 35);
 	IDSC(desc_36 + 32, 320, 35);
-	IDSC(desc_36 + 72, 251, 35);
+	IDSC(desc_36 + 72, 256, 35);
 }
 
 

@@ -73,7 +73,7 @@ void F176_2436 (EIF_REFERENCE Current)
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(2129, dtype)) = (EIF_REFERENCE) tr1;
 	RTHOOK(2);
-	RTDBGAA(Current, dtype, 2154, 0xF8000162, 0); /* entries */
+	RTDBGAA(Current, dtype, 2154, 0xF8000137, 0); /* entries */
 	tr1 = RTLNSMART(RTWCT(2154, dtype, Dftype(Current)).id);
 	ui4_1 = ((EIF_INTEGER_32) 10L);
 	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWC(3769, Dtype(tr1)))(tr1, ui4_1x);
@@ -134,7 +134,7 @@ void F176_2437 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTGC;
 	RTDBGEAA(175, Current, 2437);
 	{
-		static EIF_TYPE_INDEX typarr0[] = {0xFF01,354,0xFF01,281,0xFFFF};
+		static EIF_TYPE_INDEX typarr0[] = {0xFF01,311,0xFF01,281,0xFFFF};
 		EIF_TYPE typres0;
 		static EIF_TYPE typcache0 = {INVALID_DTYPE, 0};
 		
@@ -145,7 +145,7 @@ void F176_2437 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTHOOK(1);
 	(FUNCTION_CAST(void, (EIF_REFERENCE)) RTWF(32, dtype))(Current);
 	RTHOOK(2);
-	RTDBGAA(Current, dtype, 2154, 0xF8000162, 0); /* entries */
+	RTDBGAA(Current, dtype, 2154, 0xF8000137, 0); /* entries */
 	tr1 = RTCCL(arg1);
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(2154, dtype)) = (EIF_REFERENCE) tr1;

@@ -41,10 +41,10 @@ SYSTEM_IN_DYNAMIC_LIB = simple_archive.dll
 
 OBJECTS = big_file_C7_c.obj 
 
-OLDOBJECTS =  ra214.obj ra214d.obj ne205.obj ne205d.obj eq226.obj eq226d.obj pl215.obj pl215d.obj \
+OLDOBJECTS =  ra214.obj ra214d.obj eq226.obj eq226d.obj ne205.obj ne205d.obj pl215.obj pl215d.obj \
 	ar211.obj ar211d.obj mi224.obj mi224d.obj ab221.obj ab221d.obj pr212.obj pr212d.obj \
-	de218.obj de218d.obj fi213.obj fi213d.obj ne204.obj ne204d.obj st203.obj st203d.obj \
-	ad199.obj ad199d.obj st210.obj st210d.obj eq216.obj eq216d.obj eq227.obj eq227d.obj \
+	de218.obj de218d.obj fi213.obj fi213d.obj eq227.obj eq227d.obj eq216.obj eq216d.obj \
+	ne204.obj ne204d.obj st203.obj st203d.obj ad199.obj ad199d.obj st210.obj st210d.obj \
 	ar208.obj ar208d.obj se225.obj se225d.obj io201.obj io201d.obj st209.obj st209d.obj \
 	st207.obj st207d.obj mi230.obj mi230d.obj in217.obj in217d.obj nu223.obj nu223d.obj \
 	rt220.obj rt220d.obj rt222.obj rt222d.obj fi206.obj fi206d.obj so202.obj so202d.obj \

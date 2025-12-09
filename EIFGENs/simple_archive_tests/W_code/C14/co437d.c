@@ -1,5 +1,5 @@
 /*
- * Class COLLECTION [NATURAL_64]
+ * Class CONTAINER [NATURAL_64]
  */
 
 #include "eif_macros.h"
@@ -23,8 +23,8 @@ static const EIF_TYPE_INDEX egt_10_437 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_437 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_437 [] = {436,247,0xFFFF};
 static const EIF_TYPE_INDEX egt_13_437 [] = {0xFF01,436,247,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_437 [] = {0xFF01,429,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_437 [] = {0xFF01,424,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_437 [] = {0xFF01,434,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_437 [] = {0xFF01,427,0xFFF8,1,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_437 [] = {0xFFF8,1,0xFFFF};
 
 
@@ -70,15 +70,6 @@ static const struct desc_info desc_437[] = {
 	{EIF_GENERIC(NULL), 4473, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_14_437), 0x00, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x01DD /*238*/), 4474, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 4868, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 4869, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 4870, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_15_437), 0x00, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_16_437), 0x00, 0xFFFFFFFF},
 };
@@ -87,8 +78,7 @@ void Init437(void)
 	IDSC(desc_437, 0, 436);
 	IDSC(desc_437 + 1, 4, 436);
 	IDSC(desc_437 + 32, 307, 436);
-	IDSC(desc_437 + 41, 355, 436);
-	IDSC(desc_437 + 50, 76, 436);
+	IDSC(desc_437 + 41, 37, 436);
 }
 
 

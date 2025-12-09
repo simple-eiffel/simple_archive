@@ -159,7 +159,7 @@ void Init256(void)
 	IDSC(desc_256, 0, 255);
 	IDSC(desc_256 + 1, 4, 255);
 	IDSC(desc_256 + 32, 98, 255);
-	IDSC(desc_256 + 36, 180, 255);
+	IDSC(desc_256 + 36, 172, 255);
 	IDSC(desc_256 + 39, 89, 255);
 	IDSC(desc_256 + 92, 82, 255);
 	IDSC(desc_256 + 94, 229, 255);

@@ -27,7 +27,7 @@ static const EIF_TYPE_INDEX egt_14_209 [] = {0xFF01,465,268,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_209 [] = {0xFF01,465,268,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_209 [] = {0xFF01,465,268,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_209 [] = {268,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_209 [] = {0xFF01,582,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_18_209 [] = {0xFF01,578,268,0xFFFF};
 static const EIF_TYPE_INDEX egt_19_209 [] = {0xFF01,279,0xFFFF};
 static const EIF_TYPE_INDEX egt_20_209 [] = {0xFF01,208,0xFFFF};
 static const EIF_TYPE_INDEX egt_21_209 [] = {268,0xFFFF};
@@ -103,10 +103,10 @@ void Init209(void)
 	IDSC(desc_209, 0, 208);
 	IDSC(desc_209 + 1, 4, 208);
 	IDSC(desc_209 + 32, 220, 208);
-	IDSC(desc_209 + 46, 77, 208);
+	IDSC(desc_209 + 46, 36, 208);
 	IDSC(desc_209 + 50, 217, 208);
-	IDSC(desc_209 + 54, 195, 208);
-	IDSC(desc_209 + 57, 76, 208);
+	IDSC(desc_209 + 54, 199, 208);
+	IDSC(desc_209 + 57, 37, 208);
 	IDSC(desc_209 + 59, 305, 208);
 }
 

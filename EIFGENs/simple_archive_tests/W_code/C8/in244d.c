@@ -163,7 +163,7 @@ void Init244(void)
 	IDSC(desc_244, 0, 243);
 	IDSC(desc_244 + 1, 4, 243);
 	IDSC(desc_244 + 32, 98, 243);
-	IDSC(desc_244 + 36, 180, 243);
+	IDSC(desc_244 + 36, 172, 243);
 	IDSC(desc_244 + 39, 93, 243);
 	IDSC(desc_244 + 95, 82, 243);
 	IDSC(desc_244 + 97, 229, 243);

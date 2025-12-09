@@ -67,7 +67,7 @@ void Init32(void)
 {
 	IDSC(desc_32, 0, 31);
 	IDSC(desc_32 + 1, 4, 31);
-	IDSC(desc_32 + 32, 351, 31);
+	IDSC(desc_32 + 32, 352, 31);
 }
 
 

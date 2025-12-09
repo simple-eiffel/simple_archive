@@ -579,7 +579,7 @@ label_1:
 body:;
 	RTHOOK(2);
 	RTDBGAL(0, 0x04000000, 1,0); /* Result */
-	ti4_1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(723, "family", arg1))(arg1)).it_i4);
+	ti4_1 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(718, "family", arg1))(arg1)).it_i4);
 	ti4_2 = *(EIF_INTEGER_32 *)(Current + RTWA(2853, dtype));
 	Result = (EIF_BOOLEAN) (EIF_BOOLEAN)(ti4_1 == ti4_2);
 	RTVI(Current, RTAL);
@@ -1094,7 +1094,7 @@ body:;
 	loc1 = RTRV(RTWCT(2856, dtype, Dftype(Current)),loc1);
 	if (EIF_TEST(loc1)) {
 		RTHOOK(4);
-		RTDBGAA(Current, dtype, 2857, 0xF8000021, 0); /* peer_address */
+		RTDBGAA(Current, dtype, 2857, 0xF8000020, 0); /* peer_address */
 		tr1 = RTCCL(loc1);
 		RTAR(Current, tr1);
 		*(EIF_REFERENCE *)(Current + RTWA(2857, dtype)) = (EIF_REFERENCE) tr1;
@@ -1102,17 +1102,17 @@ body:;
 		RTHOOK(5);
 		if ((EIF_BOOLEAN)(arg1 != NULL)) {
 			RTHOOK(6);
-			RTDBGAA(Current, dtype, 2857, 0xF8000021, 0); /* peer_address */
+			RTDBGAA(Current, dtype, 2857, 0xF8000020, 0); /* peer_address */
 			tr1 = RTLNSMART(RTWCT(2857, dtype, Dftype(Current)).id);
 			ur1 = RTCCL(arg1);
-			(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWC(720, Dtype(tr1)))(tr1, ur1x);
+			(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWC(715, Dtype(tr1)))(tr1, ur1x);
 			RTNHOOK(6,1);
 			tr1 = RTCCL(tr1);
 			RTAR(Current, tr1);
 			*(EIF_REFERENCE *)(Current + RTWA(2857, dtype)) = (EIF_REFERENCE) tr1;
 		} else {
 			RTHOOK(7);
-			RTDBGAA(Current, dtype, 2857, 0xF8000021, 0); /* peer_address */
+			RTDBGAA(Current, dtype, 2857, 0xF8000020, 0); /* peer_address */
 			*(EIF_REFERENCE *)(Current + RTWA(2857, dtype)) = (EIF_REFERENCE) NULL;
 		}
 	}
@@ -1213,7 +1213,7 @@ label_1:
 	}
 body:;
 	RTHOOK(3);
-	RTDBGAA(Current, dtype, 2856, 0xF8000021, 0); /* address */
+	RTDBGAA(Current, dtype, 2856, 0xF8000020, 0); /* address */
 	tr1 = RTCCL(arg1);
 	RTAR(Current, tr1);
 	*(EIF_REFERENCE *)(Current + RTWA(2856, dtype)) = (EIF_REFERENCE) tr1;

@@ -92,8 +92,8 @@ void Init172(void)
 	IDSC(desc_172, 0, 171);
 	IDSC(desc_172 + 1, 4, 171);
 	IDSC(desc_172 + 32, 321, 171);
-	IDSC(desc_172 + 44, 260, 171);
-	IDSC(desc_172 + 53, 256, 171);
+	IDSC(desc_172 + 44, 263, 171);
+	IDSC(desc_172 + 53, 264, 171);
 }
 
 

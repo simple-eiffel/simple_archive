@@ -27,9 +27,9 @@ static const EIF_TYPE_INDEX egt_14_203 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_203 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_203 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_17_203 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_203 [] = {0xFF02,33,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_203 [] = {0xFF02,33,0xFFFF};
-static const EIF_TYPE_INDEX egt_20_203 [] = {0xFF01,33,0xFFFF};
+static const EIF_TYPE_INDEX egt_18_203 [] = {0xFF02,32,0xFFFF};
+static const EIF_TYPE_INDEX egt_19_203 [] = {0xFF02,32,0xFFFF};
+static const EIF_TYPE_INDEX egt_20_203 [] = {0xFF01,32,0xFFFF};
 static const EIF_TYPE_INDEX egt_21_203 [] = {0xFF01,195,0xFFFF};
 static const EIF_TYPE_INDEX egt_22_203 [] = {0xFF01,195,0xFFFF};
 
@@ -451,15 +451,15 @@ void Init203(void)
 {
 	IDSC(desc_203, 0, 202);
 	IDSC(desc_203 + 1, 4, 202);
-	IDSC(desc_203 + 32, 154, 202);
+	IDSC(desc_203 + 32, 147, 202);
 	IDSC(desc_203 + 34, 129, 202);
 	IDSC(desc_203 + 67, 138, 202);
-	IDSC(desc_203 + 68, 167, 202);
-	IDSC(desc_203 + 162, 194, 202);
-	IDSC(desc_203 + 255, 61, 202);
-	IDSC(desc_203 + 280, 69, 202);
-	IDSC(desc_203 + 331, 273, 202);
-	IDSC(desc_203 + 408, 159, 202);
+	IDSC(desc_203 + 68, 178, 202);
+	IDSC(desc_203 + 162, 186, 202);
+	IDSC(desc_203 + 255, 63, 202);
+	IDSC(desc_203 + 280, 71, 202);
+	IDSC(desc_203 + 331, 285, 202);
+	IDSC(desc_203 + 408, 170, 202);
 }
 
 

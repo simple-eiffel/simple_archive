@@ -64,7 +64,7 @@ void Init4(void)
 {
 	IDSC(desc_4, 0, 3);
 	IDSC(desc_4 + 1, 4, 3);
-	IDSC(desc_4 + 32, 304, 3);
+	IDSC(desc_4 + 32, 298, 3);
 }
 
 

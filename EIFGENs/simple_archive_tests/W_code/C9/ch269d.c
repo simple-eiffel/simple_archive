@@ -10,7 +10,7 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_269 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_269 [] = {0xFF01,347,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_269 [] = {0xFF01,364,268,0xFFFF};
 static const EIF_TYPE_INDEX egt_2_269 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_269 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_269 [] = {0,0xFFFF};
@@ -19,9 +19,9 @@ static const EIF_TYPE_INDEX egt_6_269 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_7_269 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_8_269 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_9_269 [] = {0xFF01,267,0xFFFF};
-static const EIF_TYPE_INDEX egt_10_269 [] = {0xFF01,546,256,0xFFFF};
-static const EIF_TYPE_INDEX egt_11_269 [] = {0xFF01,582,268,0xFFFF};
-static const EIF_TYPE_INDEX egt_12_269 [] = {0xFF01,582,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_10_269 [] = {0xFF01,545,256,0xFFFF};
+static const EIF_TYPE_INDEX egt_11_269 [] = {0xFF01,578,268,0xFFFF};
+static const EIF_TYPE_INDEX egt_12_269 [] = {0xFF01,578,268,0xFFFF};
 
 
 static const struct desc_info desc_269[] = {
@@ -117,7 +117,7 @@ void Init269(void)
 	IDSC(desc_269 + 1, 4, 268);
 	IDSC(desc_269 + 32, 82, 268);
 	IDSC(desc_269 + 34, 98, 268);
-	IDSC(desc_269 + 38, 180, 268);
+	IDSC(desc_269 + 38, 172, 268);
 	IDSC(desc_269 + 41, 85, 268);
 }
 

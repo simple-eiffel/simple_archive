@@ -22,7 +22,7 @@ static const EIF_TYPE_INDEX egt_9_142 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_142 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_142 [] = {0xFF01,20,0xFFFF};
 static const EIF_TYPE_INDEX egt_12_142 [] = {0xFF01,141,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_142 [] = {354,0xFF01,14,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_142 [] = {311,0xFF01,14,0xFFFF};
 static const EIF_TYPE_INDEX egt_14_142 [] = {0xFF01,132,0xFFFF};
 static const EIF_TYPE_INDEX egt_15_142 [] = {0xFF01,133,0xFFFF};
 static const EIF_TYPE_INDEX egt_16_142 [] = {0xFF01,224,0xFFFF};
@@ -100,7 +100,7 @@ void Init142(void)
 {
 	IDSC(desc_142, 0, 141);
 	IDSC(desc_142 + 1, 4, 141);
-	IDSC(desc_142 + 32, 52, 141);
+	IDSC(desc_142 + 32, 54, 141);
 }
 
 

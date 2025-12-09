@@ -1,5 +1,5 @@
 /*
- * Class INDEXABLE_ITERATION_CURSOR [REAL_32]
+ * Class INFINITE [INTEGER_32]
  */
 
 #include "eif_macros.h"
@@ -10,31 +10,26 @@ extern "C" {
 #endif
 
 static const EIF_TYPE_INDEX egt_0_725 [] = {0xFF01,281,0xFFFF};
-static const EIF_TYPE_INDEX egt_1_725 [] = {0xFF01,307,724,259,0xFFFF};
-static const EIF_TYPE_INDEX egt_2_725 [] = {0xFF01,724,259,0xFFFF};
+static const EIF_TYPE_INDEX egt_1_725 [] = {0xFF01,307,724,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_2_725 [] = {0xFF01,724,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_3_725 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_4_725 [] = {0,0xFFFF};
-static const EIF_TYPE_INDEX egt_5_725 [] = {0xFF01,724,259,0xFFFF};
-static const EIF_TYPE_INDEX egt_6_725 [] = {0xFF01,724,259,0xFFFF};
+static const EIF_TYPE_INDEX egt_5_725 [] = {0xFF01,724,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_6_725 [] = {0xFF01,724,238,0xFFFF};
 static const EIF_TYPE_INDEX egt_7_725 [] = {0,0xFFFF};
 static const EIF_TYPE_INDEX egt_8_725 [] = {0xFF01,21,0xFFFF};
 static const EIF_TYPE_INDEX egt_9_725 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_10_725 [] = {0xFF01,281,0xFFFF};
 static const EIF_TYPE_INDEX egt_11_725 [] = {0xFF01,20,0xFFFF};
-static const EIF_TYPE_INDEX egt_12_725 [] = {724,259,0xFFFF};
-static const EIF_TYPE_INDEX egt_13_725 [] = {0xFF01,724,259,0xFFFF};
-static const EIF_TYPE_INDEX egt_14_725 [] = {0xFF01,724,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_15_725 [] = {0xFF01,724,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_16_725 [] = {0xFF01,724,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_17_725 [] = {0xFF01,724,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_18_725 [] = {0xFF01,724,0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_19_725 [] = {0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_20_725 [] = {0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX egt_21_725 [] = {0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_12_725 [] = {724,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_13_725 [] = {0xFF01,724,238,0xFFFF};
+static const EIF_TYPE_INDEX egt_14_725 [] = {0xFF01,397,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_15_725 [] = {0xFF01,392,0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX egt_16_725 [] = {0xFFF8,1,0xFFFF};
 
 
 static const struct desc_info desc_725[] = {
-	{EIF_GENERIC(NULL), 3515, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 4976, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_0_725), 0, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_1_725), 1, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x021F /*271*/), 2, 0xFFFFFFFF},
@@ -66,34 +61,26 @@ static const struct desc_info desc_725[] = {
 	{EIF_GENERIC(egt_12_725), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x0225 /*274*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_13_725), 30, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x01DD /*238*/), 0x00, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 4974, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 4463, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 4464, 0},
+	{EIF_NON_GENERIC(0x021F /*271*/), 4465, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 4466, 0xFFFFFFFF},
+	{EIF_GENERIC(NULL), 4467, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_14_725), 0x00, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x01DD /*238*/), 4468, 0xFFFFFFFF},
+	{EIF_NON_GENERIC(0x021F /*271*/), 4975, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_15_725), 0x00, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_16_725), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_17_725), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_18_725), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_19_725), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_20_725), 0x00, 0xFFFFFFFF},
-	{EIF_NON_GENERIC(0x021F /*271*/), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(NULL), 0x00, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_21_725), 0x00, 0xFFFFFFFF},
 };
 void Init725(void)
 {
 	IDSC(desc_725, 0, 724);
 	IDSC(desc_725 + 1, 4, 724);
-	IDSC(desc_725 + 32, 220, 724);
-	IDSC(desc_725 + 46, 76, 724);
-	IDSC(desc_725 + 48, 77, 724);
+	IDSC(desc_725 + 32, 307, 724);
+	IDSC(desc_725 + 41, 271, 724);
+	IDSC(desc_725 + 42, 37, 724);
 }
 
 

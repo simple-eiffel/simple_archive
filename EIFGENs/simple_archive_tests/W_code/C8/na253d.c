@@ -159,7 +159,7 @@ void Init253(void)
 	IDSC(desc_253, 0, 252);
 	IDSC(desc_253 + 1, 4, 252);
 	IDSC(desc_253 + 32, 98, 252);
-	IDSC(desc_253 + 36, 180, 252);
+	IDSC(desc_253 + 36, 172, 252);
 	IDSC(desc_253 + 39, 90, 252);
 	IDSC(desc_253 + 92, 82, 252);
 	IDSC(desc_253 + 94, 229, 252);
