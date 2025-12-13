@@ -1,11 +1,10 @@
 note
-	description: "Test application for SIMPLE_ARCHIVE"
+	description: "Tests for SIMPLE_ARCHIVE"
 	author: "Larry Rix"
-	date: "$Date$"
-	revision: "$Revision$"
+	testing: "covers"
 
 class
-	ARCHIVE_TEST_APP
+	LIB_TESTS
 
 inherit
 	TEST_SET_BASE
@@ -14,26 +13,7 @@ inherit
 			on_clean
 		end
 
-create
-	make
-
-feature {NONE} -- Initialization
-
-	make
-			-- Run the tests.
-		do
-			default_create
-			print ("Running SIMPLE_ARCHIVE tests...%N%N")
-
-			test_create_archive
-			test_list_archive
-			test_extract_archive
-			test_archive_contains
-			test_entry_count
-			test_is_valid_archive
-
-			print ("%N=== All tests passed ===%N")
-		end
+feature {NONE} -- Setup
 
 	on_prepare
 			-- Prepare test files.
@@ -89,7 +69,7 @@ feature -- Tests
 			l_file: RAW_FILE
 			l_files: ARRAY [STRING]
 		do
-			print ("test_create_archive: ")
+			on_prepare
 
 			create archive.make
 			l_files := <<test_file_1, test_file_2>>
@@ -104,7 +84,7 @@ feature -- Tests
 			assert_true ("archive created", l_file.exists)
 			assert_true ("archive not empty", l_file.count > 0)
 
-			print ("OK%N")
+			on_clean
 		end
 
 	test_list_archive
@@ -113,7 +93,7 @@ feature -- Tests
 			archive: SIMPLE_ARCHIVE
 			entries: ARRAYED_LIST [STRING]
 		do
-			print ("test_list_archive: ")
+			on_prepare
 
 			-- First create an archive
 			create archive.make
@@ -125,18 +105,16 @@ feature -- Tests
 			assert_true ("no error", archive.last_error = Void)
 			assert_integers_equal ("entry count", 2, entries.count)
 
-			print ("OK%N")
+			on_clean
 		end
 
 	test_extract_archive
 			-- Test extracting archive contents.
-			-- Note: Full extraction is complex due to path handling.
-			-- This test verifies the method runs without crashing.
 		local
 			archive: SIMPLE_ARCHIVE
 			l_dir: DIRECTORY
 		do
-			print ("test_extract_archive: ")
+			on_prepare
 
 			-- Create archive first
 			create archive.make
@@ -151,8 +129,7 @@ feature -- Tests
 			-- Extract - may have path-related issues but should not crash
 			archive.extract_archive (test_archive, extract_directory)
 
-			-- Just verify it ran (path issues may cause errors but not crashes)
-			print ("OK (extraction attempted)%N")
+			on_clean
 		end
 
 	test_archive_contains
@@ -162,7 +139,7 @@ feature -- Tests
 			l_entries: ARRAYED_LIST [STRING]
 			l_found: BOOLEAN
 		do
-			print ("test_archive_contains: ")
+			on_prepare
 
 			-- Create archive first
 			create archive.make
@@ -181,7 +158,7 @@ feature -- Tests
 			end
 			assert_true ("contains test file", l_found)
 
-			print ("OK%N")
+			on_clean
 		end
 
 	test_entry_count
@@ -189,7 +166,7 @@ feature -- Tests
 		local
 			archive: SIMPLE_ARCHIVE
 		do
-			print ("test_entry_count: ")
+			on_prepare
 
 			-- Create archive first
 			create archive.make
@@ -198,7 +175,7 @@ feature -- Tests
 			-- Check count
 			assert_integers_equal ("entry count", 2, archive.archive_entry_count (test_archive))
 
-			print ("OK%N")
+			on_clean
 		end
 
 	test_is_valid_archive
@@ -206,7 +183,7 @@ feature -- Tests
 		local
 			archive: SIMPLE_ARCHIVE
 		do
-			print ("test_is_valid_archive: ")
+			on_prepare
 
 			-- Create valid archive
 			create archive.make
@@ -215,7 +192,7 @@ feature -- Tests
 			assert_true ("valid archive", archive.is_valid_archive (test_archive))
 			assert_false ("invalid archive", archive.is_valid_archive ("nonexistent.tar"))
 
-			print ("OK%N")
+			on_clean
 		end
 
 feature {NONE} -- Test Data
@@ -225,9 +202,5 @@ feature {NONE} -- Test Data
 	test_file_2: STRING = "./test_archive_temp/test2.txt"
 	test_archive: STRING = "./test_archive_temp/test.tar"
 	extract_directory: STRING = "./test_archive_temp/extracted"
-
-note
-	copyright: "Copyright (c) 2024-2025, Larry Rix"
-	license: "MIT License"
 
 end
