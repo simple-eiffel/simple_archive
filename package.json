@@ -1,0 +1,9 @@
+{
+  "name": "simple_archive",
+  "version": "0.1.0",
+  "description": "Simple Archive Library - Easy TAR archive operations",
+  "author": "Larry Rix",
+  "license": "MIT",
+  "category": "utilities",
+  "keywords": ["archive", "zip", "tar", "compression"]
+}
