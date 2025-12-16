@@ -12,15 +12,15 @@ Simple file archiving with tar and zip support, wrapping the ISE compression lib
 
 ## Installation
 
+Set the ecosystem environment variable (one-time setup for all simple_* libraries):
+```
+SIMPLE_EIFFEL=D:\prod
+```
+
 Add to your ECF file:
 
 ```xml
-<library name="simple_archive" location="$SIMPLE_ARCHIVE/simple_archive.ecf"/>
-```
-
-Set the environment variable:
-```
-SIMPLE_ARCHIVE=/path/to/simple_archive
+<library name="simple_archive" location="$SIMPLE_EIFFEL/simple_archive/simple_archive.ecf"/>
 ```
 
 ## Quick Start
