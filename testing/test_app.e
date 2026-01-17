@@ -26,6 +26,12 @@ feature {NONE} -- Initialization
 			run_test (agent tests.test_entry_count, "test_entry_count")
 			run_test (agent tests.test_is_valid_archive, "test_is_valid_archive")
 
+			-- ZIP tests
+			run_test (agent tests.test_zip_create_and_list, "test_zip_create_and_list")
+			run_test (agent tests.test_zip_extract_entry, "test_zip_extract_entry")
+			run_test (agent tests.test_zip_contains, "test_zip_contains")
+			run_test (agent tests.test_zip_is_valid, "test_zip_is_valid")
+
 			print ("%N========================%N")
 			print ("Results: " + passed.out + " passed, " + failed.out + " failed%N")
 

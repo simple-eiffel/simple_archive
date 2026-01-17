@@ -195,12 +195,147 @@ feature -- Tests
 			on_clean
 		end
 
+feature -- ZIP Tests
+
+	test_zip_create_and_list
+			-- Test creating and listing a ZIP archive.
+		local
+			l_zip: SIMPLE_ZIP
+			l_entries: ARRAYED_LIST [STRING]
+			l_file: RAW_FILE
+			l_dir: DIRECTORY
+		do
+			-- Ensure test directory exists
+			create l_dir.make (test_directory)
+			if not l_dir.exists then
+				l_dir.recursive_create_dir
+			end
+
+			create l_zip.make
+
+			-- Create a ZIP with string content
+			l_zip.begin_create (test_zip_archive)
+			assert_false ("no error on begin", l_zip.has_error)
+			assert_true ("is creating", l_zip.is_creating)
+
+			l_zip.add_entry_from_string ("file1.txt", "Content of file 1")
+			l_zip.add_entry_from_string ("folder/file2.txt", "Content of file 2")
+			l_zip.end_create
+
+			assert_false ("no error on create", l_zip.has_error)
+			assert_integers_equal ("files added", 2, l_zip.files_added)
+
+			-- Verify archive exists
+			create l_file.make_with_name (test_zip_archive)
+			assert_true ("zip created", l_file.exists)
+
+			-- List entries
+			l_entries := l_zip.list_archive (test_zip_archive)
+			assert_false ("no error on list", l_zip.has_error)
+			assert_integers_equal ("entry count", 2, l_entries.count)
+
+			-- Cleanup
+			if l_file.exists then l_file.delete end
+		end
+
+	test_zip_extract_entry
+			-- Test extracting entry content from ZIP.
+		local
+			l_zip: SIMPLE_ZIP
+			l_content: detachable STRING
+			l_file: RAW_FILE
+			l_dir: DIRECTORY
+		do
+			-- Ensure test directory exists
+			create l_dir.make (test_directory)
+			if not l_dir.exists then
+				l_dir.recursive_create_dir
+			end
+
+			create l_zip.make
+
+			-- Create a ZIP
+			l_zip.begin_create (test_zip_archive)
+			l_zip.add_entry_from_string ("data.txt", "Hello from ZIP!")
+			l_zip.end_create
+
+			-- Extract the entry
+			l_content := l_zip.extract_entry (test_zip_archive, "data.txt")
+			assert_false ("no error on extract", l_zip.has_error)
+			assert_attached ("content attached", l_content)
+			if attached l_content as c then
+				assert_strings_equal ("content matches", "Hello from ZIP!", c)
+			end
+
+			-- Cleanup
+			create l_file.make_with_name (test_zip_archive)
+			if l_file.exists then l_file.delete end
+		end
+
+	test_zip_contains
+			-- Test archive_contains query.
+		local
+			l_zip: SIMPLE_ZIP
+			l_file: RAW_FILE
+			l_dir: DIRECTORY
+		do
+			-- Ensure test directory exists
+			create l_dir.make (test_directory)
+			if not l_dir.exists then
+				l_dir.recursive_create_dir
+			end
+
+			create l_zip.make
+
+			-- Create a ZIP
+			l_zip.begin_create (test_zip_archive)
+			l_zip.add_entry_from_string ("present.txt", "I exist")
+			l_zip.end_create
+
+			-- Check contains
+			assert_true ("contains present", l_zip.archive_contains (test_zip_archive, "present.txt"))
+			assert_false ("not contains missing", l_zip.archive_contains (test_zip_archive, "missing.txt"))
+
+			-- Cleanup
+			create l_file.make_with_name (test_zip_archive)
+			if l_file.exists then l_file.delete end
+		end
+
+	test_zip_is_valid
+			-- Test is_valid_archive query.
+		local
+			l_zip: SIMPLE_ZIP
+			l_file: RAW_FILE
+			l_dir: DIRECTORY
+		do
+			-- Ensure test directory exists
+			create l_dir.make (test_directory)
+			if not l_dir.exists then
+				l_dir.recursive_create_dir
+			end
+
+			create l_zip.make
+
+			-- Create a valid ZIP
+			l_zip.begin_create (test_zip_archive)
+			l_zip.add_entry_from_string ("test.txt", "content")
+			l_zip.end_create
+
+			assert_true ("valid zip", l_zip.is_valid_archive (test_zip_archive))
+			assert_false ("invalid zip", l_zip.is_valid_archive ("nonexistent.zip"))
+
+			-- Cleanup
+			create l_file.make_with_name (test_zip_archive)
+			if l_file.exists then l_file.delete end
+		end
+
 feature {NONE} -- Test Data
 
 	test_directory: STRING = "./test_archive_temp"
 	test_file_1: STRING = "./test_archive_temp/test1.txt"
 	test_file_2: STRING = "./test_archive_temp/test2.txt"
 	test_archive: STRING = "./test_archive_temp/test.tar"
+	test_zip_archive: STRING = "./test_archive_temp/test.zip"
 	extract_directory: STRING = "./test_archive_temp/extracted"
 
 end
