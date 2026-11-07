@@ -16,19 +16,33 @@
 			<concurrency support="scoop" use="thread"/>
 			<void_safety support="all"/>
 		</capability>
-		<external_include location="$SIMPLE_EIFFEL\simple_archive\c_lib\minizip-ng-4.0.10"/>
-		<external_include location="$SIMPLE_EIFFEL\simple_archive\c_lib\minizip-ng-4.0.10\compat"/>
-		<external_include location="$ISE_LIBRARY\C_library\zlib"/>
-		<external_library location="$SIMPLE_EIFFEL\simple_archive\lib\win64\minizip.lib">
+		<external_include location="$(SIMPLE_EIFFEL)/simple_archive/c_lib/minizip-ng-4.0.10"/>
+		<external_include location="$(SIMPLE_EIFFEL)/simple_archive/c_lib/minizip-ng-4.0.10/compat"/>
+		<external_include location="$(ISE_LIBRARY)/C_library/zlib">
+			<condition>
+				<platform value="windows"/>
+			</condition>
+		</external_include>
+		<external_library location="$(SIMPLE_EIFFEL)/simple_archive/lib/win64/minizip.lib">
 			<condition>
 				<platform value="windows"/>
 			</condition>
 		</external_library>
-		<external_library location="$ISE_LIBRARY\C_library\zlib\spec\msc_vc140\win64\lib\zlib.lib">
+		<external_library location="$(ISE_LIBRARY)/C_library/zlib/spec/msc_vc140/win64/lib/zlib.lib">
 			<condition>
 				<platform value="windows"/>
 			</condition>
 		</external_library>
+		<external_library location="$(SIMPLE_EIFFEL)/simple_archive/lib/posix/libminizip.a">
+			<condition>
+				<platform excluded_value="windows"/>
+			</condition>
+		</external_library>
+		<external_linker_flag value="-lz">
+			<condition>
+				<platform excluded_value="windows"/>
+			</condition>
+		</external_linker_flag>
 		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
 		<library name="tar" location="$ISE_LIBRARY\contrib\library\utility\archive\etar\tar.ecf"/>
 		<cluster name="src" location=".\src\" recursive="true"/>
